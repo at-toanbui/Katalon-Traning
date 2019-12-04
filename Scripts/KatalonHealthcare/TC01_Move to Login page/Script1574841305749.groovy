@@ -14,8 +14,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://www.phptravels.net/')
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/body_iframe srchttpswwwgoogletagmanagercomn_c3ac7e'))
+
+WebUI.setText(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input__select2-input select2-focused'), 
+    'Da nang')
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/body_iframe srchttpswwwgoogletagmanagercomn_c3ac7e_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input_Check in_checkin'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_5'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_5'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input_(12-75)_adults'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input_(2-12)_children'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input_(2-12)_children'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/button_'))
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/button_Search'))
+
+WebUI.closeBrowser()
 
