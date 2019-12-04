@@ -14,8 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://www.phptravels.net/')
+
+WebUI.click(findTestObject('Example/Page_PHPTRAVELS  Travel Technology Partner/bntMyAccount'))
+
+WebUI.click(findTestObject('Example/Page_PHPTRAVELS  Travel Technology Partner/bntLogin'))
+
+WebUI.setText(findTestObject('Example/Page_Login/txtUsername'), 'thai.le2')
+
+WebUI.setEncryptedText(findTestObject('Example/Page_Login/txtPassword'), 'dsTZCAqx3DqY6UbyPIay/Q==')
+
+WebUI.click(findTestObject('Example/Page_Login/bntLogin'))
+
+WebUI.closeBrowser()
 
