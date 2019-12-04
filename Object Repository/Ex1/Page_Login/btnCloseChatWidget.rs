@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>btnCloseChatWidget</name>
    <tag></tag>
-   <elementGuidId>8f8dfaae-74a3-40ba-9377-1f9cbda83cc7</elementGuidId>
+   <elementGuidId>d6a126f9-39d3-4642-91d4-db8bb8eedc95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat with Abraham'])[1]/following::*[name()='svg'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>color</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>inherit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg btn-block loginbtn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Login</value>
+      <value>lc-1mpchac</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 32 32</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginfrm&quot;)/button[@class=&quot;btn btn-primary btn-lg btn-block loginbtn&quot;]</value>
+      <value>id(&quot;widget-global-9v3nd1486cv&quot;)/div[1]/div[@class=&quot;lc-lpdesj e903lsu2 lc-r4kv7x-enter-done&quot;]/div[@class=&quot;lc-1f81gka e903lsu0&quot;]/div[@class=&quot;lc-1dly1s8 e1ohfhv0&quot;]/div[@class=&quot;lc-eoed9h&quot;]/button[@class=&quot;e1mwfyk10 lc-4rgplc e1m5b1js0&quot;]/svg[@class=&quot;lc-1mpchac&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Ex1/Page_Login/fraChatWidget</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='loginfrm']/button</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat with Abraham'])[1]/following::*[name()='svg'][1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to LiveChat'])[1]/following::*[name()='svg'][1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Abraham'])[1]/preceding::*[name()='svg'][1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up'])[2]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forget Password'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//form/button</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Support'])[1]/preceding::*[name()='svg'][1]</value>
    </webElementXpaths>
 </WebElementEntity>

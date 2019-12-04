@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_concat(id(  chat-widget  ))_chat-widget</name>
+   <name>txtPassword</name>
    <tag></tag>
-   <elementGuidId>74f94006-e985-4c5a-9125-7b90f2103362</elementGuidId>
+   <elementGuidId>f455df51-eb91-42a1-97c6-5f2dc6251930</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='chat-widget']</value>
+         <value>//input[@name='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>https://secure.livechatinc.com/licence/4618001/v2/open_chat.cgi?license=4618001&amp;group=13&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>allowtransparency</name>
+      <name>class</name>
       <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>allow</name>
-      <type>Main</type>
-      <value>autoplay</value>
+      <value>form-control padding-10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>chat-widget</value>
+      <value>Password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>chat-widget</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>scrolling</name>
-      <type>Main</type>
-      <value>no</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>application</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>LiveChat chat widget</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;chat-widget&quot;)</value>
+      <value>id(&quot;toggleStyle04-collapseOne&quot;)/div[@class=&quot;collapse-body&quot;]/div[@class=&quot;collapse-inner&quot;]/div[@class=&quot;wow fadeIn&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control padding-10&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='chat-widget']</value>
+      <value>//input[@name='password']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='chat-widget-container']/iframe</value>
+      <value>//div[@id='toggleStyle04-collapseOne']/div/div/div[3]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/iframe</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

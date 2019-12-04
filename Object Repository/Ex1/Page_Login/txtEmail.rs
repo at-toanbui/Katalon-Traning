@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_username</name>
+   <name>txtEmail</name>
    <tag></tag>
    <elementGuidId>eed4d37b-33ed-4eed-b9ba-ec56e108e1ed</elementGuidId>
    <selectorCollection>

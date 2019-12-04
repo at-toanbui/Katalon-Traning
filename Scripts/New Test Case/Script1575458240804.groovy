@@ -20,17 +20,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/')
 
-WebUI.click(findTestObject('Object Repository/Ex1/Page_PHPTRAVELS  Travel Technology Partner/a_My Account'))
+WebUI.click(findTestObject('Ex1/Page_PHPTRAVELS  Travel Technology Partner/btnMyAccount'))
 
-WebUI.click(findTestObject('Object Repository/Ex1/Page_PHPTRAVELS  Travel Technology Partner/a_Login'))
+WebUI.click(findTestObject('Ex1/Page_PHPTRAVELS  Travel Technology Partner/btnLogin'))
 
-WebUI.setText(findTestObject('Object Repository/Ex1/Page_Login/input_Email_username'), 'hadang144@gmail.com')
+WebUI.setText(findTestObject('Ex1/Page_Login/txtEmail'), 'hadang144@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Ex1/Page_Login/input_Password_password'), 'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('Ex1/Page_Login/txtPassword'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('Object Repository/Ex1/Page_Login/svg_Chat with Abraham_lc-1mpchac'))
+WebUI.click(findTestObject('Ex1/Page_Login/btnCloseChatWidget'))
 
-WebUI.click(findTestObject('Object Repository/Ex1/Page_Login/button_Login'))
+WebUI.click(findTestObject('Ex1/Page_Login/btnLogin'))
 
 WebUI.closeBrowser()
 
