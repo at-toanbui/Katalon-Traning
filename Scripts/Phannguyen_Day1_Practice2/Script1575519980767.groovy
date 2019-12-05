@@ -16,13 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.phptravels.net/admin/settings/')
+WebUI.openBrowser('https://www.phptravels.net/admin/settings/')
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Administator Login/txtEmail'), 'admin@phptravels.com')
-
-WebUI.click(findTestObject('PhpTravels_Admin/Page_Administator Login/spnPassword'))
 
 WebUI.setEncryptedText(findTestObject('PhpTravels_Admin/Page_Administator Login/txtPassword'), 'orSGNCvhf+w8SKCExcig5g==')
 
@@ -33,8 +29,6 @@ WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtBusi
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtSiteURL'), 'yourcompany.com')
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtLicenseKey'), 'phannguyen')
-
-WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/txtCopyrights'))
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtCopyrights'), 'All Rights Reserved by Yourcompany')
 
@@ -66,12 +60,6 @@ WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Sett
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txaOfflineMessage'), 'This is the offline message')
 
-WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitle_slogan'))
-
-WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitle_slogan'))
-
-WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitle_slogan'))
-
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitle_slogan'), 'Your Company | The Future')
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtDefaultKeywords'), 'This is my default keywords')
@@ -88,5 +76,9 @@ WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Sett
 
 WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/btnSubmit'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/btnLogout'))
+
+WebUI.delay(3)
 
