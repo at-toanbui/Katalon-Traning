@@ -24,11 +24,11 @@ WebUI.click(findTestObject('Object Repository/Practice1/Page_PHPTRAVELS  Travel 
 
 WebUI.click(findTestObject('Object Repository/Practice1/Page_PHPTRAVELS  Travel Technology Partner/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Practice1/Page_Login/input_Email_username'), 'admin@phptravels.com')
+WebUI.setText(findTestObject('Practice1/Page_Login/txtEmail'), 'admin@phptravels.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Practice1/Page_Login/input_Password_password'), 'orSGNCvhf+w8SKCExcig5g==')
+WebUI.setEncryptedText(findTestObject('Practice1/Page_Login/txtPassword'), 'orSGNCvhf+w8SKCExcig5g==')
 
-WebUI.click(findTestObject('Object Repository/Practice1/Page_Login/button_Login'))
+WebUI.click(findTestObject('Practice1/Page_Login/btn_Login'))
 
 WebUI.closeBrowser()
 

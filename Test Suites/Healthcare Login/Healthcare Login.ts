@@ -14,6 +14,6 @@
       <guid>3a3cfb03-d67f-431c-84b8-f973a6d0a2c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KatalonHealthcare/TC01_Move to Login page</testCaseId>
+      <testCaseId>Test Cases/Practice1/Practice1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
