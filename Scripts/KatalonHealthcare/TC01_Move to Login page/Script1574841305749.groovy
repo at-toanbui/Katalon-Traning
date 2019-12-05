@@ -18,17 +18,102 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.navigateToUrl('https://www.phptravels.net/admin')
 
-WebUI.click(findTestObject('Example/Page_PHPTRAVELS  Travel Technology Partner/bntMyAccount'))
+WebUI.setText(findTestObject('null'), 'admin@phptravels.com')
 
-WebUI.click(findTestObject('Example/Page_PHPTRAVELS  Travel Technology Partner/bntLogin'))
+WebUI.setEncryptedText(findTestObject('null'), 
+    'orSGNCvhf+w8SKCExcig5g==')
 
-WebUI.setText(findTestObject('Example/Page_Login/txtUsername'), 'thai.le2')
+WebUI.click(findTestObject('null'))
 
-WebUI.setEncryptedText(findTestObject('Example/Page_Login/txtPassword'), 'dsTZCAqx3DqY6UbyPIay/Q==')
+WebUI.setText(findTestObject('null'), 
+    'YourCompany')
 
-WebUI.click(findTestObject('Example/Page_Login/bntLogin'))
+WebUI.click(findTestObject('null'))
+
+WebUI.doubleClick(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 
+    'YourCompany')
+
+WebUI.setText(findTestObject('null'), 'yourcompany.com')
+
+WebUI.setText(findTestObject('null'), 'asiantech1234')
+
+WebUI.setText(findTestObject('null'), 'All Rights Reserved by YourCompany')
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'm/d/Y', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'vi', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'Yes', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'No', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'Yes', true)
+
+WebUI.setText(findTestObject('null'), 
+    '9')
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'numeric', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'alnum', true)
+
+WebUI.setText(findTestObject('null'), 
+    '8')
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '1', true)
+
+WebUI.setText(findTestObject('null'), 
+    'This is the offline message')
+
+WebUI.setText(findTestObject('null'), 'YourCompany | The Future')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 
+    'This is my default keywords')
+
+WebUI.setText(findTestObject('null'), 
+    'This is my default description')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 'http://endpoint-s3.api.awsamazon.com')
+
+WebUI.setText(findTestObject('null'), 
+    'Tracking & Analytics code')
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '0', true)
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 
