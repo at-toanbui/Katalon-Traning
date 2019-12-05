@@ -20,13 +20,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/index.php')
 
-WebUI.click(findTestObject('phpTravels/Page_PHPTRAVELS  Travel Technology Partner/btnBlog'))
+WebUI.click(findTestObject('PhpTravels/Page_PHPTRAVELS  Travel Technology Partner/btnBlog'))
 
-WebUI.click(findTestObject('phpTravels/Page_Blog/btnReadMore'))
+WebUI.setText(findTestObject('PhpTravels/Page_Blog/txtQuickSearch'), 'food')
 
-WebUI.setText(findTestObject('phpTravels/Page_South Africa A Terminal Tyre/txtQuickSearch'), 'food')
+WebUI.click(findTestObject('PhpTravels/Page_Blog/btnSearch'))
 
-WebUI.click(findTestObject('phpTravels/Page_South Africa A Terminal Tyre/btnSearch'))
+WebUI.click(findTestObject('PhpTravels/Page_Blog/btnReadMore'))
 
-WebUI.click(findTestObject('phpTravels/Page_Blog/btnTrapizzino'))
+WebUI.click(findTestObject('PhpTravels/Page_The Tiber Rivers Last Eel Fishermen/btnHotels'))
 
