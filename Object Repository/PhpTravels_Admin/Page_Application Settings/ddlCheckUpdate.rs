@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>cboCheckUpdate</name>
+   <name>ddlCheckUpdate</name>
    <tag></tag>
    <elementGuidId>6f79757d-8ea9-4a23-8756-64d3f53f7f60</elementGuidId>
    <selectorCollection>

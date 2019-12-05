@@ -32,31 +32,31 @@ WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtLice
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtCopyrights'), 'All Rights Reserved by Yourcompany')
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboDayFormat'), 'm/d/Y', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlDayFormat'), 'm/d/Y', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboMultiLanguage'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlMultiLanguage'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboDefaultLanguage'), 'vi', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlDefaultLanguage'), 'vi', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboMultiCurrency'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlMultiCurrency'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboRestrictWebsite'), 'Yes', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlRestrictWebsite'), 'Yes', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboUserRegistration'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlUserRegistration'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboUserRegApproval'), 'No', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlUserRegApproval'), 'No', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboSuppliersRegistration'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlSuppliersRegistration'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboReviews'), 'Yes', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlReviews'), 'Yes', true)
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtBookingExpiry'), '5')
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboCouponCodeType'), 'alnum', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlCouponCodeType'), 'alnum', true)
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtCouponLength'), '8')
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboOffline'), '1', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlOffline'), '1', true)
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txaOfflineMessage'), 'This is the offline message')
 
@@ -70,9 +70,9 @@ WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtGoog
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txaTrackingAnalytics'), 'Tracking & Analytics code')
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboRSS'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlRSS'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/cboCheckUpdate'), '0', true)
+WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Settings/ddlCheckUpdate'), '0', true)
 
 WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/btnSubmit'))
 
