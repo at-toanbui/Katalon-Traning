@@ -18,26 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.navigateToUrl('https://www.phptravels.net/index.php')
 
-WebUI.click(findTestObject('Object Repository/Travel/Page_PHPTRAVELS  Travel Technology Partner/a_My Account'))
+WebUI.click(findTestObject('phpTravels/Page_PHPTRAVELS  Travel Technology Partner/btnBlog'))
 
-WebUI.click(findTestObject('Object Repository/Travel/Page_PHPTRAVELS  Travel Technology Partner/a_Sign Up'))
+WebUI.click(findTestObject('phpTravels/Page_Blog/btnReadMore'))
 
-WebUI.setText(findTestObject('Object Repository/Travel/Page_Register/input_First Name_firstname'), 'PHAN')
+WebUI.setText(findTestObject('phpTravels/Page_South Africa A Terminal Tyre/txtQuickSearch'), 'food')
 
-WebUI.setText(findTestObject('Object Repository/Travel/Page_Register/input_Last Name_lastname'), 'NGUYEN')
+WebUI.click(findTestObject('phpTravels/Page_South Africa A Terminal Tyre/btnSearch'))
 
-WebUI.setText(findTestObject('Object Repository/Travel/Page_Register/input_Mobile Number_phone'), '0986543332')
-
-WebUI.setText(findTestObject('Object Repository/Travel/Page_Register/input_Email_email'), 'Phannguyen@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Travel/Page_Register/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Travel/Page_Register/input_Confirm Password_confirmpassword'), 
-    'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Object Repository/Travel/Page_Register/button_Sign Up'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('phpTravels/Page_Blog/btnTrapizzino'))
 
