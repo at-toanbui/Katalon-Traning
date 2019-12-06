@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_5</name>
+   <name>btnLogout</name>
    <tag></tag>
-   <elementGuidId>e9eefe1d-2c18-4a7f-a53a-941d56a29f51</elementGuidId>
+   <elementGuidId>fccb6d3c-15fc-4456-8c59-2995954141db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='datepickers-container']/div[2]/div/div/div[2]/div[5]</value>
+         <value>//li[@id='logout']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>datepicker--cell datepicker--cell-day -focus-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-date</name>
-      <type>Main</type>
-      <value>5</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-month</name>
-      <type>Main</type>
-      <value>11</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-year</name>
-      <type>Main</type>
-      <value>2019</value>
+      <value>https://www.phptravels.net/admin/logout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>5</value>
+      <value> Logout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;datepickers-container&quot;)/div[@class=&quot;datepicker -bottom-left- -from-bottom- active&quot;]/div[@class=&quot;datepicker--content&quot;]/div[@class=&quot;datepicker--days datepicker--body active&quot;]/div[@class=&quot;datepicker--cells datepicker--cells-days&quot;]/div[@class=&quot;datepicker--cell datepicker--cell-day -focus-&quot;]</value>
+      <value>id(&quot;logout&quot;)/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='datepickers-container']/div[2]/div/div/div[2]/div[5]</value>
+      <value>//li[@id='logout']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[2]/following::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Website'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[3]/preceding::div[34]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated Successfully'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.phptravels.net/admin/logout')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div[5]</value>
+      <value>//ul[2]/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

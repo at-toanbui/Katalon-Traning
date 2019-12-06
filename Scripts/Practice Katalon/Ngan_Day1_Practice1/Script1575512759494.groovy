@@ -18,15 +18,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.navigateToUrl('https://www.phptravels.net/index.php')
 
-WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/input_Check in_checkin'))
+WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtSearchTextField'))
 
-WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_4'))
+WebUI.setText(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), 'Da nang')
 
-WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_5'))
+WebUI.sendKeys(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Page_PHPTRAVELS  Travel Technology Partner/btnIncreaseChild'))
+WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtCheckIn'))
+
+WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckInDate'))
+
+WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckOutDate'))
+
+WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/btnSearch'))
 
 WebUI.closeBrowser()
 
