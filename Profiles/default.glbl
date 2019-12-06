@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.phptravels.net'</initValue>
+      <name>HOME_PAGE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>TIMEOUT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.phptravels.net/admin/settings/'</initValue>
+      <name>ADMIN_PAGE_SETTING_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

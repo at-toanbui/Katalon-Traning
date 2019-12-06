@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NhungLeT_Day1_Practice2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e55d8b6a-9541-49ce-b5d9-013c70f59bd8</testCaseGuid>
+   <variable>
+      <defaultValue>'admin@phptravels.com'</defaultValue>
+      <description></description>
+      <id>8284b8ef-00fc-4573-9b37-5a4829501fce</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'orSGNCvhf+w8SKCExcig5g=='</defaultValue>
+      <description></description>
+      <id>268e58e9-532f-4cd3-9ce1-e089881a3cff</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

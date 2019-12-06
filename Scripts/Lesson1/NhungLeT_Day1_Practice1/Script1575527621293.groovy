@@ -16,13 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.HOME_PAGE_URL)
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.click(findTestObject('Lesson1/Practice_1/ddlMyAccount'))
 
-WebUI.click(findTestObject('Lesson1/RegisterAccount/Register/btnMyAccount'))
+WebUI.click(findTestObject('Lesson1/Practice_1/lnkSignUp'))
 
-WebUI.click(findTestObject('Lesson1/RegisterAccount/Register/btnSignUp'))
+WebUI.setText(findTestObject('Lesson1/Practice_1/Page_Register/txtFirstName'), 'nhung')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Lesson1/Practice_1/Page_Register/txtLastName'), 'nhung')
+
+WebUI.click(findTestObject('Lesson1/Practice_1/Page_Register/btnSignUp'))
 
