@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/admin')
+WebUI.navigateToUrl('https://www.phptravels.net/admin/settings/')
 
 WebUI.setText(findTestObject('Page_Administator Login/txtLoginEmail'), 'admin@phptravels.com')
 
