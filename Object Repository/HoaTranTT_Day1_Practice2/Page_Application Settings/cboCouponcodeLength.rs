@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtCouponcodeLength</name>
+   <name>cboCouponcodeLength</name>
    <tag></tag>
    <elementGuidId>7b5b8c15-6b9d-4ff7-83e2-bdf4949729e6</elementGuidId>
    <selectorCollection>

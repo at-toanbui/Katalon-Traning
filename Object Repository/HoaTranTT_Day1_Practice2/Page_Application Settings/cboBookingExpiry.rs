@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtBookingExpiry</name>
+   <name>cboBookingExpiry</name>
    <tag></tag>
    <elementGuidId>8a97ba04-0e2d-4532-b95e-440ebfe30553</elementGuidId>
    <selectorCollection>
