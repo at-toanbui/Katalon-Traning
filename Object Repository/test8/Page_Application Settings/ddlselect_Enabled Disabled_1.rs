@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Graphic Tour Sri Lanka</name>
+   <name>ddlselect_Enabled Disabled_1</name>
    <tag></tag>
-   <elementGuidId>828b70e3-5559-4993-b06c-1d3c0025622c</elementGuidId>
+   <elementGuidId>d1886197-1b60-4dd7-9e4d-bf47bd9a1577</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='MenuHorizon28_01']/div/div/div[3]/div/a/div[2]/div/h5</value>
+         <value>//select[@name='rss']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,86 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>rss</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>float-none</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Graphic Tour Sri Lanka</value>
+      <value>
+                Enabled
+                Disabled
+              </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;with-waypoint-sticky&quot;]/div[@class=&quot;body-inner&quot;]/div[@class=&quot;main-wrapper scrollspy-action&quot;]/div[@class=&quot;mt-30 mb-80&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;tab-content&quot;]/div[@id=&quot;MenuHorizon28_01&quot;]/div[@class=&quot;tab-inner&quot;]/div[@class=&quot;row equal-height cols-1 cols-sm-2 cols-lg-3 gap-10 gap-md-20 gap-xl-30&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;product-grid-item&quot;]/a[1]/div[@class=&quot;content clearfix&quot;]/div[1]/h5[@class=&quot;float-none&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/select[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='rss']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='MenuHorizon28_01']/div/div/div[3]/div/a/div[2]/div/h5</value>
+      <value>//div[@id='GENERAL']/div[26]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='It Wasn’t Supposed to Rain'])[1]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RSS Enabled'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='South Africa: A Terminal…'])[1]/following::h5[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking &amp; Analytics'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured Tours'])[1]/preceding::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Sitemap'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Graphic Tour Sri Lanka']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Sitemap'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a/div[2]/div/h5</value>
+      <value>//div[26]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>
