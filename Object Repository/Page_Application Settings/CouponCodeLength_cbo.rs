@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_(2-12)_children</name>
+   <name>CouponCodeLength_cbo</name>
    <tag></tag>
-   <elementGuidId>a1d0d749-b453-4013-8d4c-ef8fa449b18f</elementGuidId>
+   <elementGuidId>b7c7578f-ca53-47ea-85ad-579415166cba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='children']</value>
+         <value>//input[@name='bookingexpiry']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,66 +20,73 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control touch-spin-03 form-readonly-control</value>
+      <value>form-control input-sm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>0</value>
+      <value>Days</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>children</value>
+      <value>bookingexpiry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>0</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hotels&quot;)/div[@class=&quot;tab-inner menu-horizontal-content&quot;]/div[@class=&quot;form-search-main-01&quot;]/form[1]/div[@class=&quot;form-inner&quot;]/div[@class=&quot;row gap-10 mb-15 align-items-end&quot;]/div[@class=&quot;col-md-3 col-xs-12 o2&quot;]/div[@class=&quot;col-inner&quot;]/div[@class=&quot;row gap-10 mb-15&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;col-inner&quot;]/div[@class=&quot;form-people-thread&quot;]/div[@class=&quot;row gap-5 align-items-center&quot;]/div[@class=&quot;col 01&quot;]/div[@class=&quot;form-group form-spin-group&quot;]/div[@class=&quot;form-icon-left&quot;]/div[@class=&quot;input-group  bootstrap-touchspin bootstrap-touchspin-injected&quot;]/input[@class=&quot;form-control touch-spin-03 form-readonly-control&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/input[@class=&quot;form-control input-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='children']</value>
+      <value>//input[@name='bookingexpiry']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='hotels']/div/div/form/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/div/input</value>
+      <value>//div[@id='GENERAL']/div[16]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/input</value>
+      <value>//div[16]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

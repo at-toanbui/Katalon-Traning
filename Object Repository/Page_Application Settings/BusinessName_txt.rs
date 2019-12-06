@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_(12-75)_adults</name>
+   <name>BusinessName_txt</name>
    <tag></tag>
-   <elementGuidId>e8c8547a-0072-465a-90f9-6fdadc04c732</elementGuidId>
+   <elementGuidId>e5839764-39ca-4765-96c9-3a5fd641591c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='adults']</value>
+         <value>//input[@name='site_title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,64 +22,64 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>site_title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control touch-spin-03 form-readonly-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>0</value>
+      <value>Business Name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>adults</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>2</value>
+      <value>PHPTRAVELS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hotels&quot;)/div[@class=&quot;tab-inner menu-horizontal-content&quot;]/div[@class=&quot;form-search-main-01&quot;]/form[1]/div[@class=&quot;form-inner&quot;]/div[@class=&quot;row gap-10 mb-15 align-items-end&quot;]/div[@class=&quot;col-md-3 col-xs-12 o2&quot;]/div[@class=&quot;col-inner&quot;]/div[@class=&quot;row gap-10 mb-15&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;col-inner&quot;]/div[@class=&quot;form-people-thread&quot;]/div[@class=&quot;row gap-5 align-items-center&quot;]/div[@class=&quot;col o2&quot;]/div[@class=&quot;form-group form-spin-group&quot;]/div[@class=&quot;form-icon-left&quot;]/div[@class=&quot;input-group  bootstrap-touchspin bootstrap-touchspin-injected&quot;]/input[@class=&quot;form-control touch-spin-03 form-readonly-control&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-4&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='adults']</value>
+      <value>//input[@name='site_title']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='hotels']/div/div/form/div/div/div[3]/div/div/div/div/div/div/div/div/div[2]/div/input</value>
+      <value>//div[@id='GENERAL']/div[3]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/div[2]/div/input</value>
+      <value>//div[3]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
