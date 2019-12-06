@@ -20,84 +20,84 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/admin/settings')
 
-WebUI.setText(findTestObject('homework/Page_Administator Login/txt_email'), 'admin@phptravels.com')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Administator Login/txt_email'), 'admin@phptravels.com')
 
-WebUI.setEncryptedText(findTestObject('homework/Page_Administator Login/txt_password'), 
+WebUI.setEncryptedText(findTestObject('chungphamv_Day1_Practice2/Page_Administator Login/txt_password'), 
     'orSGNCvhf+w8SKCExcig5g==')
 
-WebUI.click(findTestObject('homework/Page_Administator Login/btn_Login'))
+WebUI.click(findTestObject('chungphamv_Day1_Practice2/Page_Administator Login/btn_Login'))
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_BusinessName'), 'YourCompany')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_BusinessName'), 'YourCompany')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_SiteURL'), 'yourcompany.com')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_SiteURL'), 'yourcompany.com')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_LicenseKey'), '1234')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_LicenseKey'), '1234')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_Copyrights'), 'All Rights Reserved by YourCompany')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_Copyrights'), 'All Rights Reserved by YourCompany')
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_DateFormate'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_DateFormate'), 
     'm/d/Y', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_MultiLanguage'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_MultiLanguage'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_DefaultLanguage'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_DefaultLanguage'), 
     'vi', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_MultiCurrency'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_MultiCurrency'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_RestrictWebsite'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_RestrictWebsite'), 
     'Yes', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_UsersRegistration'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_UsersRegistration'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_UsersReg'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_UsersReg'), 
     'No', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_SuppliersRegistration'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_SuppliersRegistration'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_reviews'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_reviews'), 
     'Yes', true)
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_BookingExpiry'), 
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_BookingExpiry'), 
     '6')
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_Alphabets_Only'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_Alphabets_Only'), 
     'alnum', true)
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_Couponcode'), 
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_Couponcode'), 
     '8')
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_Offline'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_Offline'), 
     '1', true)
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txa_OfflineMessage'), 
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txa_OfflineMessage'), 
     'This is the offline message')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_HomeTitle_slogan'), 'YourCompany | The Future')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_HomeTitle_slogan'), 'YourCompany | The Future')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_DefaultKeywords'), 'This is my default keywords')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_DefaultKeywords'), 'This is my default keywords')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txa_DefaultDescription'), 
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txa_DefaultDescription'), 
     'This is my default description')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_GoogleMapAPI'), 'http://endpoint-s3.api.awsamazon.com')
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_GoogleMapAPI'), 'http://endpoint-s3.api.awsamazon.com')
 
-WebUI.setText(findTestObject('homework/Page_Application Settings/txt_TrackingAnalytics'), 
+WebUI.setText(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/txt_TrackingAnalytics'), 
     'Tracking & Analytics code')
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_RSSEnabled'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_RSSEnabled'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('homework/Page_Application Settings/ddl_CheckUpdates'), 
+WebUI.selectOptionByValue(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/ddl_CheckUpdates'), 
     '0', true)
 
-WebUI.click(findTestObject('homework/Page_Application Settings/btn_Submit'))
+WebUI.click(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/btn_Submit'))
 
-WebUI.click(findTestObject('homework/Page_Application Settings/btn_Logout'))
+WebUI.click(findTestObject('chungphamv_Day1_Practice2/Page_Application Settings/btn_Logout'))
 
 WebUI.closeBrowser()
 
