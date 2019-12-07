@@ -28,74 +28,74 @@ WebUI.setEncryptedText(findTestObject('test8/Page_Administator Login/txtPassword
 
 WebUI.click(findTestObject('test8/Page_Administator Login/btnLogin'))
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txtBusiness Name'), 'YourCompany')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtBusinessName'), 'YourCompany')
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txt_Site URL_site_url'), 'yourcompany.com')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtSiteurl'), 'yourcompany.com')
 
-WebUI.click(findTestObject('test8/Page_Application Settings/txt_License Key_license'))
+WebUI.click(findTestObject('test8/Page_Application Settings/txtLicenseKey'))
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txt_License Key_license'), 'phptravelsea483587c38f7344')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtLicenseKey'), 'phptravelsea483587c38f7344')
 
 WebUI.setText(findTestObject('test8/Page_Application Settings/txtCopyrights'), 'All Rights Reserved by YourCompany')
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_ddmmyyyy mmddyyyy'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_dayformat'), 
     'm/d/Y', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Enabled Disabled'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_multilanguage'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Russian _7e6470'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Default_Language'), 
     'vi', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Enable Disable'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Multi_Currency'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_No Yes'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Restrict_Website'), 
     'Yes', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Yes No'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Users_Registration'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Auto Approve Admin Approve'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Users Reg. Approval'), 
     'No', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Yes No_1'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Suppliers_Registration'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Auto Approve Admin Approve_1'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Reviews'), 
     'Yes', true)
 
 WebUI.setText(findTestObject('test8/Page_Application Settings/cboBookingExpiry'), '3')
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Alphabets Only Numbe_35158d'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Coupon_code_Type'), 
     'alnum', true)
 
 WebUI.setText(findTestObject('test8/Page_Application Settings/cbo_Coupon code Length'), '8')
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Yes No_1_2'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Offline'), 
     '1', true)
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txa_Our website is offline currently'), 
+WebUI.setText(findTestObject('test8/Page_Application Settings/txaOffline_Message'), 
     'This is the offline message')
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txt_Home Title_slogan'), 'YourCompany | The Future')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtHome_Title'), 'YourCompany | The Future')
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txt_Default Keywords'), 'This is my default keywords')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtDefaultKeywords'), 'This is my default keywords')
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txa_php travels is complete booking an_a50366'), 
+WebUI.setText(findTestObject('test8/Page_Application Settings/txaDefault_Description'), 
     'This is my default description')
 
-WebUI.setText(findTestObject('test8/Page_Application Settings/txt_Google Map API_mapapi'), 'http://endpoint-s3.api.awsamazon.com')
+WebUI.setText(findTestObject('test8/Page_Application Settings/txtMapapi'), 'http://endpoint-s3.api.awsamazon.com')
 
 WebUI.setText(findTestObject('test8/Page_Application Settings/txa_Tracking Analytics_gacode'), 'Tracking & Analytics code')
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Enabled Disabled_1'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_RSS_Enabled'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Every 1 Day _5906a9'), 
+WebUI.selectOptionByValue(findTestObject('test8/Page_Application Settings/ddlselect_Check_Updates'), 
     '0', true)
 
-WebUI.click(findTestObject('test8/Page_Application Settings/btn_svg_Chat with Abraham_lc-1mpchac'))
+WebUI.click(findTestObject('test8/Page_Application Settings/btnChat'))
 
 WebUI.click(findTestObject('test8/Page_Application Settings/btnSubmit'))
 

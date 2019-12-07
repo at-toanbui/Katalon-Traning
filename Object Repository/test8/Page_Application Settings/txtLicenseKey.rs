@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_License Key_license</name>
+   <name>txtLicenseKey</name>
    <tag></tag>
    <elementGuidId>9749beb1-a3b5-4e9c-b57e-babacb777982</elementGuidId>
    <selectorCollection>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Paradise Search Villa Extramoros</name>
+   <name>ddlselect_Default_Language</name>
    <tag></tag>
-   <elementGuidId>88ecd261-6e6f-4542-99b4-aee9e933b5fc</elementGuidId>
+   <elementGuidId>47bc95b7-f30d-4fa2-ad5c-6612391f3301</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Paradise Search Villa Extramoros')]</value>
+         <value>//select[@name='default_lang']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,100 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placeholder</name>
+      <type>Main</type>
+      <value>Select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>https://www.phptravels.net/blog/Paradise-Search-Villa-Extramoros</value>
+      <value>default_lang</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Paradise Search Villa Extramoros</value>
+      <value>
+                                Russian
+                                Farsi
+                                German
+                                Vietnamese
+                                French
+                                Turkish
+                                Arabic
+                                Spanish
+                                English
+                              </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;with-waypoint-sticky&quot;]/div[@class=&quot;body-inner&quot;]/div[@class=&quot;main-wrapper scrollspy-action&quot;]/div[@class=&quot;main-wrapper scrollspy-action&quot;]/section[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row gap-40&quot;]/div[@class=&quot;col-12 col-lg-9&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;post-horizon-wrapper-02&quot;]/article[@class=&quot;post-horizon-item&quot;]/div[@class=&quot;content&quot;]/h4[@class=&quot;float-none&quot;]/a[1]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/select[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Paradise Search Villa Extramoros')]</value>
+      <value>//select[@name='default_lang']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='GENERAL']/div[9]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More'])[4]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Language'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[4]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi Language'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[5]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi Currency'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More'])[5]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Paradise Search Villa Extramoros']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://www.phptravels.net/blog/Paradise-Search-Villa-Extramoros')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restrict Website'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article[5]/div[2]/h4/a</value>
+      <value>//div[9]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

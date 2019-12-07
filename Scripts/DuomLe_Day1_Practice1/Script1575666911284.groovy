@@ -20,15 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/')
 
-WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/ddl_Company'))
+WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/ddlCompany'))
 
-WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btn_Contact Us'))
+WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btnContact_Us'))
 
-WebUI.click(findTestObject('phptravelduom2/Page_Contact Us/btn_Flights'))
+WebUI.click(findTestObject('phptravelduom2/Page_Contact Us/btnFlights'))
 
 WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btnBlog'))
 
-WebUI.click(findTestObject('phptravelduom2/Page_Blog/btn_Paradise Search Villa Extramoros'))
+WebUI.click(findTestObject('phptravelduom2/Page_Blog/btn_Paradise_Search_Villa_Extramoros'))
 
 WebUI.closeBrowser()
 
