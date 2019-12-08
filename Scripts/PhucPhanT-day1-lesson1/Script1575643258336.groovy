@@ -44,13 +44,11 @@ WebUI.doubleClick(findTestObject('Page_Application Settings/Copyrights_txt'))
 
 WebUI.setText(findTestObject('Page_Application Settings/Copyrights_txt'), 'All Rights Reserved by Yourcompany')
 
-WebUI.selectOptionByValue(findTestObject('Page_Application Settings/DateFormate_ddl'), 'm/d/Y', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Page_Application Settings/DateFormate_ddl'), 'm/d/Y', true)
 
 WebUI.selectOptionByValue(findTestObject('Page_Application Settings/MultiLanguage_txt'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_Application Settings/DefaultLanguage_ddl'), 
-    'vi', true)
+WebUI.selectOptionByValue(findTestObject('Page_Application Settings/DefaultLanguage_ddl'), 'vi', true)
 
 WebUI.selectOptionByValue(findTestObject('Page_Application Settings/MultiCurrency_ddl'), '0', true)
 
@@ -58,8 +56,7 @@ WebUI.selectOptionByValue(findTestObject('Page_Application Settings/RestrictWebs
 
 WebUI.selectOptionByValue(findTestObject('Page_Application Settings/UsersRegistration_ddl'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_Application Settings/UsersRegApproval_ddl'), 
-    'Yes', true)
+WebUI.selectOptionByValue(findTestObject('Page_Application Settings/UsersRegApproval_ddl'), 'Yes', true)
 
 WebUI.setText(findTestObject('Page_Application Settings/CouponCodeLength_cbo'), '8')
 
@@ -85,10 +82,7 @@ WebUI.setText(findTestObject('Page_Application Settings/TrackingAnalytics_txa'),
 
 WebUI.selectOptionByValue(findTestObject('Page_Application Settings/RSSEnabled_ddl'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_Application Settings/CheckUpdates_ddl'), 
-    '0', true)
-
-WebUI.click(findTestObject('Page_Application Settings/svg_Chat with Abraham_lc-1mpchac'))
+WebUI.selectOptionByValue(findTestObject('Page_Application Settings/CheckUpdates_ddl'), '0', true)
 
 WebUI.click(findTestObject('Page_Application Settings/Submit_btn'))
 
