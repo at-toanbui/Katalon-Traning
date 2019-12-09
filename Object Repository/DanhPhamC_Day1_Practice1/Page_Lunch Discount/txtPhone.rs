@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Check in_checkin</name>
+   <name>txtPhone</name>
    <tag></tag>
-   <elementGuidId>2c049a21-a152-4ff1-9730-14f6b7b50f06</elementGuidId>
+   <elementGuidId>7680ba2a-b249-4f21-ab01-6469c2b7a23a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='checkin']</value>
+         <value>//input[@name='phone']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,6 +20,20 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Phone</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -29,57 +43,36 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>checkin</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control form-readonly-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>checkin</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>dd/mm/yyyy</value>
+      <value>phone</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkin&quot;)</value>
+      <value>id(&quot;OVERVIEW&quot;)/section[1]/div[1]/div[@class=&quot;row gap-40 justify-content-center&quot;]/div[@class=&quot;col-12 col-lg-9&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;post-horizon-wrapper&quot;]/article[@class=&quot;post-horizon-item blog-single clearfix&quot;]/div[@class=&quot;blog-content mt-30&quot;]/form[@class=&quot;panel panel-default&quot;]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 go-left form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='checkin']</value>
+      <value>//input[@name='phone']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='airDatepickerRange-hotel']/div/div/div[2]/input</value>
+      <value>//div[@id='OVERVIEW']/section/div/div/div/div/div/article/div[3]/form/fieldset/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div[2]/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

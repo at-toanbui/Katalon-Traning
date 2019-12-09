@@ -20,11 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/')
 
-WebUI.click(findTestObject('null'))
+WebUI.scrollToElement(findTestObject('DanhPhamC_Day1_Practice1/Page_PHPTRAVELS  Travel Technology Partner/lblFeaturedOffers'), 
+    0)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('DanhPhamC_Day1_Practice1/Page_PHPTRAVELS  Travel Technology Partner/btnView More'))
 
-WebUI.click(findTestObject('null'))
+WebUI.scrollToElement(findTestObject('DanhPhamC_Day1_Practice1/Page_Special Offers/lblDubaiSpecialPackages'), 0)
+
+WebUI.click(findTestObject('DanhPhamC_Day1_Practice1/Page_Special Offers/btn'))
+
+WebUI.setText(findTestObject('DanhPhamC_Day1_Practice1/Page_Lunch Discount/txtName'), 'Pham Cong Danh')
+
+WebUI.setText(findTestObject('DanhPhamC_Day1_Practice1/Page_Lunch Discount/txtPhone'), '0912412442')
+
+WebUI.setText(findTestObject('DanhPhamC_Day1_Practice1/Page_Lunch Discount/txaMessage'), 
+    'hahaaaaaa')
+
+WebUI.click(findTestObject('DanhPhamC_Day1_Practice1/Page_Lunch Discount/btnCONTACT'))
 
 WebUI.closeBrowser()
 

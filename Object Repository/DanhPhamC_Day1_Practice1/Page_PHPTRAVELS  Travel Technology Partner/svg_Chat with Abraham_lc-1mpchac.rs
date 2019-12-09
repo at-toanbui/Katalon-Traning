@@ -3,7 +3,7 @@
    <description></description>
    <name>svg_Chat with Abraham_lc-1mpchac</name>
    <tag></tag>
-   <elementGuidId>613efb8d-c85d-4cb7-a4db-b8458bc8dc6e</elementGuidId>
+   <elementGuidId>3754c8be-1fa2-4fc6-b00b-1fe0a7cc962a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-global-lfbdn6fgxjs&quot;)/div[1]/div[@class=&quot;lc-lpdesj e903lsu2 lc-r4kv7x-enter-done&quot;]/div[@class=&quot;lc-1f81gka e903lsu0&quot;]/div[@class=&quot;lc-1dly1s8 e1ohfhv0&quot;]/div[@class=&quot;lc-eoed9h&quot;]/button[@class=&quot;e1mwfyk10 lc-4rgplc e1m5b1js0&quot;]/svg[@class=&quot;lc-1mpchac&quot;]</value>
+      <value>id(&quot;widget-global-h79p8d5kzah&quot;)/div[1]/div[@class=&quot;lc-lpdesj e903lsu2 lc-r4kv7x-enter-done&quot;]/div[@class=&quot;lc-1f81gka e903lsu0&quot;]/div[@class=&quot;lc-1dly1s8 e1ohfhv0&quot;]/div[@class=&quot;lc-eoed9h&quot;]/button[@class=&quot;e1mwfyk10 lc-4rgplc e1m5b1js0&quot;]/svg[@class=&quot;lc-1mpchac&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_PHPTRAVELS  Travel Technology Partner/iframe_Sa_chat-widget</value>
+      <value>Object Repository/DanhPhamC_Day1_Practice1/Page_PHPTRAVELS  Travel Technology Partner/iframe_concat(id(  chat-widget  ))_chat-widget</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

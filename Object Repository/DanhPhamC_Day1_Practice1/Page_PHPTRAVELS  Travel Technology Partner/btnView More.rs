@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>btnView More</name>
    <tag></tag>
-   <elementGuidId>ba67a259-3649-43e4-8c74-6cdcac52a941</elementGuidId>
+   <elementGuidId>dfd18d66-41b4-4e3f-b33b-00e534176281</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//a[contains(text(),'View More')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://www.phptravels.net/offers' and (text() = 'View More' or . = 'View More')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,91 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>https://www.phptravels.net/offers</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
+      <value>btn btn-primary btn-sm btn-wide mt-20 btn-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-             Search            </value>
+      <value>View More</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hotels&quot;)/div[@class=&quot;tab-inner menu-horizontal-content&quot;]/div[@class=&quot;form-search-main-01&quot;]/form[1]/div[@class=&quot;form-inner&quot;]/div[@class=&quot;row gap-10 mb-15 align-items-end&quot;]/div[@class=&quot;col-md-2 col-xs-12 o1&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <value>/html[1]/body[@class=&quot;with-waypoint-sticky&quot;]/div[@class=&quot;body-inner&quot;]/div[@class=&quot;main-wrapper scrollspy-action&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;pb-0&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;slick-carousel-wrapper&quot;]/div[@class=&quot;slick-carousel-inner&quot;]/div[@class=&quot;slick-product-item-col-1 slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-item slick-slide slick-current slick-active&quot;]/div[@class=&quot;product-large-item&quot;]/div[@class=&quot;row equal-height gap-0&quot;]/div[@class=&quot;col-12 col-lg-4 col&quot;]/div[@class=&quot;content d-flex flex-column&quot;]/div[@class=&quot;content-bottom mt-auto&quot;]/a[@class=&quot;btn btn-primary btn-sm btn-wide mt-20 btn-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='hotels']/div/div/form/div/div/div[4]/button</value>
+      <value>//a[contains(text(),'View More')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured Cars'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ford Focus 2014'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='One Way'])[1]/preceding::button[1]</value>
+      <value>//*/text()[normalize-space(.)='View More']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Round Trip'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
+      <value>(//a[contains(@href, 'https://www.phptravels.net/offers')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
+      <value>//div[2]/div/div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

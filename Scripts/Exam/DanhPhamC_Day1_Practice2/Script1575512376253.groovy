@@ -70,7 +70,7 @@ WebUI.setText(findTestObject('Page_Application Settings/txaDefaultDescription'),
 
 WebUI.setText(findTestObject('Page_Application Settings/txtGoogleMapAPI'), 'http://endpoint-s3.api.awsamazon.com')
 
-WebUI.setText(findTestObject('Page_Application Settings/txtTrackingAnalytics'), 'Tracking & Analytics code')
+WebUI.setText(findTestObject('Page_Application Settings/txaTrackingAnalytics'), 'Tracking & Analytics code')
 
 WebUI.selectOptionByValue(findTestObject('Page_Application Settings/dllRSSEnabled'), '0', true)
 
