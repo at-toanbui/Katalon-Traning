@@ -60,7 +60,7 @@ WebUI.selectOptionByValue(findTestObject('PhpTravels_Admin/Page_Application Sett
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txaOfflineMessage'), 'This is the offline message')
 
-WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitle_slogan'), 'Your Company | The Future')
+WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtHomeTitleSlogan'), 'Your Company | The Future')
 
 WebUI.setText(findTestObject('PhpTravels_Admin/Page_Application Settings/txtDefaultKeywords'), 'This is my default keywords')
 
@@ -81,4 +81,6 @@ WebUI.delay(3)
 WebUI.click(findTestObject('PhpTravels_Admin/Page_Application Settings/btnLogout'))
 
 WebUI.delay(3)
+
+WebUI.closeBrowser()
 

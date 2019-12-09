@@ -30,3 +30,5 @@ WebUI.click(findTestObject('PhpTravels/Page_Blog/btnReadMore'))
 
 WebUI.click(findTestObject('PhpTravels/Page_The Tiber Rivers Last Eel Fishermen/btnHotels'))
 
+WebUI.closeBrowser()
+
