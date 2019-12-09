@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BusinessName_txt</name>
+   <name>txt_HomeTitle</name>
    <tag></tag>
-   <elementGuidId>e5839764-39ca-4765-96c9-3a5fd641591c</elementGuidId>
+   <elementGuidId>3e105f57-3510-47e2-add8-b49844f1e6f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='site_title']</value>
+         <value>//input[@name='slogan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>site_title</value>
+      <value>slogan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Business Name</value>
+      <value>Slogan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>PHPTRAVELS</value>
+      <value>PHPTRAVELS | Travel Technology Partner</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,20 +66,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='site_title']</value>
+      <value>//input[@name='slogan']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[3]/div/input</value>
+      <value>//div[@id='GENERAL']/div[21]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
+      <value>//div[21]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

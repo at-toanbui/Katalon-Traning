@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CheckUpdates_ddl</name>
+   <name>ddl_CheckUpdates</name>
    <tag></tag>
    <elementGuidId>ac8ab736-9911-4d9d-8427-a5871f1821af</elementGuidId>
    <selectorCollection>

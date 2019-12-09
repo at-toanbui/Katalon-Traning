@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CouponCodeLength_cbo</name>
+   <name>txt_GoogleMapAPI</name>
    <tag></tag>
-   <elementGuidId>b7c7578f-ca53-47ea-85ad-579415166cba</elementGuidId>
+   <elementGuidId>775f44ba-cda7-4317-8f39-a1eb0af4ef68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='bookingexpiry']</value>
+         <value>//input[@name='mapapi']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,69 +24,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control input-sm</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Days</value>
+      <value>Google Map API</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>bookingexpiry</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>mapapi</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
+      <value>AIzaSyBxuDvvvAEk0SCERQ4wc7xfLeTHynMrMNg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/input[@class=&quot;form-control input-sm&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='bookingexpiry']</value>
+      <value>//input[@name='mapapi']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[16]/div/input</value>
+      <value>//div[@id='GENERAL']/div[24]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[16]/div/input</value>
+      <value>//div[24]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

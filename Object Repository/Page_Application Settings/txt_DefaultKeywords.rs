@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password_txt2</name>
+   <name>txt_DefaultKeywords</name>
    <tag></tag>
-   <elementGuidId>43eefdaa-86a1-43fb-a459-18e934f9e2d2</elementGuidId>
+   <elementGuidId>3a396591-8bb5-4be2-9ab3-37b3df690620</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password']</value>
+         <value>//input[@name='keywords']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,38 +20,66 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Keyword of homepage</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
+      <value>keywords</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>php travels script, php hotels booking script, php reservation system</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[2]/form[@class=&quot;form-signin form-horizontal wow fadeIn animated animated&quot;]/div[1]/label[@class=&quot;input-outlined&quot;]/input[1]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
+      <value>//input[@name='keywords']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='GENERAL']/div[22]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[2]/input</value>
+      <value>//div[22]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

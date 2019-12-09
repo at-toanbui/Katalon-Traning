@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Submit_chat-widget</name>
+   <name>txt_SiteURL</name>
    <tag></tag>
-   <elementGuidId>c51b5676-dc34-4aff-bc7a-7722c3c45439</elementGuidId>
+   <elementGuidId>eecf016e-7cab-4375-bcbf-8a15e8eb38c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='chat-widget']</value>
+         <value>//input[@name='site_url']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>https://secure.livechatinc.com/licence/4618001/v2/open_chat.cgi?license=4618001&amp;group=13&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>allowtransparency</name>
+      <name>class</name>
       <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>allow</name>
-      <type>Main</type>
-      <value>autoplay</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>chat-widget</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Website url here</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>chat-widget</value>
+      <value>site_url</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>scrolling</name>
+      <name>value</name>
       <type>Main</type>
-      <value>no</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>application</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>LiveChat chat widget</value>
+      <value>https://www.phptravels.net</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;chat-widget&quot;)</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-4&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='chat-widget']</value>
+      <value>//input[@name='site_url']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='chat-widget-container']/iframe</value>
+      <value>//div[@id='GENERAL']/div[4]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//div[4]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

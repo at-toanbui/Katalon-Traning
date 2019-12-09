@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Auto Approve                Admin Approve_1</name>
+   <name>btn_Submit</name>
    <tag></tag>
-   <elementGuidId>f569bd98-26cc-425b-9605-dd9675400a14</elementGuidId>
+   <elementGuidId>94d1cb59-b876-4d02-97d7-2223a3f6ac92</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@name='reviews']</value>
+         <value>//div[@id='content']/form/div/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,93 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-placeholder</name>
-      <type>Main</type>
-      <value>Select</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>reviews</value>
+      <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                Auto Approve
-                Admin Approve
-              </value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/select[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;content&quot;)/form[1]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//select[@name='reviews']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[15]/div/select</value>
+      <value>//div[@id='content']/form/div/div[3]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[2]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mod_Rewrite'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suppliers Registration'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MySQLi'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Expiry'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Number of days in which unpaid booking expires'])[1]/preceding::select[1]</value>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[15]/div/select</value>
+      <value>//div[3]/button</value>
    </webElementXpaths>
 </WebElementEntity>

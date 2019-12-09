@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RestrictWebsite_ddl</name>
+   <name>ddl_UsersRegistration</name>
    <tag></tag>
-   <elementGuidId>2bf526b3-737f-4578-851b-b133b92fc1ed</elementGuidId>
+   <elementGuidId>7a7414d0-79fe-42b4-b9c4-75d305f1e8f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@name='restrict']</value>
+         <value>//select[@name='allow_registration']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,11 +20,11 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>data-placeholder</name>
       <type>Main</type>
-      <value>restrict</value>
+      <value>Select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,11 +36,18 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>allow_registration</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-                 No 
-                 Yes 
+                Yes
+                No
               </value>
    </webElementProperties>
    <webElementProperties>
@@ -55,48 +62,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@name='restrict']</value>
+      <value>//select[@name='allow_registration']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[11]/div/select</value>
+      <value>//div[@id='GENERAL']/div[12]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restrict Website'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Registration'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi Currency'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restrict Website'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Registration'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Reg. Approval'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Reg. Approval'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suppliers Registration'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/select</value>
+      <value>//div[12]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

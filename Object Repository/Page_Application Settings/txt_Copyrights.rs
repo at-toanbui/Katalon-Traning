@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Copyrights_txt</name>
+   <name>txt_Copyrights</name>
    <tag></tag>
    <elementGuidId>1d10d59c-740e-4008-8bb3-876c78c65b44</elementGuidId>
    <selectorCollection>

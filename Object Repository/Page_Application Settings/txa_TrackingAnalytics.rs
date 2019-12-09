@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>GoogleMapAPI_txt</name>
+   <name>txa_TrackingAnalytics</name>
    <tag></tag>
-   <elementGuidId>775f44ba-cda7-4317-8f39-a1eb0af4ef68</elementGuidId>
+   <elementGuidId>c61cc333-79f8-406a-8b10-4eabb4ab1ca5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='mapapi']</value>
+         <value>//textarea[@name='gacode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,59 +27,52 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>text</value>
+      <value>4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Google Map API</value>
+      <value>Paste your tracking &amp; analytics code here</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>mapapi</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>AIzaSyBxuDvvvAEk0SCERQ4wc7xfLeTHynMrMNg</value>
+      <value>gacode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-8&quot;]/textarea[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='mapapi']</value>
+      <value>//textarea[@name='gacode']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[24]/div/input</value>
+      <value>//div[@id='GENERAL']/div[25]/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[24]/div/input</value>
+      <value>//div[25]/div/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

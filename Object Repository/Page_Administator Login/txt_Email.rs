@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LicenseKey_txt</name>
+   <name>txt_Email</name>
    <tag></tag>
-   <elementGuidId>d690c017-7346-48af-9478-b9a431dfaa5c</elementGuidId>
+   <elementGuidId>6f5265f3-b4f7-4633-8f7c-630a6d24e6ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='license']</value>
+         <value>//input[@name='email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,13 +20,6 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -36,50 +29,29 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>License Key</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>license</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>phptravelsea483587c38f734</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-4&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html[1]/body[1]/div[2]/form[@class=&quot;form-signin form-horizontal wow fadeIn animated animated&quot;]/div[1]/label[@class=&quot;input-outlined&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='license']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='GENERAL']/div[5]/div/input</value>
+      <value>//input[@name='email']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/input</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

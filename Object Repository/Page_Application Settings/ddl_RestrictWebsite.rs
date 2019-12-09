@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DefaultDescription_txa</name>
+   <name>ddl_RestrictWebsite</name>
    <tag></tag>
-   <elementGuidId>707c8750-0317-4b74-a69b-72e510bf4b26</elementGuidId>
+   <elementGuidId>2bf526b3-737f-4578-851b-b133b92fc1ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@name='meta_description']</value>
+         <value>//select[@name='restrict']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,7 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>restrict</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,94 +34,69 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Description of homepage</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>meta_description</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>php travels is complete booking and reservation system provides complete solution for travel agency</value>
+      <value>
+                 No 
+                 Yes 
+              </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-8&quot;]/textarea[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;GENERAL&quot;)/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-2&quot;]/select[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@name='meta_description']</value>
+      <value>//select[@name='restrict']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[23]/div/textarea</value>
+      <value>//div[@id='GENERAL']/div[11]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Description'])[1]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restrict Website'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Keywords'])[1]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi Currency'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Map API'])[1]/preceding::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Registration'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking &amp; Analytics'])[1]/preceding::textarea[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='php travels is complete booking and reservation system provides complete solution for travel agency']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Reg. Approval'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[23]/div/textarea</value>
+      <value>//div[11]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>
