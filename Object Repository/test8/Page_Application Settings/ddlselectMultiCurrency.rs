@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ddlselect_Suppliers_Registration</name>
+   <name>ddlselectMultiCurrency</name>
    <tag></tag>
-   <elementGuidId>9d144eb9-7294-47a8-8430-345ff9828547</elementGuidId>
+   <elementGuidId>b5dc4ce5-8e1d-4b24-a066-b58c5c5989e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@name='allow_supplier_registration']</value>
+         <value>//select[@name='multicurr']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>allow_supplier_registration</value>
+      <value>multicurr</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,8 +46,8 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Yes
-                No
+                Enable
+                Disable
               </value>
    </webElementProperties>
    <webElementProperties>
@@ -62,48 +62,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@name='allow_supplier_registration']</value>
+      <value>//select[@name='multicurr']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[14]/div/select</value>
+      <value>//div[@id='GENERAL']/div[10]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suppliers Registration'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi Currency'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Reg. Approval'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Language'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[2]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restrict Website'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Expiry'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Registration'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[14]/div/select</value>
+      <value>//div[10]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

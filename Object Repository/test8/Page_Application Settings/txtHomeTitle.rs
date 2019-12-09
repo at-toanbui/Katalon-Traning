@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtHome_Title</name>
+   <name>txtHomeTitle</name>
    <tag></tag>
    <elementGuidId>29065437-350d-4b1f-a96c-90dad415e180</elementGuidId>
    <selectorCollection>

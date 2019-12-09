@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>cbo_Coupon code Length</name>
+   <name>txtBookingExpiry</name>
    <tag></tag>
-   <elementGuidId>4d58c935-5d98-4505-b7d8-13dda51fef5d</elementGuidId>
+   <elementGuidId>41776920-5e16-482b-9453-51cdb441c9dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='codelength']</value>
+         <value>//input[@name='bookingexpiry']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -36,30 +36,30 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Days</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>codelength</value>
+      <value>bookingexpiry</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>min</name>
       <type>Main</type>
-      <value>4</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>8</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>4</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,20 +73,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='codelength']</value>
+      <value>//input[@name='bookingexpiry']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='GENERAL']/div[18]/div/input</value>
+      <value>//div[@id='GENERAL']/div[16]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[18]/div/input</value>
+      <value>//div[16]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
