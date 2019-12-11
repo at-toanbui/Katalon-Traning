@@ -22,13 +22,13 @@ WebUI.navigateToUrl('https://www.phptravels.net/')
 
 WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/ddlCompany'))
 
-WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btnContact_Us'))
+WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btnContactUs'))
 
 WebUI.click(findTestObject('phptravelduom2/Page_Contact Us/btnFlights'))
 
 WebUI.click(findTestObject('phptravelduom2/Page_PHPTRAVELS  Travel Technology Partner/btnBlog'))
 
-WebUI.click(findTestObject('phptravelduom2/Page_Blog/btn_Paradise_Search_Villa_Extramoros'))
+WebUI.click(findTestObject('phptravelduom2/Page_Blog/btnParadiseSearchVillaExtramoros'))
 
 WebUI.closeBrowser()
 

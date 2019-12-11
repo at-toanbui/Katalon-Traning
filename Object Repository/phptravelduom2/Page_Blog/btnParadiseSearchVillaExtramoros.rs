@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Paradise_Search_Villa_Extramoros</name>
+   <name>btnParadiseSearchVillaExtramoros</name>
    <tag></tag>
    <elementGuidId>88ecd261-6e6f-4542-99b4-aee9e933b5fc</elementGuidId>
    <selectorCollection>

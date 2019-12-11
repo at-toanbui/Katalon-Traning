@@ -10,10 +10,4 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>24d67f8f-5d4a-4101-9e98-1c107bf6166a</testSuiteGuid>
-   <testCaseLink>
-      <guid>3a3cfb03-d67f-431c-84b8-f973a6d0a2c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/KatalonHealthcare/TC01_Move to Login page</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
