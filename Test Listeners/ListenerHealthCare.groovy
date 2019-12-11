@@ -31,7 +31,7 @@ class ListenerHealthCare {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser('')
+		// WebUI.openBrowser('')
 	}
 
 	/**
@@ -42,7 +42,7 @@ class ListenerHealthCare {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
+		// WebUI.closeBrowser()
 	}
 
 	/**
