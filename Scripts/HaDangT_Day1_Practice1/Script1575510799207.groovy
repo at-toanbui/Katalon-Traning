@@ -28,8 +28,6 @@ WebUI.setText(findTestObject('KatalonPractice1/Page_Login/txtEmail'), 'hadang144
 
 WebUI.setEncryptedText(findTestObject('KatalonPractice1/Page_Login/txtPassword'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('KatalonPractice1/Page_Login/btnCloseChatWidget'))
-
 WebUI.click(findTestObject('KatalonPractice1/Page_Login/btnLogin'))
 
 WebUI.closeBrowser()

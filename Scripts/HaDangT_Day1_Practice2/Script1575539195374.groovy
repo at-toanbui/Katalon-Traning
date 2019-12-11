@@ -80,3 +80,5 @@ WebUI.click(findTestObject('KatalonPractice2/Page_Application Settings/btnSubmit
 
 WebUI.click(findTestObject('KatalonPractice2/Page_Application Settings/btnLogout'))
 
+WebUI.closeBrowser()
+
