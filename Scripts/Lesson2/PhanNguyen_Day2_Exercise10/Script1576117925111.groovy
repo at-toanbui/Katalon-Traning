@@ -15,17 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://cms.demo.katalon.com/')
+WebUI.openBrowser('http://demo.guru99.com/test/simple_context_menu.html')
 
-WebUI.setText(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
+WebUI.doubleClick(findTestObject('Lesson2/Exercise-09-10/Page_Simple Context Menu/btnDoubleClick'))
 
-WebUI.click(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
-
-WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-02-12/Page_Search Results for Woo Single 2  Katalon Shop/lblWooSingle2'))
-
-PageTitle = WebUI.getWindowTitle()
-
-WebUI.verifyMatch(PageTitle, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

@@ -15,17 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://cms.demo.katalon.com/')
+WebUI.openBrowser('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.setText(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
+WebUI.click(findTestObject('Lesson2/Exercise-06-07-08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickForPrompt Box'))
 
-WebUI.click(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
+textAlert = WebUI.getAlertText()
 
-WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-02-12/Page_Search Results for Woo Single 2  Katalon Shop/lblWooSingle2'))
+WebUI.verifyMatch(textAlert, 'Please enter your name', false)
 
-PageTitle = WebUI.getWindowTitle()
+WebUI.setAlertText('Katalon Automation Testing')
 
-WebUI.verifyMatch(PageTitle, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+WebUI.acceptAlert()
+
+WebUI.verifyElementText(findTestObject('Lesson2/Exercise-06-07-08/Page_Selenium Easy Demo - Automate All Scenarios/msgYouHaveEntered'), 
+    'You have entered \'Katalon Automation Testing\' !')
 
 WebUI.closeBrowser()
 
