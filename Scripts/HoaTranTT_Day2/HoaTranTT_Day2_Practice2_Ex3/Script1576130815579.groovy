@@ -17,15 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/mnuSamplePage'))
+WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX3/txtUserMessage'), 'Katalon automation test')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/lnkWordpressOrg'))
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX3/btnShowMessage'))
 
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.verifyElementText(findTestObject('HoaTranTT_Day2/Practice2/EX3/lblYourMessage'), 'Katalon automation test')
 
 WebUI.closeBrowser()
 

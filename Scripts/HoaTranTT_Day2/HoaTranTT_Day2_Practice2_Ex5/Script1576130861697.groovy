@@ -17,15 +17,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/mnuSamplePage'))
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'))
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/lnkWordpressOrg'))
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Sunday', false, 0)
 
-url = WebUI.getUrl()
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Monday', false, 0)
 
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Tuesday', false, 0)
 
-WebUI.closeBrowser()
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Wednesday', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Thursday', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Friday', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'), 'Saturday', false, 0)
+
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX5/btnMonday'))
+
+WebUI.verifyElementText(findTestObject('HoaTranTT_Day2/Practice2/EX5/lblDaySelected'), 'Day selected :- Monday')
 

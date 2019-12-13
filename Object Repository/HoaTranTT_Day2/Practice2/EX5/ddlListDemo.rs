@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkWordpressOrg</name>
+   <name>ddlListDemo</name>
    <tag></tag>
-   <elementGuidId>abb91f5a-f9c7-4774-b14f-8881384fc04d</elementGuidId>
+   <elementGuidId>abf5e58c-a04e-4e5b-8ed0-ba28914b28d7</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='select-demo']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/aside/section[5]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

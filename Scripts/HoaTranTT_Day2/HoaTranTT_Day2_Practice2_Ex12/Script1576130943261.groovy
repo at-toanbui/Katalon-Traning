@@ -19,13 +19,3 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/mnuSamplePage'))
-
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/lnkWordpressOrg'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
-
-WebUI.closeBrowser()
-

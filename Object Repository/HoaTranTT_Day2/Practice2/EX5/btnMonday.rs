@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkWordpressOrg</name>
+   <name>btnMonday</name>
    <tag></tag>
-   <elementGuidId>abb91f5a-f9c7-4774-b14f-8881384fc04d</elementGuidId>
+   <elementGuidId>005bd5e8-b803-4f46-a167-97e283bfe15a</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[@value='Monday']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/aside/section[5]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

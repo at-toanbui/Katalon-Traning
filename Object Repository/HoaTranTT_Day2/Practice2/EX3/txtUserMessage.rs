@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkWordpressOrg</name>
+   <name>txtUserMessage</name>
    <tag></tag>
-   <elementGuidId>abb91f5a-f9c7-4774-b14f-8881384fc04d</elementGuidId>
+   <elementGuidId>8e684eb0-73ef-4681-bbe0-c8d7d0935556</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='user-message']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/aside/section[5]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

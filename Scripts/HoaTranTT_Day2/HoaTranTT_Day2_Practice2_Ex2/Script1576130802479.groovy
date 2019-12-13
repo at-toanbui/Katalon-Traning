@@ -19,13 +19,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/mnuSamplePage'))
+WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX2/txtSearch'), 'Woo Single #2')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/lnkWordpressOrg'))
+WebUI.sendKeys('', Keys.chord(Keys.ENTER))
 
-url = WebUI.getUrl()
+WebUI.waitForElementVisible(findTestObject('HoaTranTT_Day2/Practice2/EX2/lblWooSingle2'), 0)
 
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+title = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(title, 'Search Results for “Woo Single #2” – Katalon Shop', false)
 
 WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkWordpressOrg</name>
+   <name>txtSearch</name>
    <tag></tag>
-   <elementGuidId>abb91f5a-f9c7-4774-b14f-8881384fc04d</elementGuidId>
+   <elementGuidId>b5a1929f-11f1-4e23-ba9b-5ab230cee8db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/aside/section[5]/ul/li[4]/a</value>
+         <value>/html/body/div[1]/div/div[2]/aside/section[1]/form/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

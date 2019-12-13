@@ -17,15 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/mnuSamplePage'))
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX4/btnCheckAll'))
 
-WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX1/lnkWordpressOrg'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.verifyElementChecked(findTestObject('HoaTranTT_Day2/Practice2/EX4/chkOption1'), 0)
 
 WebUI.closeBrowser()
 

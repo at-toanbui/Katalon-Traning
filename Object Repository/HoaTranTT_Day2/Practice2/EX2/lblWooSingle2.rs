@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkWordpressOrg</name>
+   <name>lblWooSingle2</name>
    <tag></tag>
-   <elementGuidId>abb91f5a-f9c7-4774-b14f-8881384fc04d</elementGuidId>
+   <elementGuidId>3a19e1b0-bf65-4f9d-821e-3d6fc6475c04</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/aside/section[5]/ul/li[4]/a</value>
+         <value>//span[text()='Woo Single #2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
