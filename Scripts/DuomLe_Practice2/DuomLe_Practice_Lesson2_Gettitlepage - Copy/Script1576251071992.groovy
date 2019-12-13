@@ -14,8 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+
+WebUI.setText(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/txtInputSearch'), 'Woo Single #2')
+
+WebUI.click(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
+
+WebUI.waitForPageLoad(0)
+
+title = WebUI.getWindowTitle()
+
+WS.verifyMatch(title, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+
+WebUI.closeBrowser()
 

@@ -15,7 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+
+String plhd = WebUI.getAttribute(findTestObject('Page_Katalon Shop  Katalon Ecommerce/txtSearchPlaceholder'), 'placeholder')
+
+WebUI.verifyMatch(plhd, 'Type to search', false)
+
+WebUI.closeBrowser()
 

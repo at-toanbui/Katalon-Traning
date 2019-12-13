@@ -15,7 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
+
+WebUI.setText(findTestObject('Page_Selenium Easy Demo - Simple Form to Automate using Selenium/btnEntermessage'), 'Katalon automation test')
+
+WebUI.click(findTestObject('Page_Selenium Easy Demo - Simple Form to Automate using Selenium/btnShowMessage'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Selenium Easy Demo - Simple Form to Automate using Selenium/msgKatalonautomationtest'))
+
+WebUI.closeBrowser()
 

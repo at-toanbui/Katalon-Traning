@@ -15,7 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
+
+WebUI.getAttribute(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'), 'option')
+
+WebUI.getNumberOfTotalOption(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'))
+
+WebUI.selectOptionByValue(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'), 'Monday', false)
+
+WebUI.verifyOptionSelectedByValue(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'), 'Monday', false, 
+    0)
+
+WebUI.closeBrowser()
 

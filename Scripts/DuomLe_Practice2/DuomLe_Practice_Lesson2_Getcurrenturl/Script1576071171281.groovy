@@ -15,7 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+
+WebUI.click(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/btnSamplePage'))
+
+WebUI.click(findTestObject('Practice_lesson2/Page_Sample Page  Katalon Shop/btnWordPressorg'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+
+WebUI.closeBrowser()
 

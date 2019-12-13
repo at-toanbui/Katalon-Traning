@@ -15,7 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('https://tus.io/demo.html')
+
+WebUI.uploadFile(findTestObject('Uploadfiletest1/Page_Resumable File Upload Demo  tus/btnUploadfile'), '/Users/mba0034/Documents/7.png')
+
+WebUI.verifyElementVisible(findTestObject('Page_Resumable File Upload Demo  tus/imgUpload'))
+
+WebUI.closeBrowser()
 

@@ -15,7 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
+
+WebUI.rightClick(findTestObject('Page_Simple Context Menu/btnRightClickMe'))
+
+WebUI.click(findTestObject('Page_Simple Context Menu/btnQuit'))
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
 

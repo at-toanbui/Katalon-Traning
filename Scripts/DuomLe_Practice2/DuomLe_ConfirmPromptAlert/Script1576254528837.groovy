@@ -15,7 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('null'))
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
+
+WebUI.click(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/btnClickforPromptBox'))
+
+alert = WebUI.getAlertText()
+
+WebUI.verifyMatch(alert, 'Please enter your name', false)
+
+WebUI.setAlertText('Katalon Automation Testing')
+
+WebUI.acceptAlert()
+
+WebUI.verifyElementVisible(findTestObject('Page_Selenium Easy Demo - Automate All Scenarios/lblAlert'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
