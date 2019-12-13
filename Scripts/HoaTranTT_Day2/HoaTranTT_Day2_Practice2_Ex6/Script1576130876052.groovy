@@ -19,3 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX6/btnClickMe'))
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
+

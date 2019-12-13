@@ -19,3 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
+WebUI.doubleClick(findTestObject('HoaTranTT_Day2/Practice2/EX10/btnDoubleClick'))
+
+WebUI.dismissAlert()
+
+WebUI.closeBrowser()
+

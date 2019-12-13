@@ -19,3 +19,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX8/btnClickForPromptBox'))
+
+text = WebUI.getAlertText()
+
+WebUI.verifyMatch(text, 'Please enter your name', false)
+
+WebUI.setAlertText('Katalon Automation Testing')
+
+WebUI.acceptAlert()
+
+WebUI.verifyElementText(findTestObject('HoaTranTT_Day2/Practice2/EX8/lblTextInputted'), 'You have entered \'Katalon Automation Testing\' !')
+
+WebUI.closeBrowser()
+
