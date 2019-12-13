@@ -17,7 +17,7 @@
       <testCaseId>Test Cases/Lesson2/PhanNguyen_Day2_Exercise01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5da55e88-3a00-4a91-a0d7-f3fd6bb6b6a6</guid>
+      <guid>7d5e2264-5a13-410c-8d52-dfbaeb416f6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson2/PhanNguyen_Day2_Exercise02</testCaseId>
@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>324fb67c-3d1d-42d8-9cb1-dfb93153013e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson2/PhanNguyen_Day2_Practice</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

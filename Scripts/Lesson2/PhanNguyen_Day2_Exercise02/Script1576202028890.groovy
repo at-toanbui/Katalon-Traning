@@ -28,4 +28,3 @@ PageTitle = WebUI.getWindowTitle()
 WebUI.verifyMatch(PageTitle, '.*“Woo Single #2” – Katalon Shop.*', true)
 
 WebUI.closeBrowser()
-
