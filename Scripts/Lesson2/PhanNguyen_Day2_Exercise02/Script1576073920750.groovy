@@ -25,7 +25,7 @@ WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-02-12/Page_Search Re
 
 PageTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(PageTitle, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+WebUI.verifyMatch(PageTitle, '.*“Woo Single #2” – Katalon Shop.*', true)
 
 WebUI.closeBrowser()
 

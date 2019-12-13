@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>324fb67c-3d1d-42d8-9cb1-dfb93153013e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lesson2/PhanNguyen_Day2_Practice</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
