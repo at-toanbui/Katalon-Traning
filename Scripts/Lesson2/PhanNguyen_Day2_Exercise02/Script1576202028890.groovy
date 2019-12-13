@@ -14,12 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://cms.demo.katalon.com/')
 
 WebUI.setText(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
 
-WebUI.click(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
+WebUI.sendKeys(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-02-12/Page_Search Results for Woo Single 2  Katalon Shop/lblWooSingle2'))
 
@@ -28,3 +29,4 @@ PageTitle = WebUI.getWindowTitle()
 WebUI.verifyMatch(PageTitle, '.*“Woo Single #2” – Katalon Shop.*', true)
 
 WebUI.closeBrowser()
+
