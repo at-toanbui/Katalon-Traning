@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Move to Login page</name>
+   <name>EX-01</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d19b5e8f-8060-4968-8745-0a647c80cd32</testCaseGuid>
+   <testCaseGuid>4bdd469c-7cdf-4141-b526-55ce3422e52c</testCaseGuid>
 </TestCaseEntity>

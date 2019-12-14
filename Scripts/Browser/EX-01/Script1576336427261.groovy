@@ -14,8 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+
+WebUI.click(findTestObject('Browser/EX-01/Page_Katalon Ecommerce/btnSamplePage'))
+
+WebUI.waitForElementVisible(findTestObject('Browser/EX-01/Page_Sample/btnWordPressorg'), 30)
+
+WebUI.click(findTestObject('Browser/EX-01/Page_Sample/btnWordPressorg'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+
+WebUI.closeBrowser()
 
