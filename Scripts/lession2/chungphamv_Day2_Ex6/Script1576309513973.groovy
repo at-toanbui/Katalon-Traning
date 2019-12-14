@@ -14,21 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.phptravels.net/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.click(findTestObject('Object Repository/recordphptravel/Page_PHPTRAVELS  Travel Technology Partner/a_Company'))
+WebUI.click(findTestObject('lession2/chungphamv_Day2_Ex6/btn_ClickAlertBox'))
 
-WebUI.click(findTestObject('Object Repository/recordphptravel/Page_PHPTRAVELS  Travel Technology Partner/a_About us'))
-
-WebUI.click(findTestObject('Object Repository/recordphptravel/Page_About Us/a_Tours'))
-
-WebUI.click(findTestObject('Object Repository/recordphptravel/Page_PHPTRAVELS  Travel Technology Partner/a_Blog'))
-
-WebUI.click(findTestObject('Object Repository/recordphptravel/Page_Blog/a_South Africa A Terminal Tyre'))
-
-WebUI.closeBrowser()
+WebUI.acceptAlert()
 
