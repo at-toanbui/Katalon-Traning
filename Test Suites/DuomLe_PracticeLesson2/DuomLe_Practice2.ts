@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>ab8fa1ca-cab0-4808-9768-608e9eec60eb</testSuiteGuid>
    <testCaseLink>
-      <guid>3166c825-a74d-4577-bfa6-b0cd0e74a5f7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Practice_Lesson2_Gettitlepage - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a5e925b0-ed72-49a4-8350-f86dac44e278</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -32,7 +26,7 @@
       <guid>19778afd-3e3b-40e6-a8bc-508525d6ad90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Uploadimage2</testCaseId>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Uploadimage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bff5a940-391b-474a-810c-196d4ce10898</guid>
@@ -68,24 +62,24 @@
       <guid>1e119ea3-a0e4-4799-81a4-d977e9b02c00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_UploadAttribute - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9a4ca096-34b4-42f5-befa-ec7a7ba626f2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Practice_Lesson2_Gettitlepage</testCaseId>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_UploadAttribute</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eaf5c69b-c629-455a-affa-152af557ae42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Check</testCaseId>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Checkbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a1494fa2-714b-40c5-aa2b-68f7c35f441a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Rightlick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e77d2fbd-c88f-4446-a7e8-f427e2d77e4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Practice_Lesson2_Gettitlepage</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

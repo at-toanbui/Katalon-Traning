@@ -22,13 +22,13 @@ WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
 WebUI.setText(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/txtInputSearch'), 'Woo Single #2')
 
-WebUI.click(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
+WebUI.sendKeys(findTestObject('Practice_lesson2/Page_Katalon Shop  Katalon Ecommerce/txtInputSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(5)
 
 title = WebUI.getWindowTitle()
 
-WS.verifyMatch(title, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+WebUI.verifyMatch(title, '.*“Woo Single #2” – Katalon Shop.*', true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
