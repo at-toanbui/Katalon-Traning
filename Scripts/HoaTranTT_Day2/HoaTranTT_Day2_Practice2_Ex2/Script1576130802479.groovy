@@ -14,6 +14,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
 
 WebUI.openBrowser('')
 
@@ -21,7 +23,7 @@ WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
 WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX2/txtSearch'), 'Woo Single #2')
 
-WebUI.sendKeys('', Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX2/txtSearch'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementVisible(findTestObject('HoaTranTT_Day2/Practice2/EX2/lblWooSingle2'), 0)
 

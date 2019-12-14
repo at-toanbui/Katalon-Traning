@@ -19,3 +19,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
+//WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'))
+//WebUI.maximizeWindow()
+//WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
+//WebUI.getAttribute(findTestObject(null), '')
+WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
+
+imagename = WebUI.getText(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnSuccess'))
+
+imgname = 'DOWNLOAD TESTING.JPG (130375 BYTES)'
+Thread.sleep(2000)
+WebUI.verifyMatch(imagename, imgname, false)
+
+WebUI.closeBrowser()
+
