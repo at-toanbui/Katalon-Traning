@@ -21,7 +21,9 @@ WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
 WebUI.rightClick(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnRightClickMe'))
 
-WebUI.selectOptionByIndex(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnRightClickMe'), '6')
+WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnQuit'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.dismissAlert()
 
 WebUI.closeBrowser()
 
