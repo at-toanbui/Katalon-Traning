@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Search Results for Woo Simple 2</name>
+   <name>img_Imagetest</name>
    <tag></tag>
-   <elementGuidId>686589e5-13a9-4753-b6d7-b4887c671797</elementGuidId>
+   <elementGuidId>6fced66d-d52f-4e67-b645-f6aa15ac2101</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='page']/header/h1</value>
+         <value>//a[contains(text(),'Download test.jpg (224123 bytes)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://master.tus.io/files/d5733ecb293fe76801bf557fc3e567d6+k2fLwnWdsTACfPXipNRZxHmlOAbusuqKcrFj0KEpa8LdGDiiZPAoyHuetiQC6kaNTM8CGp3aTWxCWb.QSEE_zt9shb5mcbv1gNCSennOEf5Tjn8zPha0raX4uHKiOByr</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-title</value>
+      <value>button primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Search Results for: Woo Simple #2</value>
+      <value>Download test.jpg (224123 bytes)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page&quot;)/header[@class=&quot;page-header-block&quot;]/h1[@class=&quot;page-title&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container&quot;]/p[@class=&quot;upload-list&quot;]/a[@class=&quot;button primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//div[@id='page']/header/h1</value>
+      <value>//a[contains(text(),'Download test.jpg (224123 bytes)')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/following::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uploads'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample Page'])[1]/following::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='start upload'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nothing Found'])[1]/preceding::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HTTP Traffic'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Search Results for:']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Download test.jpg (224123 bytes)']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://master.tus.io/files/d5733ecb293fe76801bf557fc3e567d6+k2fLwnWdsTACfPXipNRZxHmlOAbusuqKcrFj0KEpa8LdGDiiZPAoyHuetiQC6kaNTM8CGp3aTWxCWb.QSEE_zt9shb5mcbv1gNCSennOEf5Tjn8zPha0raX4uHKiOByr')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
+      <value>//p[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>
