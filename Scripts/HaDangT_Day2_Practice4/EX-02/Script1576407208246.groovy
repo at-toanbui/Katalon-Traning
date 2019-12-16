@@ -27,12 +27,15 @@ WebUI.sendKeys(findTestObject('KatalonPractice4/Page_Katalon Shop  Katalon Ecomm
 WebUI.waitForElementVisible(findTestObject('KatalonPractice4/Page_Search Results for Woo Single 2  Katalon Shop/lblSearchResults'), 
     0)
 
-String windowTitle1 = WebUI.getWindowTitle()
-String windowTitle2 = '“Woo Single #2” – Katalon Shop'
+windowTitle1 = WebUI.getWindowTitle()
+windowTitle2 = '“Woo Single #2” – Katalon Shop'
+
 if (windowTitle1.contains(windowTitle2))
 {
 	WebUI.comment("Title matched")
 }
+else
+WebUI.executeJavaScript("alert('Title is not matched')", null)
 
 WebUI.closeBrowser()
 
