@@ -20,9 +20,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/a_Sample Page'))
+WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/btnSamplePage'))
 
-WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-01/Page_Sample Page  Katalon Shop/a_WordPressorg'))
+WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-01/Page_Sample Page  Katalon Shop/lnk_WordPress'))
 
 wordpressURL = WebUI.getUrl()
 
