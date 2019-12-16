@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-08_PromptAlert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee0d0057-2c7f-44d6-89cd-0584f5128c8a</testCaseGuid>
+   <variable>
+      <defaultValue>'Katalon Automation Testing'</defaultValue>
+      <description></description>
+      <id>e16c96f4-4bca-47ae-b9bb-1bda7286d649</id>
+      <masked>false</masked>
+      <name>inputtedText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please enter your name'</defaultValue>
+      <description></description>
+      <id>beb7d7f8-3640-4c03-b2a6-384312dc483e</id>
+      <masked>false</masked>
+      <name>alertText</name>
+   </variable>
+</TestCaseEntity>

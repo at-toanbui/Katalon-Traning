@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-03_InputForm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09a39ec2-25cb-494b-98a2-c6d4a59cd80d</testCaseGuid>
+   <variable>
+      <defaultValue>'Katalon automation test'</defaultValue>
+      <description></description>
+      <id>3d87b763-2071-49d7-b653-a54d8f5f5f2e</id>
+      <masked>false</masked>
+      <name>inputtedText</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-02_GetTitlePage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbe5a614-b5e0-4f4d-bf1e-a5d95182815f</testCaseGuid>
+   <variable>
+      <defaultValue>'“Woo Single #2” – Katalon Shop'</defaultValue>
+      <description></description>
+      <id>ea67e88b-0f30-413e-a628-339900330e8c</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>

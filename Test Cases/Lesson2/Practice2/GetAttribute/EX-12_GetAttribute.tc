@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-12_GetAttribute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f545f58-8e4d-468e-aa55-ccd9ef3dea3e</testCaseGuid>
+   <variable>
+      <defaultValue>'Type to search'</defaultValue>
+      <description></description>
+      <id>794f0caf-cf73-4e1a-b42d-56b384d024b4</id>
+      <masked>false</masked>
+      <name>placeholder</name>
+   </variable>
+</TestCaseEntity>

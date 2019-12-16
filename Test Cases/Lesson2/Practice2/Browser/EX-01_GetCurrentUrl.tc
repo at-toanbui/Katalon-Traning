@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-01_GetCurrentUrl</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96d581c5-13d1-4795-b057-138d269e0489</testCaseGuid>
+   <variable>
+      <defaultValue>'https://wordpress.org/'</defaultValue>
+      <description></description>
+      <id>0a0c4a5c-e886-461f-b943-97d22f4e72b1</id>
+      <masked>false</masked>
+      <name>urlWordPressPage</name>
+   </variable>
+</TestCaseEntity>

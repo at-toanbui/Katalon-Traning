@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnAccount</name>
+   <tag></tag>
+   <elementGuidId>85439add-b8e4-4613-8c60-a94dcd2025f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='account']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11,22c-0.6,0-1-0.4-1-1s0.4-1,1-1h15c0.6,0,1,0.4,1,1s-0.4,1-1,1H11z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;widget-global-ofoak4yv32&quot;)/div[1]/div[@class=&quot;lc-lpdesj e903lsu2 lc-r4kv7x-appear-done lc-r4kv7x-enter-done&quot;]/div[@class=&quot;lc-1f81gka e903lsu0&quot;]/div[@class=&quot;lc-1dly1s8 e1ohfhv0&quot;]/div[@class=&quot;lc-eoed9h&quot;]/button[@class=&quot;e1mwfyk10 lc-4rgplc e1m5b1js0&quot;]/svg[@class=&quot;lc-1mpchac&quot;]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

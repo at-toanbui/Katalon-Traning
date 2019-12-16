@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX-05_SelectDropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3769f6ce-2cb0-4ef4-b527-817e2f879b41</testCaseGuid>
+   <variable>
+      <defaultValue>'8'</defaultValue>
+      <description></description>
+      <id>6fb3b76b-35ce-40fe-ba8f-207f3a69c047</id>
+      <masked>false</masked>
+      <name>totalOptions</name>
+   </variable>
+</TestCaseEntity>
