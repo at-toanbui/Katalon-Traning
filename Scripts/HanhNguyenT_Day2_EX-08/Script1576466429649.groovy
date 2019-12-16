@@ -17,13 +17,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
+WebUI.click(findTestObject('HanhNguyenT_Day2_EX-08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickPromptBox'))
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Sample Page  Katalon Shop/lnkWordPressorg'))
+alertText = WebUI.getAlertText()
 
-url = WebUI.getUrl()
+WebUI.verifyMatch(alertText, 'Please enter your name', false)
 
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.setAlertText('Katalon Automation Testing')
+
+WebUI.acceptAlert()
+
+result = WebUI.getText(findTestObject('HanhNguyenT_Day2_EX-08/Page_Selenium Easy Demo - Automate All Scenarios/lbResult'))
+
+WebUI.verifyMatch(result, 'You have entered \'Katalon Automation Testing\' !', false)
 

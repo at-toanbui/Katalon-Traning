@@ -19,11 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
+attribute = WebUI.getAttribute(findTestObject('HanhNguyenT_Day2_EX-12/HomePage/txtSearch'), 'placeholder')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Sample Page  Katalon Shop/lnkWordPressorg'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.verifyMatch(attribute, 'Type to search', false)
 

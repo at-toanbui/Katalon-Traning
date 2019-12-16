@@ -17,13 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
+WebUI.rightClick(findTestObject('HanhNguyenT_Day2_EX-09/Page_Simple Context Menu/btnRightClick'))
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Sample Page  Katalon Shop/lnkWordPressorg'))
+WebUI.click(findTestObject('HanhNguyenT_Day2_EX-09/Page_Simple Context Menu/btnQuit'))
 
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.acceptAlert()
 

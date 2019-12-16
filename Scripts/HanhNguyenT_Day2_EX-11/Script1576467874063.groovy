@@ -17,13 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://tus.io/demo.html')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
+//WebUI.click(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'))
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Sample Page  Katalon Shop/lnkWordPressorg'))
+WebUI.uploadFile(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'), '⁨/Users/hanhnguyent/Downloads/katalon123.jpg')
+WebUI.waitForImagePresent(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/lnkDownloadList'), 
+    10)
 
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.verifyElementVisible(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/lnkDownloadList'))
 

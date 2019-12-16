@@ -17,13 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
+WebUI.click(findTestObject('HanhNguyenT_Day2_EX-07/Page_Selenium Easy Demo - Automate All Scenarios/btnClickMe'))
 
-WebUI.click(findTestObject('HanhNguyenT_Day2_EX-01/Page_Sample Page  Katalon Shop/lnkWordPressorg'))
+WebUI.dismissAlert()
 
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://wordpress.org/', false)
+WebUI.closeBrowser()
 
