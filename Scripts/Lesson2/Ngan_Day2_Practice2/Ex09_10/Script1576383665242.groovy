@@ -22,7 +22,7 @@ WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
 WebUI.rightClick(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu/btnRightClick'))
 
-WebUI.click(findTestObject('Object Repository/Day2_Practice2/Ex09_10/Page_Simple Context Menu/li_Quit'))
+WebUI.click(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu/btnQuit'))
 
 WebUI.acceptAlert()
 
