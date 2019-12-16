@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_WordPressorg</name>
+   <name>lnk_WordPress</name>
    <tag></tag>
    <elementGuidId>38c080e4-b56c-4555-a3c7-762dbd65bd02</elementGuidId>
    <selectorCollection>

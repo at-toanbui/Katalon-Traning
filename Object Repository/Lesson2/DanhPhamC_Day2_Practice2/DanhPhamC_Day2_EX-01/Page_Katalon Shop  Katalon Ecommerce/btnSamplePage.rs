@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sample Page</name>
+   <name>btnSamplePage</name>
    <tag></tag>
    <elementGuidId>f8878667-bf72-4a47-bfbe-3c710cb5b5d6</elementGuidId>
    <selectorCollection>
