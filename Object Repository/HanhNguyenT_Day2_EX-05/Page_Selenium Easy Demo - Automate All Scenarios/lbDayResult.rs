@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='easycont']/div/div[2]/div/div[2]/p[2]</value>
+         <value>//p[@class='selected-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
