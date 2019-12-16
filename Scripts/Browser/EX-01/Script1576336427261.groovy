@@ -32,3 +32,5 @@ WebUI.verifyMatch(url, 'https://wordpress.org/', false)
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+

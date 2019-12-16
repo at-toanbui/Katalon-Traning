@@ -21,9 +21,7 @@ WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html'
 
 WebUI.click(findTestObject('Element/EX-04/btnCheckAll'))
 
-WebUI.click(findTestObject('Element/EX-04/chkOption1'))
-
-WebUI.verifyElementNotChecked(findTestObject('Element/EX-04/chkOption1'), 0)
+WebUI.verifyElementChecked(findTestObject('Element/EX-04/chkOption1'), 10)
 
 WebUI.closeBrowser()
 
