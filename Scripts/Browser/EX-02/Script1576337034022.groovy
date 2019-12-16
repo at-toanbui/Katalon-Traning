@@ -28,7 +28,7 @@ WebUI.waitForElementVisible(findTestObject('Browser/EX-02/Page_Search Results/lb
 
 title = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(title, 'Search Results for “Woo Single #2” – Katalon Shop', false)
+WebUI.verifyMatch(title, '.*Woo Single #2.*– Katalon Shop.*', true)
 
 WebUI.closeBrowser()
 
