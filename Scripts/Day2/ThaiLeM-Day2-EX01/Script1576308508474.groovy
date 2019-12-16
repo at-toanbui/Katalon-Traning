@@ -23,9 +23,7 @@ WebUI.click(findTestObject('Day2/EX-01-02/Page_Katalon Shop  Katalon Ecommerce/b
 
 WebUI.click(findTestObject('Day2/EX-01-02/Page_Sample Page  Katalon Shop/lblWordPressorg'))
 
-WebUI.getUrl()
+currentUrl = WebUI.getUrl()
 
-MeetWordPress = WebUI.getText(findTestObject('Day2/EX-01-02/Page_Blog Tool Publishing Platform and CMS  WordPressorg/txaMeetWordPress'))
-
-WebUI.verifyTextPresent('Meet WordPress', true)
+WebUI.verifyMatch(currentUrl, 'https://wordpress.org/', true)
 
