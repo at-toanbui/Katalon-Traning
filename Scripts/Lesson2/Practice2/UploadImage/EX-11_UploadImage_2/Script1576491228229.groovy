@@ -14,16 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
 currentUsersDir = System.getProperty('user.dir')
 
-WebUI.sendKeys(findTestObject('Lesson2/Practice2/Upload/btnChooseFile'), currentUsersDir + '/ImageTest/imageTest.jpg')
+WebUI.uploadFile(findTestObject('Lesson2/Practice2/Upload/btnChooseFile'), currentUsersDir + '/ImageTest/imageTest.jpg')
 
 WebUI.waitForElementVisible(findTestObject('Lesson2/Practice2/Upload/lnkUploadSuccessful'), GlobalVariable.TIMEOUT)
 
 WebUI.scrollToElement(findTestObject('Lesson2/Practice2/Upload/lnkUploadSuccessful'), GlobalVariable.TIMEOUT)
 
 WebUI.verifyElementText(findTestObject('Lesson2/Practice2/Upload/lnkUploadSuccessful'), 'DOWNLOAD IMAGETEST.JPG (80581 BYTES)')
+
