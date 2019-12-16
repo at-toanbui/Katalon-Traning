@@ -23,7 +23,17 @@ WebUI.setText(findTestObject('Day2/EX-01-02/Page_Katalon Shop  Katalon Ecommerce
 
 WebUI.click(findTestObject('Day2/EX-01-02/Page_Katalon Shop  Katalon Ecommerce/btnSearch'))
 
-title = WebUI.getWindowTitle()
+String title = WebUI.getWindowTitle()
 
-WebUI.verifyEqual(title, 'Woo Single #2 – Katalon Shop', FailureHandling.CONTINUE_ON_FAILURE)
+String title2 = '“Woo Single #2” – Katalon Shop'
+
+if (title.contains(title2)) 
+{
+    WebUI.comment('Title matched')
+} 
+
+else
+    WebUI.executeJavascript(alert('Title not matched'), null)
+
+WebUI.closeBrowser()
 
