@@ -19,4 +19,9 @@
       <initValue>'https://www.phptravels.net/admin/settings/'</initValue>
       <name>ADMIN_PAGE_SETTING_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://cms.demo.katalon.com/'</initValue>
+      <name>DEMO_PAGE_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
