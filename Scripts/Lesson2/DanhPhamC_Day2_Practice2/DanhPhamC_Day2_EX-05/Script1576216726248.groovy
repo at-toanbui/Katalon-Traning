@@ -14,8 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice2/KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
+
+WebUI.getNumberOfTotalOption(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'))
+
+WebUI.selectOptionByValue(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 
+    'Monday', true)
+
+WebUI.verifyElementVisible(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/Page_Selenium Easy Demo - Automate All Scenarios/lblSelectedItem'))
+
+WebUI.verifyElementText(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/Page_Selenium Easy Demo - Automate All Scenarios/lblSelectedItem'), 
+    'Day selected :- Monday')
+
+WebUI.closeBrowser()
 

@@ -14,8 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice2/KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
+
+WebUI.rightClick(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-09/Page_Simple Context Menu/btnRightClick'))
+
+WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-09/Page_Simple Context Menu/btnQuit'))
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
 

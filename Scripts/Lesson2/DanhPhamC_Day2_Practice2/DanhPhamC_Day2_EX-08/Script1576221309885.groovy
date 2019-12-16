@@ -14,8 +14,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice2/KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
+
+WebUI.click(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickForPromptBox'))
+
+AlertText = WebUI.getAlertText()
+
+WebUI.verifyMatch(AlertText, 'Please enter your name', false)
+
+WebUI.setAlertText('Katalon Automation Testing')
+
+WebUI.acceptAlert()
+
+ContentText = WebUI.getText(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-08/Page_Selenium Easy Demo - Automate All Scenarios/lblContentInputted'))
+
+WebUI.verifyMatch(ContentText, '^You have entered \\\'Katalon Automation Testing\\\'.*', true)
+
+WebUI.closeBrowser()
 

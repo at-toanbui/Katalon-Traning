@@ -14,8 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice2/KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://tus.io/demo.html')
+
+WebUI.uploadFile(findTestObject('Object Repository/Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-11/Page_Resumable File Upload Demo  tus/btnChooseFile'), 
+    '/Users/mba0113/Desktop/78765102_2457763141004996_8516091120495624192_o.jpg')
+
+WebUI.verifyElementVisible(findTestObject('Lesson2/DanhPhamC_Day2_Practice2/DanhPhamC_Day2_EX-11/Page_Resumable File Upload Demo  tus/lblPOST'))
+
+WebUI.closeBrowser()
 

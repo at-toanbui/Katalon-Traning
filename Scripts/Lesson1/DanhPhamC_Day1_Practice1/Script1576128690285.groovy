@@ -14,8 +14,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice2/KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('https://www.phptravels.net/')
+
+WebUI.scrollToElement(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_PHPTRAVELS  Travel Technology Partner/lblFeaturedOffers'), 
+    0)
+
+WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_PHPTRAVELS  Travel Technology Partner/btnView More'))
+
+WebUI.scrollToElement(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Special Offers/lblDubaiSpecialPackages'), 0)
+
+WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Special Offers/btn'))
+
+WebUI.setText(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Lunch Discount/txtName'), 'Pham Cong Danh')
+
+WebUI.setText(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Lunch Discount/txtPhone'), '0912412442')
+
+WebUI.setText(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Lunch Discount/txaMessage'), 
+    'hahaaaaaa')
+
+WebUI.click(findTestObject('Lesson1/DanhPhamC_Day1_Practice1/Page_Lunch Discount/btnCONTACT'))
+
+WebUI.closeBrowser()
 
