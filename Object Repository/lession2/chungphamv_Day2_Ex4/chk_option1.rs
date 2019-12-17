@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;easycont&quot;]/div/div[2]/div[2]/div[2]/div[1]/label/input</value>
+         <value>//label[contains(.,'Option 1')]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

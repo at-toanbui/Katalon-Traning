@@ -21,6 +21,5 @@ WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html'
 
 WebUI.click(findTestObject('lession2/chungphamv_Day2_Ex4/btn_checkAll'))
 
-'vi option 1 khong co unit, nen phai xai duong dan tuyet doi (xpath) '
 WebUI.verifyElementChecked(findTestObject('lession2/chungphamv_Day2_Ex4/chk_option1'), 1)
 

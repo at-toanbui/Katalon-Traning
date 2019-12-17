@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
-WebUI.setText(findTestObject('lession2/chungphamv_Day2_Ex2/txt_Search'), 'Katalon automation test')
+WebUI.setText(findTestObject('lession2/chungphamv_Day2_Ex3/txt_Search_Sele'), 'Katalon automation test')
 
 WebUI.click(findTestObject('lession2/chungphamv_Day2_Ex2/btn_Search'))
 

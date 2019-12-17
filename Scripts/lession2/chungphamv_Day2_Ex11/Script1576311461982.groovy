@@ -19,10 +19,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
-//WebUI.click(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Choosefile'))
-WebUI.uploadFile(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Choosefile'), '/Users/mba0168/Documents/Pic/earth.gif')
+String currentDirectory = System.getProperty('user.dir')
 
-WebUI.waitForElementVisible(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Download'), 2)
+WebUI.uploadFile(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Choosefile'), currentDirectory + '/ImageTest/testImage.jpg')
+
+WebUI.waitForElementVisible(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Download'), 5)
 
 WebUI.verifyElementVisible(findTestObject('lession2/chungphamv_Day2_Ex11/btn_Download'))
 

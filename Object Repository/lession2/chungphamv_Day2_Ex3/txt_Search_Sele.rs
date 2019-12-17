@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_Search</name>
+   <name>txt_Search_Sele</name>
    <tag></tag>
-   <elementGuidId>54d5205c-52b5-4f52-8de2-d0c8addfbe2a</elementGuidId>
+   <elementGuidId>4c4c4067-3153-41c7-b9e4-edd58e58c321</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'search']</value>
+         <value>//*[@id = 'user-message']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>search</value>
+      <value>user-message</value>
    </webElementProperties>
 </WebElementEntity>
