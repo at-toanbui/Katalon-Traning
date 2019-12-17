@@ -19,9 +19,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
-WebUI.click(findTestObject('Day2/EX-11-12/Page_Katalon Shop  Katalon Ecommerce/btnChooseFile'))
+String currentDirectory = System.getProperty('user.dir')
 
-WebUI.uploadFile(findTestObject('Day2/EX-11-12/Page_Katalon Shop  Katalon Ecommerce/btnChooseFile'), '/Users/mba0082/Downloads/Picture/IMG-1758.JPG')
+WebUI.uploadFile(findTestObject('Day2/EX-11-12/Page_Katalon Shop  Katalon Ecommerce/btnChooseFile'), currentDirectory + '/ImageTest/IMG-1758.JPG')
 
 WebUI.verifyElementPresent(findTestObject('Day2/EX-11-12/Page_Resumable File Upload Demo  tus/btnDownload'), 10)
+
+WebUI.closeBrowser()
 
