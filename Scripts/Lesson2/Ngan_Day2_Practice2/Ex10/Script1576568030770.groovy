@@ -17,17 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://tus.io/demo.html')
+WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
-String currentDirectory = System.getProperty('user.dir')
+WebUI.doubleClick(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu/btnDoubleClick'))
 
-WebUI.uploadFile(findTestObject('Day2_Practice2/Ex11/btnChooseFile'), currentDirectory + '/Image Test/imageTest.jpg')
+WebUI.verifyAlertPresent(2)
 
-WebUI.waitForElementVisible(findTestObject('Day2_Practice2/Ex11/btnDownloadImage'), GlobalVariable.timeOut)
+WebUI.acceptAlert()
 
-text = WebUI.getText(findTestObject('Day2_Practice2/Ex11/btnDownloadImage'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch(text, '.*IMAGETEST.*', true)
+WebUI.verifyAlertNotPresent(2)
 
 WebUI.closeBrowser()
 

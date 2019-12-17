@@ -20,17 +20,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.setText(findTestObject('Day2_Practice2/Ex02/Page_Katalon Shop  Katalon Ecommerce/txtSearchField'), 
-    'Woo Single #2')
+WebUI.setText(findTestObject('Day2_Practice2/Ex02/Page_Katalon Shop  Katalon Ecommerce/txtSearchField'), 'Woo Single #2')
 
-WebUI.sendKeys(findTestObject('Day2_Practice2/Ex02/Page_Katalon Shop  Katalon Ecommerce/txtSearchField'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Day2_Practice2/Ex02/Page_Katalon Shop  Katalon Ecommerce/txtSearchField'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementVisible(findTestObject('Day2_Practice2/Ex02/Page_Search Results for Woo Single 2  Katalon Shop/lblSearchResultTitle'))
+WebUI.waitForElementVisible(findTestObject('Day2_Practice2/Ex02/Page_Search Results for Woo Single 2  Katalon Shop/lblSearchResultTitle'), 
+    10)
 
 title = WebUI.getWindowTitle()
 
-title.contains('Woo Single #2 – Katalon Shop')
+WebUI.verifyMatch(title, '.*Woo Single #2.* – Katalon Shop.*', true)
 
 WebUI.closeBrowser()
 

@@ -23,15 +23,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
 
-WebUI.click(findTestObject('Day2_Practice2/Ex05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Day2_Practice2/Ex05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
+numberOfOption = WebUI.getNumberOfTotalOption(findTestObject('Day2_Practice2/Ex05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'))
 
-List listOption = driver.findElements(By.xpath('//select[@id=\'select-demo\']/option'))
-
-numberOfOption = listOption.size()
-
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//List listOption = driver.findElements(By.xpath('//select[@id=\'select-demo\']/option'))
+//
+//numberOfOption = listOption.size()
 WebUI.verifyEqual(numberOfOption, 8)
 
 WebUI.selectOptionByValue(findTestObject('Day2_Practice2/Ex05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 

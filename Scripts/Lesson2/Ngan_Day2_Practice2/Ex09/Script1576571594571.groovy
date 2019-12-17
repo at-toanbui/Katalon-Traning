@@ -24,11 +24,11 @@ WebUI.rightClick(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu
 
 WebUI.click(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu/btnQuit'))
 
-WebUI.acceptAlert()
-
-WebUI.doubleClick(findTestObject('Day2_Practice2/Ex09_10/Page_Simple Context Menu/btnDoubleClick'))
+WebUI.verifyAlertPresent(2)
 
 WebUI.acceptAlert()
+
+WebUI.verifyAlertNotPresent(2)
 
 WebUI.closeBrowser()
 

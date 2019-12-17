@@ -17,17 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://tus.io/demo.html')
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-String currentDirectory = System.getProperty('user.dir')
+WebUI.click(findTestObject('Day2_Practice2/Ex06_07_08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickMe'))
 
-WebUI.uploadFile(findTestObject('Day2_Practice2/Ex11/btnChooseFile'), currentDirectory + '/Image Test/imageTest.jpg')
+WebUI.waitForAlert(2)
 
-WebUI.waitForElementVisible(findTestObject('Day2_Practice2/Ex11/btnDownloadImage'), GlobalVariable.timeOut)
+WebUI.dismissAlert()
 
-text = WebUI.getText(findTestObject('Day2_Practice2/Ex11/btnDownloadImage'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch(text, '.*IMAGETEST.*', true)
+WebUI.verifyAlertNotPresent(2)
 
 WebUI.closeBrowser()
 

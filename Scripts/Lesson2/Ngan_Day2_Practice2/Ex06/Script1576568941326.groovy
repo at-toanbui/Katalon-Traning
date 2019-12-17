@@ -21,22 +21,11 @@ WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo
 
 WebUI.click(findTestObject('Day2_Practice2/Ex06_07_08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickAlertBox'))
 
-WebUI.acceptAlert()
-
-WebUI.click(findTestObject('Day2_Practice2/Ex06_07_08/Page_Selenium Easy Demo - Automate All Scenarios/button_Click me'))
-
-WebUI.dismissAlert()
-
-WebUI.click(findTestObject('Day2_Practice2/Ex06_07_08/Page_Selenium Easy Demo - Automate All Scenarios/button_Click for Prompt Box'))
-
-WebUI.setAlertText('Katalon Automation Testing')
+WebUI.waitForAlert(2)
 
 WebUI.acceptAlert()
 
-text = WebUI.getText(findTestObject('Day2_Practice2/Ex06_07_08/Page_Selenium Easy Demo - Automate All Scenarios/lblTextDisplay'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-text.contains('You have entered "Katalon Automation Testing"')
+WebUI.verifyAlertNotPresent(2)
 
 WebUI.closeBrowser()
 

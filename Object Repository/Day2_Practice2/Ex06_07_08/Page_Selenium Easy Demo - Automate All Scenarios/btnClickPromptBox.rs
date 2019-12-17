@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Click for Prompt Box</name>
+   <name>btnClickPromptBox</name>
    <tag></tag>
    <elementGuidId>b29c8049-ac84-4a65-8393-aff61ef2aafc</elementGuidId>
    <selectorCollection>

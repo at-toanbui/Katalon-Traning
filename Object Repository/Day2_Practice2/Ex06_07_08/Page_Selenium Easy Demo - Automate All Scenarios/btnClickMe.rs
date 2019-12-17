@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Click me</name>
+   <name>btnClickMe</name>
    <tag></tag>
    <elementGuidId>c183a096-74f1-4855-a0ea-78d72ac3e2c2</elementGuidId>
    <selectorCollection>

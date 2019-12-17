@@ -44,13 +44,31 @@
       <guid>479e4928-2b68-4805-bbcc-3f0692369f49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex06_07_08</testCaseId>
+      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex06</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e3f0d22-e39e-4595-882f-95e9d94261d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex07</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a0c367a-175d-4d2b-9f71-aa617c8092ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex08</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>be710bf6-27f2-465d-bf74-c1b99cea22cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex09_10</testCaseId>
+      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex09</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4b57d8a-1bc0-47c5-afb3-4ee48ac8eca7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson2/Ngan_Day2_Practice2/Ex10</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>65927820-e981-49b6-8b62-edc46c287f47</guid>
