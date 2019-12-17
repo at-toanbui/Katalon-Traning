@@ -29,7 +29,7 @@ WebUI.setAlertText('Katalon Automation Testing')
 
 WebUI.acceptAlert()
 
-lblPrompt = WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/lblYourPrompt'))
+lblYourPrompt = WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/lblYourPrompt'))
 
 WebUI.closeBrowser()
 
