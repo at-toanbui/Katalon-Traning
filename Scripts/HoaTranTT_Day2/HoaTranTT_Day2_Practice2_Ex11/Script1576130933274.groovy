@@ -23,7 +23,12 @@ WebUI.navigateToUrl('https://tus.io/demo.html')
 //WebUI.maximizeWindow()
 //WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
 //WebUI.getAttribute(findTestObject(null), '')
-WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
+String currentDirectory = System.getProperty('user.dir')
+
+//WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), currentDirectory + '/Data Files/Image Test/testing.jpg')
+WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), currentDirectory + '/Data Files/Image Test/testing.jpg')
+
+//WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
 
 imagename = WebUI.getText(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnSuccess'))
 
