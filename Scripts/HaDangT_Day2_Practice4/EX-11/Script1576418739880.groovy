@@ -19,9 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnChooseFile'))
+currentDirectory = System.getProperty('user.dir')
 
-WebUI.uploadFile(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnChooseFile'), '/Users/mba0286/Downloads/61758610_698805003900094_3851261027878436864_o.jpg')
+WebUI.uploadFile(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnChooseFile'), currentDirectory + '/ImageTest/imageTest.png')
 
 WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnDownloadImage'))
 
