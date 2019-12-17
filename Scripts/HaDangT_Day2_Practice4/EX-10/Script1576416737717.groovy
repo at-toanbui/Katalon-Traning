@@ -19,9 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
-WebUI.rightClick(findTestObject('KatalonPractice4/Page_Simple Context Menu/btnRightClick'))
-
-WebUI.click(findTestObject('KatalonPractice4/Page_Simple Context Menu/btnQuit'))
+WebUI.doubleClick(findTestObject('KatalonPractice4/Page_Simple Context Menu/btnDoubleClick'))
 
 WebUI.acceptAlert()
 
