@@ -25,11 +25,9 @@ Total = WebUI.getNumberOfTotalOption(findTestObject('HungPhungK_Day2_Practice2/d
 
 WebUI.verifyEqual(Total, 8)
 
-WebUI.selectOptionByIndex(findTestObject('HungPhungK_Day2_Practice2/ddlDemo'), 
-    2)
+WebUI.selectOptionByIndex(findTestObject('HungPhungK_Day2_Practice2/ddlDemo'), 2)
 
-Dayselected = WebUI.getAttribute(findTestObject('HungPhungK_Day2_Practice2/ddlDemo'), 
-    'value')
+Dayselected = WebUI.getAttribute(findTestObject('HungPhungK_Day2_Practice2/ddlDemo'), 'value')
 
 WebUI.verifyMatch(Dayselected, 'Monday', true)
 

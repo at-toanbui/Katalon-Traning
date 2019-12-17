@@ -19,9 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
-WebUI.click(findTestObject('HungPhungK_Day2_Practice2/btnChooseFile'))
+String currentFilePath = System.getProperty('user.dir')
 
-WebUI.uploadFile(findTestObject('HungPhungK_Day2_Practice2/btnChooseFile'), '/Users/mba0198/Pictures/123.jpeg')
+WebUI.uploadFile(findTestObject('HungPhungK_Day2_Practice2/btnChooseFile'), currentFilePath + '/Include/DataTest/123.jpeg')
 
 WebUI.waitForElementPresent(findTestObject('HungPhungK_Day2_Practice2/lnkDownload'), 15)
 
