@@ -20,20 +20,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.phptravels.net/index.php')
 
-WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtSearchTextField'))
+WebUI.click(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/txtSearchTextField'))
 
-WebUI.setText(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), 'Da nang')
+WebUI.setText(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), 'Da nang')
 
-WebUI.sendKeys(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), Keys.chord(
+WebUI.sendKeys(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/txtInputTextSearch'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/txtCheckIn'))
+WebUI.click(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/txtCheckIn'))
 
-WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckInDate'))
+WebUI.click(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckInDate'))
 
-WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckOutDate'))
+WebUI.click(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/dtpCheckOutDate'))
 
-WebUI.click(findTestObject('Day1_Practice1/Page_PHPTRAVELS Travel Technology Partner/btnSearch'))
+WebUI.click(findTestObject('Lesson1/Practice1/Page_PHPTRAVELS Travel Technology Partner/btnSearch'))
 
 WebUI.closeBrowser()
 
