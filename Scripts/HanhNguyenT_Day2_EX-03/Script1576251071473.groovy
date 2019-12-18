@@ -24,7 +24,7 @@ WebUI.sendKeys(findTestObject('HanhNguyenT_Day2_EX-03/Page_Selenium Easy Demo - 
 
 WebUI.click(findTestObject('HanhNguyenT_Day2_EX-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/btnShowMessage'))
 
-outputMessage = WebUI.getText(findTestObject('HanhNguyenT_Day2_EX-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lbMessageContain'))
+outputMessage = WebUI.getText(findTestObject('HanhNguyenT_Day2_EX-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblMessageContain'))
 
 WebUI.verifyMatch(outputMessage, 'Katalon automation test', false)
 

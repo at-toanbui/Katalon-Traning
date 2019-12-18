@@ -21,16 +21,13 @@ WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-dem
 
 WebUI.click(findTestObject('HanhNguyenT_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'))
 
-WebUI.verifyOptionsPresent(findTestObject('HanhNguyenT_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 
-    ['Please select', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])
+WebUI.getNumberOfTotalOption(findTestObject('HanhNguyenT_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('HanhNguyenT_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectDay'), 
     'Monday', true)
 
 result = WebUI.getText(findTestObject('HanhNguyenT_Day2_EX-05/Page_Selenium Easy Demo - Automate All Scenarios/lbDayResult'))
 
-//WebUI.verifyMatch(result, 'Monday', false)
-if(result.contains('Monday')){
-	return true
-}
+WebUI.verifyMatch(result, 'Day selected :- Monday', false)
 

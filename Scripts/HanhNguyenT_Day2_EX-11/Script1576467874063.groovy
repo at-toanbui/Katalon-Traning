@@ -17,13 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+String currentDirectory = System.getProperty('user.dir')
+
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
 //WebUI.click(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'))
+//WebUI.uploadFile(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'), '⁨/Users/hanhnguyent/Downloads/katalon123.jpg')
+WebUI.uploadFile(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'), currentDirectory + '/ImageTest/test.jpeg')
 
-WebUI.uploadFile(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/btnChooseFile'), '⁨/Users/hanhnguyent/Downloads/katalon123.jpg')
-WebUI.waitForImagePresent(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/lnkDownloadList'), 
-    10)
+WebUI.waitForElementPresent(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/lnkDownloadList'), 10)
 
 WebUI.verifyElementVisible(findTestObject('HanhNguyenT_Day2_EX-11/upload_Page/lnkDownloadList'))
 

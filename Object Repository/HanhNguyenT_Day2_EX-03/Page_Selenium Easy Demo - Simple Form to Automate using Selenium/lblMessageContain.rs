@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lbMessageContain</name>
+   <name>lblMessageContain</name>
    <tag></tag>
    <elementGuidId>d2dfafaa-9b94-4206-8ccd-1be7a627b043</elementGuidId>
    <selectorCollection>
