@@ -35,5 +35,3 @@ WebUI.acceptAlert()
 currentMessage = WebUI.getText(findTestObject('Lesson2/Practice2/Alert/lblMessage'))
 
 WebUI.verifyMatch(currentMessage, 'You have entered '+"'"+ inputtedText +"' !", false)
-
-WebUI.verifyMatch(currentMessage, 'You have entered '+"'"+ inputtedText +"' !", false)
