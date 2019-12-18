@@ -19,11 +19,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
-WebUI.uploadFile(findTestObject('Upload image - Get Attribute/EX-011/btnChooseFile'), '/Users/vyvo/Downloads/fruit.jpg')
+String currentDirectory = System.getProperty('user.dir')
 
-text = WebUI.getText(findTestObject('Upload image - Get Attribute/EX-011/btnDownloadfruitjpg(140420 bytes)'))
+WebUI.uploadFile(findTestObject('Upload image - Get Attribute/EX-011/btnChooseFile'), currentDirectory + '/ImageTest/imageTest.jpg')
 
-WebUI.verifyMatch(text, 'DOWNLOAD FRUIT.JPG (140420 BYTES)', false)
+text = WebUI.getText(findTestObject('Upload image - Get Attribute/EX-011/btnDownloadimageTestjpg(140420 bytes)'))
+
+WebUI.verifyMatch(text, 'DOWNLOAD IMAGETEST.JPG (140420 BYTES)', false)
 
 WebUI.closeBrowser()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnDownloadfruitjpg(140420 bytes)</name>
+   <name>btnDownloadimageTestjpg(140420 bytes)</name>
    <tag></tag>
    <elementGuidId>247a2301-33e1-481b-998f-c4dca2f33587</elementGuidId>
    <selectorCollection>
