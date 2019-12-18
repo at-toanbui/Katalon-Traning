@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Katalon Shop  Katalon Ecommerce/btnSamplePage'))
+WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
 
-WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Sample Page  Katalon Shop/btnWordPress'))
+WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Sample Page  Katalon Shop/lnkWordPress'))
 
 thisUrl = WebUI.getUrl()
 

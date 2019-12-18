@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Lesson2/Practice/Page_Administator Login/txtPasswo
 
 WebUI.click(findTestObject('Lesson2/Practice/Page_Administator Login/btnLogin'))
 
-WebUI.delay(4)
+WebUI.waitForPageLoad(0)
 
 title = WebUI.getWindowTitle()
 
@@ -39,13 +39,13 @@ WebUI.verifyMatch(title, 'Dashboard', false)
 
 WebUI.navigateToUrl('https://www.phptravels.net/admin/settings/modules/')
 
-WebUI.verifyElementChecked(findTestObject('Lesson2/Practice/Page_Modules/chkTravelshopeHotels'), 2)
+WebUI.verifyElementChecked(findTestObject('Lesson2/Practice/Page_Modules/chkTravelshopeHotels'), 0)
 
 WebUI.click(findTestObject('Lesson2/Practice/Page_Modules/btnSettings'))
 
 WebUI.back()
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(3)
 
 url = WebUI.getUrl(FailureHandling.CONTINUE_ON_FAILURE)
 

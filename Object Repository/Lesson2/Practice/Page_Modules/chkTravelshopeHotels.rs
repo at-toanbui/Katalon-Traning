@@ -11,14 +11,13 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='hotels']/div/div[2]/span/label/div</value>
+         <value>//input[@type='checkbox' and @data-value='TravelhopeHotels']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

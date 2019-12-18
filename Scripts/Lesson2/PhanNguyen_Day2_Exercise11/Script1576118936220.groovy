@@ -17,10 +17,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://tus.io/demo.html')
 
-WebUI.uploadFile(findTestObject('Object Repository/Lesson2/Exercise-11/Page_Resumable File Upload Demo  tus/btnChooseFile'), 
-    '/Users/mba0029/Downloads/Images/TAYLOR-SWIFT.jpg')
+String currentDirectory = System.getProperty('user.dir')
 
-WebUI.delay(5)
+WebUI.uploadFile(findTestObject('Object Repository/Lesson2/Exercise-11/Page_Resumable File Upload Demo  tus/btnChooseFile'), 
+    currentDirectory + '/ImageTest/imagetest.jpg')
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-11/Page_Resumable File Upload Demo  tus/lblResponse'))
 

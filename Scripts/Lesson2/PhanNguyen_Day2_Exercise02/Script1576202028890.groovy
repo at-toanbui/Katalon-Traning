@@ -22,7 +22,7 @@ WebUI.setText(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon 
 
 WebUI.sendKeys(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(5)
 
 PageTitle = WebUI.getWindowTitle()
 
