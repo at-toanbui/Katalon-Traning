@@ -27,5 +27,3 @@ url = WebUI.getUrl()
 
 WebUI.verifyMatch(url, 'https://wordpress.org/', false)
 
-WebUI.closeBrowser()
-

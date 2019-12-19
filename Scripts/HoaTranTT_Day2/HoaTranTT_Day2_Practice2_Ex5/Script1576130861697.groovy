@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
 
 WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX5/ddlListDemo'))

@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://tus.io/demo.html')
 
 //WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'))
@@ -29,12 +27,11 @@ String currentDirectory = System.getProperty('user.dir')
 WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), currentDirectory + '/Data Files/Image Test/testing.jpg')
 
 //WebUI.uploadFile(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnChooseFile'), '//Users//mba0059//testing.jpg')
-
 imagename = WebUI.getText(findTestObject('HoaTranTT_Day2/Practice2/EX11/btnSuccess'))
 
 imgname = 'DOWNLOAD TESTING.JPG (130375 BYTES)'
-Thread.sleep(2000)
-WebUI.verifyMatch(imagename, imgname, false)
 
-WebUI.closeBrowser()
+Thread.sleep(2000)
+
+WebUI.verifyMatch(imagename, imgname, false)
 

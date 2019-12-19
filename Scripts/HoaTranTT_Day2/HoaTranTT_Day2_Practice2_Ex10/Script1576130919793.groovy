@@ -23,5 +23,3 @@ WebUI.doubleClick(findTestObject('HoaTranTT_Day2/Practice2/EX10/btnDoubleClick')
 
 WebUI.dismissAlert()
 
-WebUI.closeBrowser()
-

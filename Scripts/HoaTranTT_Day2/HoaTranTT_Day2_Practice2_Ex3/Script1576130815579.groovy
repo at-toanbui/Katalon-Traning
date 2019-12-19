@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
 WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX3/txtUserMessage'), 'Katalon automation test')
@@ -24,6 +22,4 @@ WebUI.sendKeys(findTestObject('HoaTranTT_Day2/Practice2/EX3/txtUserMessage'), 'K
 WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX3/btnShowMessage'))
 
 WebUI.verifyElementText(findTestObject('HoaTranTT_Day2/Practice2/EX3/lblYourMessage'), 'Katalon automation test')
-
-WebUI.closeBrowser()
 

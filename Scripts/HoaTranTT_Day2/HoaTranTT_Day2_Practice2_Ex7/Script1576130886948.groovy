@@ -15,13 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
 WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX7/btnClickMe'))
 
 WebUI.dismissAlert()
-
-WebUI.closeBrowser()
 

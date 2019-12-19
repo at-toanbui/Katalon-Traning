@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
 WebUI.rightClick(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnRightClickMe'))
@@ -24,6 +22,4 @@ WebUI.rightClick(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnRightClickMe'))
 WebUI.click(findTestObject('HoaTranTT_Day2/Practice2/EX9/btnQuit'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.dismissAlert()
-
-WebUI.closeBrowser()
 
