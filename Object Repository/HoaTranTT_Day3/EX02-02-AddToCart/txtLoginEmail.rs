@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblCartTotalCost</name>
+   <name>txtLoginEmail</name>
    <tag></tag>
-   <elementGuidId>852d13ce-37a5-4445-8ae8-58daf406b27c</elementGuidId>
+   <elementGuidId>e22fc5f1-ba34-4ad5-bf6d-81317c5944d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='total_price']</value>
+         <value>//input[@id='email']</value>
       </entry>
       <entry>
          <key>BASIC</key>

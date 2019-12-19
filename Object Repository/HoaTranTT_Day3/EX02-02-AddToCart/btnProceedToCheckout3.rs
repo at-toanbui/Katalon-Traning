@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblCartTotalCost</name>
+   <name>btnProceedToCheckout3</name>
    <tag></tag>
-   <elementGuidId>852d13ce-37a5-4445-8ae8-58daf406b27c</elementGuidId>
+   <elementGuidId>491aff99-f076-45b3-9357-e0b02be32485</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='total_price']</value>
+         <value>//button[@name='processCarrier']</value>
       </entry>
       <entry>
          <key>BASIC</key>

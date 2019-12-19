@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblCartTotalCost</name>
+   <name>lblMessage_Success</name>
    <tag></tag>
-   <elementGuidId>852d13ce-37a5-4445-8ae8-58daf406b27c</elementGuidId>
+   <elementGuidId>bbdf4963-6c7c-4564-a8dd-627fcb3f3662</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='total_price']</value>
+         <value>//p[@class='alert alert-success']</value>
       </entry>
       <entry>
          <key>BASIC</key>

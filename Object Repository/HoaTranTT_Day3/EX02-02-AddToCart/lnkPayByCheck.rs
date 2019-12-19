@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblCartTotalCost</name>
+   <name>lnkPayByCheck</name>
    <tag></tag>
-   <elementGuidId>852d13ce-37a5-4445-8ae8-58daf406b27c</elementGuidId>
+   <elementGuidId>b2e794ff-bb2d-43af-ad13-5d2ff199ee2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='total_price']</value>
+         <value>//a[@title='Pay by check.']</value>
       </entry>
       <entry>
          <key>BASIC</key>

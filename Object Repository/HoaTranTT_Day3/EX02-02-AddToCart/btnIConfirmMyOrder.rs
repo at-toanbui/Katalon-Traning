@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblCartTotalCost</name>
+   <name>btnIConfirmMyOrder</name>
    <tag></tag>
-   <elementGuidId>852d13ce-37a5-4445-8ae8-58daf406b27c</elementGuidId>
+   <elementGuidId>bd21932f-21c3-40a8-aaef-d14544655ea2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='total_price']</value>
+         <value>//span[text()='I confirm my order']</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -49,4 +49,14 @@
       <initValue>'12345'</initValue>
       <name>postalcode</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dress'</initValue>
+      <name>search</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$59.96'</initValue>
+      <name>totalcost</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

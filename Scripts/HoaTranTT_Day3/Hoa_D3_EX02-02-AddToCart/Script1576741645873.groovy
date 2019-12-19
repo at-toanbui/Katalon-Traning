@@ -15,3 +15,57 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/txtSearch'), GlobalVariable.search)
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnSearch'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/imgFirstItem'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnQuantityPlus'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/ddlSize'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/ddlSize_S'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnColorBlue'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnAddToCart'))
+
+totalcost = WebUI.getText(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/lblTotalCost'))
+
+WebUI.verifyMatch(totalcost, GlobalVariable.totalcost, false)
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnProceedToCheckout'))
+
+cartquantity = WebUI.getAttribute(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/txtCartQuantity'), 'value')
+
+WebUI.verifyMatch(cartquantity, '2', false)
+
+carttotalcost = WebUI.getText(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/lblCartTotalCost'))
+
+WebUI.verifyMatch(carttotalcost, totalcost, false)
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnCartProceedToCheckout'))
+
+WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/txtLoginEmail'), GlobalVariable.email)
+
+WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/txtLoginPassword'), GlobalVariable.password)
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnLogin'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/chkUseDeliveryAddress'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnProceedToCheckout2'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/chkTermsOfService'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnProceedToCheckout3'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/lnkPayByCheck'))
+
+WebUI.click(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/btnIConfirmMyOrder'))
+
+WebUI.verifyElementVisible(findTestObject('HoaTranTT_Day3/EX02-02-AddToCart/lblMessage_Success'))
+
