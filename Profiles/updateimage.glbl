@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>updateimage</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://cms.demo.katalon.com/'</initValue>
-      <name>url</name>
+      <initValue>'https://tus.io/demo.html'</initValue>
+      <name>updateimage</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>20</initValue>
-      <name>TIMEOUT</name>
+      <initValue>'http://cms.demo.katalon.com/'</initValue>
+      <name>addattribute</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

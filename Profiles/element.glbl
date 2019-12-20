@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>element</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-first-form-demo.html'</initValue>
+      <name>element1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-checkbox-demo.html'</initValue>
+      <name>element2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'</initValue>
+      <name>element3</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

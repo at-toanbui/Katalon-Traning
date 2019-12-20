@@ -15,13 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl(GlobalVariable.addattribute)
 
 String plhd = WebUI.getAttribute(findTestObject('EX-12/txtSearchPlaceholder'), 'placeholder')
 
 WebUI.verifyMatch(plhd, 'Type to search', false)
-
-WebUI.closeBrowser()
 

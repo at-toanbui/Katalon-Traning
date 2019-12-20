@@ -15,14 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
+WebUI.navigateToUrl(GlobalVariable.element2)
 
 WebUI.click(findTestObject('EX-04/btnCheckAll'))
 
-WebUI.verifyElementChecked(findTestObject('EX-04/chkOption1'), 
-    0)
-
-WebUI.closeBrowser()
+WebUI.verifyElementChecked(findTestObject('EX-04/chkOption1'), 0)
 

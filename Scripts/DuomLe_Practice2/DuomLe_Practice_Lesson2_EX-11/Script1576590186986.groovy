@@ -17,14 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 String currentDirectory = System.getProperty('user.dir')
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.updateimage)
 
-WebUI.navigateToUrl('https://tus.io/demo.html')
+WebUI.sendKeys(findTestObject('EX-11/btnUploadfile'), currentDirectory + '/ImageTest/35.jpg')
 
-WebUI.sendKeys(findTestObject('EX-11/btnUploadfile'), currentDirectory + 
-    '/ImageTest/35.jpg')
-
-WebUI.verifyElementVisible(findTestObject('EX-11/img35jpg'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('EX-12/Page_Resumable File Upload Demo  tus/msgSuccessfuluploads'), FailureHandling.STOP_ON_FAILURE)
 

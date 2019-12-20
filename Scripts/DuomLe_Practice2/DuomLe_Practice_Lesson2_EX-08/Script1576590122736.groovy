@@ -15,9 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
+WebUI.navigateToUrl(GlobalVariable.alert)
 
 WebUI.click(findTestObject('EX-08/btnClickforPromptBox'))
 
@@ -30,6 +28,4 @@ WebUI.setAlertText('Katalon Automation Testing')
 WebUI.acceptAlert()
 
 WebUI.verifyElementText(findTestObject('EX-08/lblTextClickforPromtBox'), 'You have entered \'Katalon Automation Testing\' !')
-
-WebUI.closeBrowser()
 

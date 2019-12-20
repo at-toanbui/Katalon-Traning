@@ -15,16 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
+WebUI.navigateToUrl(GlobalVariable.element1)
 
 WebUI.setText(findTestObject('EX-03/btnEntermessage'), 'Katalon automation test')
 
 WebUI.click(findTestObject('EX-03/btnShowMessage'))
 
-WebUI.verifyElementText(findTestObject('EX-03/msgKatalonautomationtest'), 
-    'Katalon automation test')
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('EX-03/msgKatalonautomationtest'), 'Katalon automation test')
 

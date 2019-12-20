@@ -16,19 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('EX-02/txtInputSearch'), 'Woo Single #2')
 
 WebUI.sendKeys(findTestObject('EX-02/txtInputSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 title = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(title, '.*“Woo Single #2” – Katalon Shop.*', true, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.verifyMatch(title, '.*“Woo Single #2” – Katalon Shop.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 

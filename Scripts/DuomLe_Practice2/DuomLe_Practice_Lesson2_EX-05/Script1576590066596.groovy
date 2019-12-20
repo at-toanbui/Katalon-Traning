@@ -15,9 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
+WebUI.navigateToUrl(GlobalVariable.element3)
 
 WebUI.getAttribute(findTestObject('EX-05/ddlDay'), 'option')
 
@@ -25,8 +23,5 @@ WebUI.getNumberOfTotalOption(findTestObject('EX-05/ddlDay'))
 
 WebUI.selectOptionByValue(findTestObject('EX-05/ddlDay'), 'Monday', false)
 
-WebUI.verifyOptionSelectedByValue(findTestObject('EX-05/ddlDay'), 'Monday', false, 
-    0)
-
-WebUI.closeBrowser()
+WebUI.verifyOptionSelectedByValue(findTestObject('EX-05/ddlDay'), 'Monday', false, 0)
 

@@ -15,15 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
+WebUI.navigateToUrl(GlobalVariable.mouse)
 
 WebUI.rightClick(findTestObject('EX-09/btnRightClickMe'))
 
 WebUI.click(findTestObject('EX-09/btnQuit'))
 
 WebUI.acceptAlert()
-
-WebUI.closeBrowser()
 
