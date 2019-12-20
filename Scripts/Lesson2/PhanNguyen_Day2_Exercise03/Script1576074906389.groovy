@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
+WebUI.navigateToUrl(GlobalVariable.url1Element)
 
 WebUI.setText(findTestObject('Lesson2/Exercise-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/txtEnterMessage'), 
     'Katalon Automation Test')
@@ -24,6 +24,4 @@ WebUI.click(findTestObject('Lesson2/Exercise-03/Page_Selenium Easy Demo - Simple
 
 WebUI.verifyElementText(findTestObject('Lesson2/Exercise-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblYourMessage'), 
     'Katalon Automation Test')
-
-WebUI.closeBrowser()
 

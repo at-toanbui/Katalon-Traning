@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl(GlobalVariable.urlBrowser)
 
 WebUI.setText(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
 
@@ -27,6 +27,4 @@ WebUI.waitForPageLoad(5)
 PageTitle = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(PageTitle, '.*“Woo Single #2” – Katalon Shop.*', true)
-
-WebUI.closeBrowser()
 

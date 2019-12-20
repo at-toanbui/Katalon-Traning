@@ -1,7 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
+WebUI.navigateToUrl(GlobalVariable.url3Element)
 
 WebUI.verifyOptionPresentByValue(findTestObject('Lesson2/Exercise-05/Page_Selenium Easy Demo - Automate All Scenarios/ddlSelectADay'), 
     'Monday', false, 0)
@@ -33,6 +34,4 @@ WebUI.selectOptionByIndex(findTestObject('Lesson2/Exercise-05/Page_Selenium Easy
 
 WebUI.verifyElementText(findTestObject('Lesson2/Exercise-05/Page_Selenium Easy Demo - Automate All Scenarios/lblMonday'), 
     'Day selected :- Monday')
-
-WebUI.closeBrowser()
 

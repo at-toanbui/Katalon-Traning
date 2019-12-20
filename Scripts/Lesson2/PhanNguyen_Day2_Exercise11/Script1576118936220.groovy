@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://tus.io/demo.html')
+WebUI.navigateToUrl(GlobalVariable.urlUploadImage)
 
 String currentDirectory = System.getProperty('user.dir')
 
@@ -25,6 +25,4 @@ WebUI.uploadFile(findTestObject('Object Repository/Lesson2/Exercise-11/Page_Resu
 WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('Lesson2/Exercise-11/Page_Resumable File Upload Demo  tus/lblResponse'))
-
-WebUI.closeBrowser()
 

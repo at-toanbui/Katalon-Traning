@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://cms.demo.katalon.com/')
+WebUI.navigateToUrl(GlobalVariable.urlBrowser)
 
 WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Katalon Shop  Katalon Ecommerce/lnkSamplePage'))
 
@@ -24,6 +24,4 @@ WebUI.click(findTestObject('Lesson2/Exercise-01/Page_Sample Page  Katalon Shop/l
 thisUrl = WebUI.getUrl()
 
 WebUI.verifyMatch(thisUrl, 'https://wordpress.org/', false)
-
-WebUI.closeBrowser()
 

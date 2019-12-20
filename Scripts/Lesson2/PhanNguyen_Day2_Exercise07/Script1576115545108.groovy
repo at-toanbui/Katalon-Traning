@@ -15,11 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
+WebUI.navigateToUrl(GlobalVariable.urlAlert)
 
 WebUI.click(findTestObject('Lesson2/Exercise-06-07-08/Page_Selenium Easy Demo - Automate All Scenarios/btnClickMeConfirmBox'))
 
 WebUI.dismissAlert()
 
-WebUI.closeBrowser()
+WebUI.verifyAlertNotPresent(0)
 

@@ -15,11 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://cms.demo.katalon.com')
+WebUI.navigateToUrl(GlobalVariable.urlGetAttribute)
 
-attribute = WebUI.getAttribute(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'placeholder')
+attribute = WebUI.getAttribute(findTestObject('Lesson2/Exercise-02-12/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 
+    'placeholder')
 
 WebUI.verifyMatch(attribute, 'Type to search', false)
-
-WebUI.closeBrowser()
 
