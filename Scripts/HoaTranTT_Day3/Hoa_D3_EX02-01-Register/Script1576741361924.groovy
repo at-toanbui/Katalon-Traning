@@ -23,6 +23,18 @@ WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-01-Register/txtRegisterEmail'
 
 WebUI.click(findTestObject('HoaTranTT_Day3/EX02-01-Register/btnCreateAnAccount'))
 
+registeredemail = WebUI.verifyElementVisible(findTestObject('HoaTranTT_Day3/EX02-01-Register/lblRegisteredEmail'))
+
+if (registeredemail == true) {
+    int randomInt = new Random().nextInt((9999 - 10) + 1) + 10
+
+    WebUI.clearText(findTestObject('HoaTranTT_Day3/EX02-01-Register/txtRegisterEmail'))
+
+    WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-01-Register/txtRegisterEmail'), randomInt + GlobalVariable.email)
+
+    WebUI.click(findTestObject('HoaTranTT_Day3/EX02-01-Register/btnCreateAnAccount'))
+}
+
 WebUI.click(findTestObject('HoaTranTT_Day3/EX02-01-Register/Account Information/rdoGenderMrs'))
 
 WebUI.sendKeys(findTestObject('HoaTranTT_Day3/EX02-01-Register/Account Information/txtFirstName'), GlobalVariable.firstname)
