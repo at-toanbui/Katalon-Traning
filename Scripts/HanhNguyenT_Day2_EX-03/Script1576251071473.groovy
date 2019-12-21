@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
 WebUI.sendKeys(findTestObject('HanhNguyenT_Day2_EX-03/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/txtEnterMessage'), 

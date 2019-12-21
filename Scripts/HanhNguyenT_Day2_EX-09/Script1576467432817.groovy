@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://demo.guru99.com/test/simple_context_menu.html')
 
 WebUI.rightClick(findTestObject('HanhNguyenT_Day2_EX-09/Page_Simple Context Menu/btnRightClick'))

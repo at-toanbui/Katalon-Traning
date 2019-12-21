@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
 
 WebUI.click(findTestObject('HanhNguyenT_Day2_EX-04/Page_Selenium Easy - Checkbox demo for automation using selenium/btnCheckAll'))

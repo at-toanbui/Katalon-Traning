@@ -16,8 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
 WebUI.setText(findTestObject('HanhNguyenT_Day2_EX-02/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), Keys.chord('Woo Single #2', 
