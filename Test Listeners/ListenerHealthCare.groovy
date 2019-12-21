@@ -52,6 +52,7 @@ class ListenerHealthCare {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		WebUI.openBrowser('')
 	}
 
 	/**
@@ -61,5 +62,6 @@ class ListenerHealthCare {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		WebUI.closeBrowser()
 	}
 }
