@@ -16,9 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/HomePage/btnSignIn'))
@@ -27,17 +24,17 @@ WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEm
 
 WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/btnCreateAnAccount'))
 
-String errorMessage=WebUI.verifyTextPresent("An account using this email address has already been registered. Please enter a valid password or request a new one.", false)
+String errorMessage = WebUI.verifyTextPresent('An account using this email address has already been registered. Please enter a valid password or request a new one.', 
+    false)
 
-if (errorMessage.equals("true")) {
-   int RD
+if (errorMessage.equals('true')) {
+    int RD
 
     RD = ((Math.random() * 500) as int)
 
     WebUI.clearText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'))
 
-    WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'), ('hanh' + 
-        RD) + '@gmail.com')
+    WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'), ('hanh' + RD) + '@gmail.com')
 
     WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/btnCreateAnAccount'))
 } else {
@@ -73,6 +70,4 @@ WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/btnRegi
 title = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/MyAccountPage/lblHeading'))
 
 WebUI.verifyMatch(title, 'MY ACCOUNT', false)
-
-WebUI.closeBrowser()
 
