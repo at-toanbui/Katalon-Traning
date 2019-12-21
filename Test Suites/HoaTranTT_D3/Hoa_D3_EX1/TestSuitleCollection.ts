@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HoaTranTT_D3_Prac1/Hoa_D3_Prac1/Alert</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HoaTranTT_D3/Hoa_D3_EX1/Browser</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,7 +22,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HoaTranTT_D3_Prac1/Hoa_D3_Prac1/Browser</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HoaTranTT_D3/Hoa_D3_EX1/Element</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HoaTranTT_D3_Prac1/Hoa_D3_Prac1/Element</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HoaTranTT_D3/Hoa_D3_EX1/Alert</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -40,7 +40,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HoaTranTT_D3_Prac1/Hoa_D3_Prac1/Mouse</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HoaTranTT_D3/Hoa_D3_EX1/Mouse</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -49,7 +49,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HoaTranTT_D3_Prac1/Hoa_D3_Prac1/Upload image - Get Attribute</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HoaTranTT_D3/Hoa_D3_EX1/Upload image - Get Attribute</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

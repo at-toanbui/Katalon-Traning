@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'emailc1@domain.com'</initValue>
+      <initValue>'eemailc1@domain.com'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

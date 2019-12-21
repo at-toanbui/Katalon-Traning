@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblRegisteredEmail</name>
+   <name>test</name>
    <tag></tag>
-   <elementGuidId>43dfe565-6f4e-4f78-a291-1ee3f1db263a</elementGuidId>
+   <elementGuidId>4d9ea14c-320e-4938-b85e-8e1174d64c41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,6 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

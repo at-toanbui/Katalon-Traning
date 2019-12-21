@@ -22,6 +22,7 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
+
 class ListenerHealthCare {
 	/**
 	 * Executes before every test case starts.
@@ -32,6 +33,8 @@ class ListenerHealthCare {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
 		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		
 	}
 
 	/**
@@ -51,9 +54,8 @@ class ListenerHealthCare {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()		
+		println testSuiteContext.getTestSuiteId()				
 		//WebUI.openBrowser()
-		WebUI.maximizeWindow()
 	}
 
 	/**
