@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.phptravels.net/admin/settings/modules/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'chung1@yopmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL ex 02</description>
+      <initValue>'http://automationpractice.com/index.php'</initValue>
+      <name>url_EX02</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
