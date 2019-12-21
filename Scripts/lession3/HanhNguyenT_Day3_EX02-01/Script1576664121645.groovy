@@ -14,56 +14,65 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.waitForPageLoad(GlobalVariable.TIMEOUT, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/HomePage/btnSignIn'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_My Store/btnSignIn'))
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'), 'hanh@gmail.com')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/txtEmailAddress'), 'hanh')
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/btnCreateAnAccount'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/btnCreateAnAccount'))
+String errorMessage=WebUI.verifyTextPresent("An account using this email address has already been registered. Please enter a valid password or request a new one.", false)
 
-warningMessage = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/lblWarningMessage'))
+if (errorMessage.equals("true")) {
+   int RD
 
-WebUI.verifyMatch(warningMessage, 'Invalid email address.', false)
+    RD = ((Math.random() * 500) as int)
 
-WebUI.clearText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/txtEmailAddress'))
+    WebUI.clearText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'))
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/txtEmailAddress'), 'hanhtest4@gmail.com')
+    WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/txtEmailAddress'), ('hanh' + 
+        RD) + '@gmail.com')
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Login - My Store/btnCreateAnAccount'))
+    WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/LoginPage/btnCreateAnAccount'))
+} else {
+    WebUI.verifyElementPresent(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/btnRegister'), 0)
+}
 
-WebUI.verifyElementPresent(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/btnRegister'), 0)
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/chkGender'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/chkGender'))
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtFirstName'), 'hanh')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtFirstName'), 'hanh')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtLastName'), 'nguyen')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtLastName'), 'nguyen')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtPassword'), '12345678')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtPassword'), '12345678')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtAddress'), 'da nang')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtAddress'), 'da nang')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtCity'), 'da nang')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtCity'), 'da nang')
+WebUI.selectOptionByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/cboState'), 'Alaska', false)
 
-WebUI.selectOptionByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/cboState'), 'Alaska', false)
-
-WebUI.verifyOptionSelectedByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/cboState'), 'Alaska', false, 
+WebUI.verifyOptionSelectedByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/cboState'), 'Alaska', false, 
     10)
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtPostcode'), '12345')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtPostcode'), '12345')
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/cboCountry'), 'United States', 
+WebUI.verifyOptionSelectedByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/cboCountry'), 'United States', 
     false, 10)
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/txtPhone'), '12345678')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/txtPhone'), '12345678')
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_Authen/btnRegister'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/AuthenPage/btnRegister'))
 
-title = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/Page_MyAccount/lblHeading'))
+title = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-01/MyAccountPage/lblHeading'))
 
 WebUI.verifyMatch(title, 'MY ACCOUNT', false)
+
+WebUI.closeBrowser()
 
