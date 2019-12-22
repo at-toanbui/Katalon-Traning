@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.urlPractice1)
 
 WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 0)
@@ -101,6 +99,4 @@ WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order conf
 lblOrderIsCompleted = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Order confirmation - My Store/lblOrderIsCompleted'))
 
 WebUI.verifyMatch(lblOrderIsCompleted, 'Your order on My Store is complete.', false)
-
-WebUI.closeBrowser()
 

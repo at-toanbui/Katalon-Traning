@@ -16,8 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.urlPractice1)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-01/Page_My Store/btnSignIn'))
@@ -94,6 +92,4 @@ WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-01/Page_My account
 lblCreateAccountSuccess = WebUI.getText(findTestObject('HaDangT_Day3_EX02-01/Page_My account - My Store/lblCreateAccountSuccess'))
 
 WebUI.verifyMatch(lblCreateAccountSuccess, '.*Welcome to your account.*', true)
-
-WebUI.closeBrowser()
 
