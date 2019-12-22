@@ -27,36 +27,35 @@ WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/btnSearch'))
 
 WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/imgProduct1'), 0)
 
-WebUI.mouseOver(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/imgProduct1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/imgProduct1'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnQuickView'), 0)
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnMore'), 0)
 
-WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnQuickView'))
+WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnMore'))
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnAddToCart'), 0)
+WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/btnPlus'))
 
-WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnPlus'))
-
-WebUI.selectOptionByLabel(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/ddlSize'), 'S', true)
+WebUI.selectOptionByLabel(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/ddlSize'), 'S', true)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnBlueColor'))
 
-WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnAddToCart'))
+WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/btnAddToCart'))
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblProductAddedSuccessfully'), 0)
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblProductAddedSuccessfully'), 
+    0)
 
-lblAddSuccessfully = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblProductAddedSuccessfully'), 
+lblAddSuccessfully = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblProductAddedSuccessfully'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(lblAddSuccessfully, 'Product successfully added to your shopping cart', true)
 
-totalProducts = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblTotalProducts'))
+totalProducts = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalProducts'))
 
-totalShipping = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblTotalShipping'))
+totalShipping = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalShipping'))
 
-def total = totalProducts + totalShipping
+def total = Integer.parseInt(totalProducts) + Integer.parseInt(totalShipping)
 
-totalCost = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblTotal'))
+totalCost = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalCost'))
 
 WebUI.verifyEqual(total, totalCost)
 
@@ -67,6 +66,8 @@ WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My
 quantity = WebUI.getAttribute(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/txtQuantity'), 'value')
 
 WebUI.verifyEqual(quantity, 2)
+
+WebUI.scrollToElement(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/lblCurrentTotal'), 0)
 
 currentTotal = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/lblCurrentTotal'))
 
@@ -82,23 +83,15 @@ WebUI.setEncryptedText(findTestObject('HaDangT_Day3_EX02-02/Page_Login - My Stor
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Login - My Store/btnSignIn'))
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/chkUseTheDeliveryAddress'), 0)
-
 WebUI.verifyElementChecked(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/chkUseTheDeliveryAddress'), 0)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/btnProceedToCheckout3'))
-
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/chkAgreeTermsService'), 0)
 
 WebUI.check(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/chkAgreeTermsService'))
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/btnProceedToCheckout4'))
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/btnPayByCheck'), 0)
-
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Order - My Store/btnPayByCheck'))
-
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/btnConfirmOrder'), 0)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/btnConfirmOrder'))
 

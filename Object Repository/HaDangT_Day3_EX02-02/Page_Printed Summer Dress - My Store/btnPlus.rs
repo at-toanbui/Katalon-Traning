@@ -3,11 +3,11 @@
    <description></description>
    <name>btnPlus</name>
    <tag></tag>
-   <elementGuidId>fd8a3464-31e3-4c81-a2e9-42258cf02242</elementGuidId>
+   <elementGuidId>8b1c18d5-9c48-4424-8e14-8f1ce8bc2894</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//i[@class='icon-plus']</value>
+         <value>//p[@id='quantity_wanted_p']/a[2]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,13 +32,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;quantity_wanted_p&quot;)/a[@class=&quot;btn btn-default button-plus product_quantity_up&quot;]/span[1]/i[@class=&quot;icon-plus&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/HaDangT_Day3_EX02-02/Page_Search - My Store/iframeConcat</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

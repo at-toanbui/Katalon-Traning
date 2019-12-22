@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ddlSize</name>
+   <name>lblTotalProducts</name>
    <tag></tag>
-   <elementGuidId>e3ccf18f-9a9f-4c5f-92be-870a26a7535e</elementGuidId>
+   <elementGuidId>61fea5de-26a0-424d-aa1e-8704a3f3bfe1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='group_1']</value>
+         <value>//div[@id='layer_cart']/div/div[2]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,71 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>fieldset</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>attribute_fieldset</value>
+      <value>ajax_block_products_total</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-											Size 
-																						
-																									S
-																													S
-																													M
-																													L
-																											
-																							 
-										</value>
+      <value>$57.96</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;attributes&quot;)/fieldset[@class=&quot;attribute_fieldset&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/HaDangT_Day3_EX02-02/Page_Search - My Store/iframeConcat</value>
+      <value>id(&quot;layer_cart&quot;)/div[@class=&quot;clearfix&quot;]/div[@class=&quot;layer_cart_cart col-xs-12 col-md-6&quot;]/div[@class=&quot;layer_cart_row&quot;]/span[@class=&quot;ajax_block_products_total&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='attributes']/fieldset</value>
+      <value>//div[@id='layer_cart']/div/div[2]/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::fieldset[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total products'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$30.51'])[1]/following::fieldset[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='There is 1 item in your cart.'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2.00'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset</value>
+      <value>//div/div[2]/div/span</value>
    </webElementXpaths>
 </WebElementEntity>
