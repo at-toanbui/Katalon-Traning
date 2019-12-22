@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>HaDangT_Day3_Practice1</name>
+   <name>HaDangT_Day3_EX02</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,12 +14,12 @@
       <guid>ee55a092-df07-405e-872c-d1c5f2512115</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HaDangT_Day3_Practice1/EX02-01 Create an account</testCaseId>
+      <testCaseId>Test Cases/HaDangT_Day3_EX02/EX02-01 Create an account</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>369cbbbf-a350-4e56-a4d5-a4235a6e32a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HaDangT_Day3_Practice1/EX02-02 Add to cart</testCaseId>
+      <testCaseId>Test Cases/HaDangT_Day3_EX02/EX02-02 Add to cart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
