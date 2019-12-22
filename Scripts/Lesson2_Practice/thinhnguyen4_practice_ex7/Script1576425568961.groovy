@@ -23,5 +23,3 @@ WebUI.click(findTestObject('Lesson 2/Page_Selenium Easy Demo - Automate All Scen
 
 WebUI.dismissAlert()
 
-WebUI.verifyAlertNotPresent(0)
-

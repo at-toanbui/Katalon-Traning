@@ -31,5 +31,5 @@ WebUI.acceptAlert()
 
 AlertText = WebUI.getText(findTestObject('Lesson 2/Page_Selenium Easy Demo - Automate All Scenarios/lbl_You have entered Katalon Automation Testing'))
 
-WebUI.verifyMatch(AlertText, 'You have entered \'Katalon Automation Testing\' !\n\n', false)
+WebUI.verifyMatch(AlertText, 'You have entered \'Katalon Automation Testing\' !', false)
 
