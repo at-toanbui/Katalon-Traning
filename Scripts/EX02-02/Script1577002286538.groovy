@@ -38,8 +38,9 @@ Total1 = WebUI.verifyElementText(findTestObject('EX02-02/Page_Printed Summer Dre
 
 WebUI.click(findTestObject('EX02-02/Page_Printed Summer Dress - My Store/btnProceedToCheckout1'))
 
-WebUI.verifyElementText(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/lblYourShoppingCartContains'), 
-    '2 Products', FailureHandling.STOP_ON_FAILURE)
+Text = WebUI.getText(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/lblYourShoppingCartContains'))
+
+WebUI.verifyMatch(Text, '.*2.*', true)
 
 Total2 = WebUI.verifyElementText(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/lblTotal2'), 
     '$59.96')
@@ -54,8 +55,7 @@ WebUI.setEncryptedText(findTestObject('EX02-02/Page_Login - My Store/txtPassword
 
 WebUI.click(findTestObject('EX02-02/Page_Login - My Store/btnSignIn'))
 
-WebUI.verifyElementChecked(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/p_Use the delivery address as the billing address'), 
-    30)
+WebUI.verifyElementChecked(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/btnCheckbox'), 10)
 
 WebUI.click(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/btnProceedToCheckout3'))
 

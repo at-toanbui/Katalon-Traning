@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>chkUseTheDeliveryAddressAsTheBillingAddress</name>
+   <name>btnCheckbox</name>
    <tag></tag>
-   <elementGuidId>5f818680-3f66-46d1-bdea-4ca52bc02676</elementGuidId>
+   <elementGuidId>dc964bf2-8dfc-4991-a480-8eccfd993449</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='addressesAreEquals']/form/div/div/div/p/label</value>
+         <value>//div[@id='addressesAreEquals']/form/div/div/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,58 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>for</name>
+      <name>class</name>
       <type>Main</type>
-      <value>addressesAreEquals</value>
+      <value>checkbox addressesAreEquals</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Use the delivery address as the billing address.</value>
+      <value>
+				
+				Use the delivery address as the billing address.
+			</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;center_column&quot;)/form[1]/div[@class=&quot;addresses clearfix&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6&quot;]/p[@class=&quot;checkbox addressesAreEquals&quot;]/label[1]</value>
+      <value>id(&quot;center_column&quot;)/form[1]/div[@class=&quot;addresses clearfix&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6&quot;]/p[@class=&quot;checkbox addressesAreEquals&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='center_column']/form/div/div/div/p/label</value>
+      <value>//div[@id='center_column']/form/div/div/div/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a delivery address:'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a delivery address:'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a new address'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your delivery address'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Use the delivery address as the billing address.']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a new address'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/label</value>
+      <value>//form/div/div/div/p</value>
    </webElementXpaths>
 </WebElementEntity>
