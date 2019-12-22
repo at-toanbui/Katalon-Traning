@@ -22,11 +22,11 @@ import internal.GlobalVariable
 
 public class Emailrandom {
 
-		//random mail generator
-		@Keyword
-		public String getEmail(String suffix,String prefix){
-			int randomNo = (int)(Math.random() * 100000);
-			return suffix + randomNo + "@" + prefix;
-		
+	//random mail generator
+	@Keyword
+	public String getEmail(String suffix,String prefix){
+		int randomNo = (int)(Math.random() * 100000);
+		return suffix + randomNo + "@" + prefix;
+
 	}
 }
