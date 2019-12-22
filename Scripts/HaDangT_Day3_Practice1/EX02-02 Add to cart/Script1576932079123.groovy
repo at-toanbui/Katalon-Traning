@@ -53,7 +53,7 @@ totalProducts = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed 
 
 totalShipping = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalShipping'))
 
-def total = Integer.parseInt(totalProducts) + Integer.parseInt(totalShipping)
+def total = totalProducts + totalShipping
 
 totalCost = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalCost'))
 
