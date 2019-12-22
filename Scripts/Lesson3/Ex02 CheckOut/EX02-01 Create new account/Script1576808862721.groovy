@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.annotation.Keyword as Keyword
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
@@ -22,15 +23,22 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My Store/btnSignIn'))
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen+6@asiantech.vn')
+//random mail generator
+String mail = CustomKeywords.'com.question.RandomEmail.getEmail'('test', 'gmail.com')
 
+WebUI.sendKeys(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+
+//WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen+6@asiantech.vn')
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 'Phan')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 
+    'Phan')
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerLastName'), 'Nguyen')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerLastName'), 
+    'Nguyen')
 
-WebUI.setEncryptedText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtPassword'), 'tE+PEiSUqqgo23gg3D+W7A==')
+WebUI.setEncryptedText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtPassword'), 
+    'tE+PEiSUqqgo23gg3D+W7A==')
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtFirstName'), 'Phan')
 
@@ -40,7 +48,8 @@ WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/P
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCity'), 'Da Nang')
 
-WebUI.selectOptionByValue(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/ddlStage'), '11', true)
+WebUI.selectOptionByValue(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/ddlStage'), 
+    '11', true)
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtPostCode'), '96719')
 
