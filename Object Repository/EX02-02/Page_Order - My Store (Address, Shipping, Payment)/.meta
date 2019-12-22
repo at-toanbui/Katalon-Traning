@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description>folder</description>
-   <name>Healthcare Login</name>
+   <name>Page_Order - My Store (Address, Shipping, Payment)</name>
    <tag></tag>
-   <folderType>TESTSUITE</folderType>
+   <folderType>WEBELEMENT</folderType>
 </FolderEntity>

@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL Description</description>
+      <initValue>'http://automationpractice.com/index.php'</initValue>
+      <name>URLEX0201</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>TIMEOUT</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
