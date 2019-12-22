@@ -55,7 +55,8 @@ WebUI.setEncryptedText(findTestObject('EX02-02/Page_Login - My Store/txtPassword
 
 WebUI.click(findTestObject('EX02-02/Page_Login - My Store/btnSignIn'))
 
-WebUI.verifyElementChecked(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/btnCheckbox'), 10)
+WebUI.verifyElementChecked(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/chkDeliveryAddress'), 
+    10)
 
 WebUI.click(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/btnProceedToCheckout3'))
 
