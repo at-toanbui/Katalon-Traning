@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[2]/span</value>
+         <value>//li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line']//img[@class='replace-2x img-responsive'] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,17 +33,39 @@ WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnB
 
 WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnAddtocart'))
 
-total = WebUI.getText(findTestObject('New Folder/Page_Order - My Store/lblTotal'))
+String totalProduct = WebUI.getText(findTestObject('KatalonHealthcare/Page_Printed Summer Dress - My Store/lblTotalP'))
+
+totalProduct = totalProduct.replaceAll('[$,]', '')
+
+double a = Double.valueOf(totalProduct)
+
+String totalShipping = WebUI.getText(findTestObject('KatalonHealthcare/Page_Printed Summer Dress - My Store/lblTotalS'))
+
+totalShipping = totalShipping.replaceAll('[$,]', '')
+
+double b = Double.valueOf(totalShipping)
+
+String total = WebUI.getText(findTestObject('KatalonHealthcare/Page_Printed Summer Dress - My Store/lblTotal'))
+
+total = total.replaceAll('[$,]', '')
+
+double c = Double.valueOf(total)
+
+String totalExpected =  a + b
+
+WebUI.verifyEqual(total, totalExpected)
 
 WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnProceedcheckout'))
 
-quantity = WebUI.getAttribute(findTestObject('New Folder/Page_My Store/txtQty'), 'value')
+quantity = WebUI.getAttribute(findTestObject('KatalonHealthcare/Page_Order - My Store/txtQuantity'), 'value')
 
 WebUI.verifyEqual(quantity, '2', FailureHandling.STOP_ON_FAILURE)
 
-currentTotal = WebUI.getText(findTestObject('New Folder/Page_Order - My Store/lblCurrentTotal'))
+String currentTotal = WebUI.getText(findTestObject('KatalonHealthcare/Page_Order - My Store/txtTotalF'))
 
-WebUI.verifyEqual(total, 'currentTotal')
+currentTotal = currentTotal.replaceAll('[$,]', '')
+
+WebUI.verifyEqual(total, currentTotal)
 
 WebUI.click(findTestObject('New Folder/Page_Order - My Store/btnProceedcheckout2'))
 

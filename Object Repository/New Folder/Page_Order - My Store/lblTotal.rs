@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[3]/span</value>
+         <value>//input[@name='quantity_5_19_0_252107']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
