@@ -31,7 +31,7 @@ class ListenerHealthCare {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		
+	
 	}
 
 	/**
@@ -53,7 +53,6 @@ class ListenerHealthCare {
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
 		WebUI.openBrowser('')
-		WebUI.maximizeWindow()
 	}
 
 	/**
