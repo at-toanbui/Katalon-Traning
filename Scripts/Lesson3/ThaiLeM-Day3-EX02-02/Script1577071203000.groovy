@@ -33,11 +33,17 @@ WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnB
 
 WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnAddtocart'))
 
+total = WebUI.getText(findTestObject('New Folder/Page_Order - My Store/lblTotal'))
+
 WebUI.click(findTestObject('New Folder/Page_Printed Summer Dress - My Store/btnProceedcheckout'))
 
-2.call(Products = WebUI.getAttribute(findTestObject('New Folder/Page_Order - My Store/lblProducts'), ''))
+quantity = WebUI.getAttribute(findTestObject('New Folder/Page_My Store/txtQty'), 'value')
 
-WebUI.verifyMatch(Products, '2 Products', true)
+WebUI.verifyEqual(quantity, '2', FailureHandling.STOP_ON_FAILURE)
+
+currentTotal = WebUI.getText(findTestObject('New Folder/Page_Order - My Store/lblCurrentTotal'))
+
+WebUI.verifyEqual(total, 'currentTotal')
 
 WebUI.click(findTestObject('New Folder/Page_Order - My Store/btnProceedcheckout2'))
 

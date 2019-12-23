@@ -14,12 +14,12 @@
       <guid>5890a5f9-d21e-4cc2-bc66-eb3148a7dc74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lesson3/EX02-01</testCaseId>
+      <testCaseId>Test Cases/Lesson3/ThaiLeM-Day3-EX02-01</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b33a8b14-ad4a-4cf3-b6e4-7668fe1ae7c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lesson3/EX02-02</testCaseId>
+      <testCaseId>Test Cases/Lesson3/ThaiLeM-Day3-EX02-02</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

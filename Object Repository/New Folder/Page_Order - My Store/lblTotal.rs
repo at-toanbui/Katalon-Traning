@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>imgFirst</name>
+   <name>lblTotal</name>
    <tag></tag>
-   <elementGuidId>1622a056-4dd3-48d9-94df-651c7391735d</elementGuidId>
+   <elementGuidId>b509eb4b-10d2-4afb-ae42-6ad7f9983c84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[2]/span</value>
+         <value>//*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

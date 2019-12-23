@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>imgFirst</name>
+   <name>txtQty</name>
    <tag></tag>
-   <elementGuidId>1622a056-4dd3-48d9-94df-651c7391735d</elementGuidId>
+   <elementGuidId>113a4768-a0c5-48c6-b566-45255bf21bb8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[2]/span</value>
+         <value>//input[@name=‘quantity_5_20_0_251817’]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

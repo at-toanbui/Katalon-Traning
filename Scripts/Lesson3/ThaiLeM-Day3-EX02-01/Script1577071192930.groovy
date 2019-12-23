@@ -21,7 +21,7 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
 WebUI.click(findTestObject('Page_Login - My Store/btnSignin'))
 
-WebUI.setText(findTestObject('Page_Login - My Store/txtEmailcreate'), 'thai2@gmail.com')
+WebUI.setText(findTestObject('Page_Login - My Store/txtEmailcreate'), CustomKeywords.'randomData.TestDataGenerator.getRandomFemaleName'() + 'abcd')
 
 WebUI.click(findTestObject('Page_Login - My Store/btnCreateAccount'))
 
