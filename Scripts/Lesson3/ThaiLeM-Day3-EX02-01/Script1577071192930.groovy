@@ -21,7 +21,9 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
 WebUI.click(findTestObject('Page_Login - My Store/btnSignin'))
 
-WebUI.setText(findTestObject('Page_Login - My Store/txtEmailcreate'), CustomKeywords.'randomData.TestDataGenerator.getRandomFemaleName'() + 'abcd')
+def email1 = org.apache.commons.lang.RandomStringUtils.randomNumeric(3)
+
+WebUI.setText(findTestObject('Page_Login - My Store/txtEmailcreate'), ('thaile' + email1) + '@gmail.com')
 
 WebUI.click(findTestObject('Page_Login - My Store/btnCreateAccount'))
 
@@ -55,7 +57,9 @@ WebUI.setText(findTestObject('Page_Login - My Store/txtEmailAlias'), 'thaile@gma
 
 WebUI.click(findTestObject('Page_Login - My Store/btnRegister'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Login - My Store/btnHome'), 20)
+myAcc = WebUI.getText(findTestObject('Page_Login - My Store/lblAccount'))
+
+WebUI.verifyTextPresent(myAcc, false)
 
 WebUI.closeBrowser()
 
