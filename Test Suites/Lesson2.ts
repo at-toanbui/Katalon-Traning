@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <TestSuiteEntity>
    <description></description>
    <name>Lesson2</name>
@@ -41,3 +42,32 @@
       <testCaseId>Test Cases/PhucPhanT-Uploadimage_GetAttribute-lession2</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
+=======
+<TestSuiteCollectionEntity>
+   <description></description>
+   <name>Lesson2</name>
+   <tag></tag>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <testSuiteRunConfigurations>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lesson2.1</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lesson2.2</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+   </testSuiteRunConfigurations>
+</TestSuiteCollectionEntity>
+>>>>>>> branch 'at-phucphan/lesson2' of https://github.com/at-toanbui/Katalon-Traning.git
