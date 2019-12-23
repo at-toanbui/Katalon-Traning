@@ -17,7 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://tus.io/demo.html')
 
-WebUI.uploadFile(findTestObject('Page_Resumable File Upload Demo  tus/btnChoosefile'), '/Users/mba0027/Downloads/20157968_1141384179338359_8968969418726247850_o.jpg')
+String currentDirectory = System.getProperty('user.dir')
+
+WebUI.sendKeys(findTestObject('Page_Katalon Shop  Katalon Ecommerce/btnChoosefile'), currentDirectory + '/ImageTest/imageTest.jpg')
 
 WebUI.verifyElementPresent(findTestObject('Page_Resumable File Upload Demo  tus/Uploadsuccess'), 2)
 

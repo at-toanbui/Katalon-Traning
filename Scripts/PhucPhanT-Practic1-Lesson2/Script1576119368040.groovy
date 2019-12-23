@@ -47,10 +47,10 @@ WebUI.verifyMatch(a, 'https://www.phptravels.net/admin', true)
 
 WebUI.click(findTestObject('KatalonHealthcare/lesson2/Page_Modules/Page_Modules/btnModules'))
 
-WebUI.verifyElementChecked(findTestObject('KatalonHealthcare/lesson2/Page_Administator Login/Page_Modules/div_Settings_control__indicator'), 
+WebUI.verifyElementChecked(findTestObject('KatalonHealthcare/lesson2/Page_Administator Login/Page_Modules/chkTravelhopeHotel'), 
     2)
 
-WebUI.click(findTestObject('KatalonHealthcare/lesson2/Page_Modules/btnSettingsTravelhopeHotels'))
+WebUI.click(findTestObject('KatalonHealthcare/lesson2/Page_Modules/btnSettings'))
 
 WebUI.back()
 
