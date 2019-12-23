@@ -22,24 +22,32 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My Store/btnSignIn'))
 
-//random mail generator
-//String mail = CustomKeywords.'com.question.RandomEmail.getEmail'('test', 'gmail.com')
-String mail = RandomStringUtils.randomAlphanumeric(10) + '@mail.com'
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen+6@asiantech.vn')
 
-WebUI.sendKeys(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
-
-//WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen+6@asiantech.vn')
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
-/**if (WebUI.verifyElementNotVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))) {
-    WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
-} else if (WebUI.verifyElementNotVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))) {
-    WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
-} else {
-    WebUI.sendKeys(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+String msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
 
+String msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
+
+//random mail generator
+String mail = ('Phan' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
+
+if (msg1.equals('true')) {
+    WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'invalid email')
     WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
-} */
+} 
+else {
+	WebUI.comment('User Registration Successful')
+}
+
+if (msg2.equals('true')){
+	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+} 
+else {
+	WebUI.comment('User Registration Successful')
+}
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 
     'Phan')
