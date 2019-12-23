@@ -31,11 +31,9 @@ WebUI.verifyElementText(findTestObject('EX03-02/Page_Search - My Store/lblResult
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-def eleCount = driver.findElements(By.className('ajax_block_product')).size()
+String list = driver.findElements(By.xpath('//li[contains(@class, "ajax_block_product")]')).size()
 
-String Text = WebUI.getText(findTestObject('EX03-02/Page_Search - My Store/lblResult'))
+String extractInt = WebUI.getText(findTestObject('EX03-02/Page_Search - My Store/lblResult')).replaceAll('[^0-9]', '')
 
-String extractInt = WebUI.getText(Text).substring(-26, 1)
-
-WebUI.verifyEqual(eleCount, extractInt)
+WebUI.verifyEqual(list, extractInt)
 

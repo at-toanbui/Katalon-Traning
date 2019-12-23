@@ -49,11 +49,15 @@ WebUI.verifyEqual(Total1, Total2)
 
 WebUI.click(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/btnProceedToCheckout2'))
 
+WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
+
 WebUI.setText(findTestObject('EX02-02/Page_Login - My Store/txtEmail'), 'vy.vo2@asiantech.vn')
 
 WebUI.setEncryptedText(findTestObject('EX02-02/Page_Login - My Store/txtPassword'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('EX02-02/Page_Login - My Store/btnSignIn'))
+
+WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.verifyElementChecked(findTestObject('EX02-02/Page_Order - My Store (Address, Shipping, Payment)/chkDeliveryAddress'), 
     10)
