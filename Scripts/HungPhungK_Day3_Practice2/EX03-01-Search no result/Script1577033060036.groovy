@@ -17,11 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.waitForElementPresent(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/button_Search'), GlobalVariable.TIMEOUT)
+WebUI.waitForElementPresent(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/btnSearch'), GlobalVariable.TIMEOUT)
 
-WebUI.setText(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/input_Call us now_search_query'), '${keyword}')
+WebUI.setText(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/txtSearch'), '${keyword}')
 
-WebUI.click(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/button_Search'))
+WebUI.click(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_My Store/btnSearch'))
 
-WebUI.verifyAlertPresent(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('HungPhungK_Day3_Practice3/EX03-Search/Page_Search - My Store/lblResult'), 'No results were found for your search "${keyword}"')
 
