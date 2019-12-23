@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Healthcare Login</name>
+   <name>Lesson2.1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>24d67f8f-5d4a-4101-9e98-1c107bf6166a</testSuiteGuid>
+   <testSuiteGuid>cafb22b4-2099-469f-b1ce-2d4960a0e9ee</testSuiteGuid>
    <testCaseLink>
-      <guid>3a3cfb03-d67f-431c-84b8-f973a6d0a2c3</guid>
+      <guid>c2da67a4-6ac2-4c34-b091-c734f228f908</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KatalonHealthcare/TC01_Move to Login page</testCaseId>
+      <testCaseId>Test Cases/PhucPhanT-Practic1-Lesson2</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

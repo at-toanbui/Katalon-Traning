@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnSettingsTravelhopeHotels</name>
+   <name>btnSettings</name>
    <tag></tag>
-   <elementGuidId>1cf9b976-271a-4f6e-afb5-8aa94478a534</elementGuidId>
+   <elementGuidId>c3c100f3-8ebe-4d22-8b42-79502a882602</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

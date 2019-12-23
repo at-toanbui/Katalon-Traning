@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Settings_control__indicator</name>
+   <name>chkTravelhopeHotel</name>
    <tag></tag>
    <elementGuidId>05a79292-4f46-4956-ab56-0ba4ba5ca807</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='hotels']/div/div[2]/span/label/div</value>
+         <value>//input[@type='checkbox' and @data-value='TravelhopeHotels']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
