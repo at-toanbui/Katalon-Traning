@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>updateimage</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tus.io/demo.html'</initValue>
+      <name>updateimage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://cms.demo.katalon.com/'</initValue>
+      <name>addattribute</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

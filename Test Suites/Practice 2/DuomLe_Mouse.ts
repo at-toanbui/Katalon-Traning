@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>DuomLe_Practice2_EX2</name>
+   <name>DuomLe_Mouse</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>fa4a9072-491c-4279-acff-3970fdf91bd6</testSuiteGuid>
+   <testSuiteGuid>fb2c70b9-15d1-4bfe-a9a4-fb84e41427a9</testSuiteGuid>
    <testCaseLink>
-      <guid>f81ad262-ca1f-46ff-aa8f-c3bcd6e4bcc2</guid>
+      <guid>f04ce48e-1680-4d75-bda7-c3de2cd4102f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Lesson3_EX02-01</testCaseId>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Practice_Lesson2_EX-09</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e66b865e-1392-4507-9110-04f6c35e7552</guid>
+      <guid>8a1ca0aa-7090-4243-8363-a03cc7de6d06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DuomLe_Practice3_EX02-02</testCaseId>
+      <testCaseId>Test Cases/DuomLe_Practice2/DuomLe_Practice_Lesson2_EX-10</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
