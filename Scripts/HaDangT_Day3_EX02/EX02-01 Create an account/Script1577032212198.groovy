@@ -24,7 +24,7 @@ WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-01/Page_Login - My
 
 def email1 = org.apache.commons.lang.RandomStringUtils.randomNumeric(3)
 
-WebUI.sendKeys(findTestObject('HaDangT_Day3_EX02-01/Page_Login - My Store/txtEmail1'), ('dangha' + email1) + '@gmail.com')
+WebUI.sendKeys(findTestObject('HaDangT_Day3_EX02-01/Page_Login - My Store/txtEmail1'), ('dangha' + email1 + '@gmail.com'))
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-01/Page_Login - My Store/btnCreateAccount'))
 

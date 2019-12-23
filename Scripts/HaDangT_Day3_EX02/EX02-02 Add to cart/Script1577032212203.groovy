@@ -15,19 +15,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl(GlobalVariable.urlPractice1)
 
 WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 0)
 
-WebUI.sendKeys(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 'Dress')
+WebUI.sendKeys(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 'dress')
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/btnSearch'))
 
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/imgProduct1'), 0)
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblKeyWord'), 0)
+
+lblKeyWord = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/lblKeyWord'))
+
+lblKeyWord = lblKeyWord.toLowerCase()
+
+WebUI.verifyMatch(lblKeyWord, '.*dress.*', true)
 
 WebUI.mouseOver(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/imgProduct1'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnMore'), 0)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnMore'))
 
@@ -53,7 +59,15 @@ totalShipping = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed 
 
 totalCost = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Printed Summer Dress - My Store/lblTotalCost'))
 
-WebUI.verifyEqual(total, totalCost)
+double a = Double.parseDouble(totalProducts.substring(1))
+
+double b = Double.parseDouble(totalShipping.substring(1))
+
+double total = a + b
+
+double c = Double.parseDouble(totalCost.substring(1))
+
+WebUI.verifyEqual(c, total)
 
 WebUI.click(findTestObject('HaDangT_Day3_EX02-02/Page_Search - My Store/btnProceedToCheckout1'))
 
@@ -97,4 +111,6 @@ WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_Order conf
 lblOrderIsCompleted = WebUI.getText(findTestObject('HaDangT_Day3_EX02-02/Page_Order confirmation - My Store/lblOrderIsCompleted'))
 
 WebUI.verifyMatch(lblOrderIsCompleted, 'Your order on My Store is complete.', false)
+
+WebUI.closeBrowser()
 
