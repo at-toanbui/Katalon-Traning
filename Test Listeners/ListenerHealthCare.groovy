@@ -31,9 +31,9 @@ class ListenerHealthCare {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		//WebUI.openBrowser('')
-	} 
-
+		// WebUI.openBrowser('')
+	}
+	
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
@@ -42,9 +42,8 @@ class ListenerHealthCare {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		//WebUI.closeBrowser()
-	} 
-
+		// WebUI.closeBrowser()
+	}
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
