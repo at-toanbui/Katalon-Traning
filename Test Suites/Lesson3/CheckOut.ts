@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>a4553978-bd60-45a6-afc9-4c373ed1ecef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lesson3/Ex02 CheckOut/EX02-02 Add to cart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
