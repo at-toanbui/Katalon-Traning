@@ -16,17 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/HomePage/txtSearch'), Keys.chord('Dress', Keys.ENTER))
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/HomePage/txtSearch'), Keys.chord('Dress', Keys.ENTER))
 
-acutaltext = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX03-02/SearchPage/lblHeadCounter'))
+acutaltext = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblHeadCounter'))
 
 WebUI.verifyMatch(acutaltext, '7 results have been found.', false)
 
 CustomKeywords.'search.SearchResultPage.verifyNumberOfItem'()
 
-CustomKeywords.'search.SearchResultPage.getNuberofItem'()
+CustomKeywords.'search.SearchResultPage.getNuberOfItem'()
 

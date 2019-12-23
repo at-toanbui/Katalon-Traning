@@ -18,60 +18,58 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/HomePage/txtSearch'), Keys.chord('Dress', Keys.ENTER))
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/HomePage/txtSearch'), Keys.chord('Dress', Keys.ENTER))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/SearchResultPage/lstItem'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblFirstItem'))
 
-WebUI.clearText(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ItemDetailFrame/txtQuantity'))
+WebUI.clearText(findTestObject('lession3/HanhNguyenT_Day3/ItemDetailFrame/txtQuantity'))
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ItemDetailFrame/txtQuantity'), '2')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/ItemDetailFrame/txtQuantity'), '2')
 
-WebUI.selectOptionByLabel(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ItemDetailFrame/lstSize'), 'S', false)
+WebUI.selectOptionByLabel(findTestObject('lession3/HanhNguyenT_Day3/ItemDetailFrame/lstSize'), 'S', false)
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ItemDetailFrame/lblBule'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ItemDetailFrame/lblBule'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ItemDetailFrame/btnAddToCart'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ItemDetailFrame/btnAddToCart'))
 
-totalCost = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ProductSuccessfullyFrame/lblTotalCost'))
+totalCost = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/ProductSuccessfullyFrame/lblTotalCost'))
 
 WebUI.verifyMatch(totalCost, '$59.96', false)
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ProductSuccessfullyFrame/btnProceedCheckout'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ProductSuccessfullyFrame/btnProceedCheckout'))
 
-size = WebUI.getAttribute(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ShoppingCartSummaryPage/lblQty'), 'value')
+size = WebUI.getAttribute(findTestObject('lession3/HanhNguyenT_Day3/ShoppingCartSummaryPage/lblQty'), 'value')
 
 WebUI.verifyMatch(size, '2', false)
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ShoppingCartSummaryPage/btnProceedToCheckout'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ShoppingCartSummaryPage/btnProceedToCheckout'))
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/LoginPage/txtEmail'), 'hanhtest2@gmail.com')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/LoginPage/txtEmailLogin'), 'hanhtest2@gmail.com')
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/LoginPage/txtPassword'), '12345678')
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/LoginPage/txtPassword'), '12345678')
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/LoginPage/btnSignIn'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/LoginPage/btnSignIn'))
 
-//if (WebUI.verifyElementChecked(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/AddressPage/chkUseDeliverAddress'), 0)) {
+//if (WebUI.verifyElementChecked(findTestObject('lession3/HanhNguyenT_Day3/AddressPage/chkUseDeliverAddress'), 0)) {
 //    WebUI.click('lession3/HanhNguyenT_Day3_EX02-02/Page_Address/btnProceedToCheckout')
 //}
 'step11'
-WebUI.verifyElementChecked(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/AddressPage/chkUseDeliverAddress'), 0)
+WebUI.verifyElementChecked(findTestObject('lession3/HanhNguyenT_Day3/AddressPage/chkUseDeliverAddress'), 0)
 
 'step12'
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/AddressPage/btnProceedToCheckOut'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/AddressPage/btnProceedToCheckOut'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ShippingPage/chkAgreeTermOfSevice'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ShippingPage/chkAgreeTermOfSevice'))
 
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ShippingPage/btnProceedToCheckOut'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ShippingPage/btnProceedToCheckOut'))
 
 'step15'
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/ChoosePaymentMethodPage/lblPayByCheck'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/ChoosePaymentMethodPage/lblPayByCheck'))
 
 'step16'
-WebUI.click(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/OderSummaryPage/btnConfirmOrder'))
+WebUI.click(findTestObject('lession3/HanhNguyenT_Day3/OderSummaryPage/btnConfirmOrder'))
 
-completeMessage = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX02-02/OrderConfirmPage/lblCompleteMessage'))
+completeMessage = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/OrderConfirmPage/lblCompleteMessage'))
 
 WebUI.verifyMatch(completeMessage, 'Your order on My Store is complete.', false)
-
-
 

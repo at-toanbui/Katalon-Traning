@@ -22,23 +22,39 @@ import internal.GlobalVariable
 import org.openqa.selenium.WebElement
 
 public class SearchResultPage {
-	int count;
+	int count=0;
 	@Keyword
 	def verifyNumberOfItem(){
-		List<WebElement> lstElement = WebUI.findWebElements(findTestObject('lession3/HanhNguyenT_Day3_EX03-02/SearchPage/lstItem'),2);
+		findTestObject(String productName=WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblProductName')));
+		List<WebElement> lstElement = WebUI.findWebElements(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lstItem'),7);
 		for (WebElement element:lstElement){
-		if (WebUI.getText('lession3/HanhNguyenT_Day3_EX03-02/SearchPage/lblProductName').contains("Dress")){
-		count++}
-	}
+			if (productName.contains("Dress")){
+				count++
+			}
+		}
 		return count;
 		println ("NUMBER OF ITEM: " +count);
-   }
-	
+	}
+
 	@Keyword
-	def getNuberofItem(){
-		String headCounter=WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3_EX03-02/SearchPage/lblHeadCounter'))
+	def getNuberOfItem(){
+		findTestObject(String headCounter=WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblHeadCounter')));
+		//String headCounter=WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblHeadCounter'))
 		int numberOfResult = Character.getNumericValue(headCounter.trim().charAt(0));
-		//return (numberOfResult == count)
+		return (numberOfResult == count)
 		println ("NUMBER IN MESSAGE: " +numberOfResult);
+	}
+
+	@Keyword
+	def verifyAllItemsContainSearchKey(){
+		boolean flag=false;
+		findTestObject(String productName=WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblProductName')))
+		List<WebElement> lstElement = WebUI.findWebElements(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lstItem'),7);
+		for (WebElement element:lstElement){
+			if (productName.contains("Dress")){
+				flag= true;
+			}
+		}
+		return flag ;
 	}
 }

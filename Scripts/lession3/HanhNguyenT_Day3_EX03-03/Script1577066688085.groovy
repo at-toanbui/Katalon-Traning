@@ -18,13 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/HomePage/txtSearch'), Keys.chord('${keyword}', Keys.ENTER))
+WebUI.sendKeys(findTestObject('lession3/HanhNguyenT_Day3/HomePage/txtSearch'), Keys.chord('Dress', Keys.ENTER))
 
-String searchKey = WebUI.getAttribute(findTestObject('lession3/HanhNguyenT_Day3/HomePage/txtSearch'), 'value')
-
-String expectedMsg = (('No results were found for your search' + ' "') + searchKey) + '"'
-
-String actualMsg = WebUI.getText(findTestObject('lession3/HanhNguyenT_Day3/SearchResultPage/lblSearchResult'))
-
-WebUI.verifyMatch(expectedMsg, actualMsg, false)
+CustomKeywords.'search.SearchResultPage.verifyAllItemsContainSearchKey'()
 
