@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
-WebUI.setText(findTestObject('Page_My Store/input_Call us now_search_query'), 'keyword')
+WebUI.setText(findTestObject('Lesson3/DanhPhamC_Day3_Practice3/DanhPhamC_Day3_EX03-01/Page_My Store/txtSearch'), 'keyword')
 
-WebUI.click(findTestObject('Page_My Store/button_Search'))
+WebUI.click(findTestObject('Lesson3/DanhPhamC_Day3_Practice3/DanhPhamC_Day3_EX03-01/Page_My Store/btnSearch'))
 
 result = WebUI.getText(findTestObject('Lesson3/DanhPhamC_Day3_Practice3/DanhPhamC_Day3_EX03-01/Page_Search - My Store/lblResult'))
 
