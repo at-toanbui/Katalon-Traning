@@ -7,11 +7,46 @@
    <GlobalVariableEntity>
       <description>URL Description</description>
       <initValue>'http://automationpractice.com/index.php'</initValue>
-      <name>URLEX0201</name>
+      <name>URLAUTO</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>10</initValue>
+      <initValue>15</initValue>
       <name>TIMEOUT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://cms.demo.katalon.com'</initValue>
+      <name>URLCMS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-first-form-demo.html'</initValue>
+      <name>URLSE03</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-checkbox-demo.html'</initValue>
+      <name>URLSE04</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'</initValue>
+      <name>URLSE05</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'</initValue>
+      <name>URLALERT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://demo.guru99.com/test/simple_context_menu.html'</initValue>
+      <name>URLDEMO</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tus.io/demo.html'</initValue>
+      <name>URLTUS</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
