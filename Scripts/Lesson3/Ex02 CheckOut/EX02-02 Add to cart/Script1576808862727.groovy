@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_My Store/txtSearch'), 'Dress')
 
@@ -26,10 +26,11 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Search - My Store/lnkProductName'))
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/txtQuality'), '2')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/txtQuality'), 
+    '2')
 
-WebUI.selectOptionByValue(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/ddlSize'), '1', 
-    false)
+WebUI.selectOptionByValue(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/ddlSize'), 
+    '1', false)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/rdoBlue'))
 
@@ -63,7 +64,14 @@ WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Login
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
-WebUI.verifyElementChecked(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'), 0)
+checked = WebUI.verifyElementChecked(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'), 
+    0)
+
+if (checked == 'false') {
+    WebUI.check(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'))
+} else {
+    WebUI.comment('Already checked')
+}
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/btnProceedToCheckout3'))
 
@@ -77,5 +85,6 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_My Store/btnConfirm'))
 
-WebUI.verifyElementText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order confirmation - My Store/mgsComplete'), 'Your order on My Store is complete.')
+WebUI.verifyElementText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order confirmation - My Store/mgsComplete'), 
+    'Your order on My Store is complete.')
 
