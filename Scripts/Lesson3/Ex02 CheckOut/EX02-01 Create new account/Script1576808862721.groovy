@@ -33,21 +33,21 @@ String msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/E
 //random mail generator
 String mail = ('Phan' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
 
-if (msg1.equals('true')) {
-    WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'invalid email')
-    WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
-} 
-else {
-	WebUI.comment('User Registration Successful')
-}
+	if (msg1.equals('true')) {
+		WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'This is a invalid email')
+		WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+	
+	} else {
+		WebUI.comment('User Registration Successful')
+	}
 
-if (msg2.equals('true')){
-	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
-	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
-} 
-else {
-	WebUI.comment('User Registration Successful')
-}
+	if (msg2.equals('true')) {
+		WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+		WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+		
+	} else {
+		WebUI.comment('User Registration Successful')
+	}
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 
     'Phan')

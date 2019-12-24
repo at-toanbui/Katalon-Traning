@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_7 results have been found</name>
+   <name>msgResult</name>
    <tag></tag>
-   <elementGuidId>108c79e9-378f-47fb-87ad-5ee131be7b80</elementGuidId>
+   <elementGuidId>7fffe054-0dea-4347-96c0-e7d9156e7d57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='center_column']/h1/span[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

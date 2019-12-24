@@ -15,13 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
-WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
@@ -31,7 +28,12 @@ WebUI.sendKeys(findTestObject('Lesson3/Ex03 Searching/Page_My Store/txtSearch'),
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
-
 WebDriver driver = DriverFactory.getWebDriver()
-def eleCount = driver.findElements(By.className('ajax_block_product'))
-println eleCount.size()
+
+def eleCount = driver.findElements(By.xpath('//a[@class="product-name" and @itemprop="url"]')).size()
+
+//println(eleCount.size())
+result = WebUI.getText(findTestObject('Lesson3/Ex03 Searching/Page_Search - My Store/msgResult'))
+
+WebUI.verifyMatch(result, eleCount + ' results have been found.', false)
+
