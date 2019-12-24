@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/btnClickMeAlertBox'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/btnClickMeAlertBox'))
 
 WebUI.acceptAlert(FailureHandling.CONTINUE_ON_FAILURE)
 

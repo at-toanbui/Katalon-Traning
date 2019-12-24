@@ -19,15 +19,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
-WebUI.sendKeys(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/txtMessage'), 
+WebUI.sendKeys(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/txtMessage'), 
     'Katalon automation test')
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/btnShowMessage'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/btnShowMessage'))
 
-WebUI.waitForElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblYourMessage'), 
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblYourMessage'), 
     0)
 
-WebUI.getText(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblYourMessage'))
+WebUI.getText(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/lblYourMessage'))
 
 WebUI.verifyTextPresent('Katalon automation test', true)
 

@@ -19,12 +19,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
 
-WebUI.waitForElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy - Checkbox demo for automation using selenium/btnCheckAll'), 
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy - Checkbox demo for automation using selenium/btnCheckAll'), 
     10)
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Selenium Easy - Checkbox demo for automation using selenium/btnCheckAll'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy - Checkbox demo for automation using selenium/btnCheckAll'))
 
-WebUI.verifyElementChecked(findTestObject('KatalonPractice4/Page_Selenium Easy - Checkbox demo for automation using selenium/chkOption1'),
+WebUI.verifyElementChecked(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy - Checkbox demo for automation using selenium/chkOption1'),
     5)
 
 WebUI.closeBrowser()

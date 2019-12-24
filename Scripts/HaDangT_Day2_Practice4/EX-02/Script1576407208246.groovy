@@ -20,11 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.sendKeys(findTestObject('KatalonPractice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
+WebUI.sendKeys(findTestObject('HaDangT_Day2_Practice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'Woo Single #2')
 
-WebUI.sendKeys(findTestObject('KatalonPractice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('HaDangT_Day2_Practice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('KatalonPractice4/Page_Search Results for Woo Single 2  Katalon Shop/lblSearchResults'), 
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Search Results for Woo Single 2  Katalon Shop/lblSearchResults'), 
     0)
 
 windowTitle = WebUI.getWindowTitle()

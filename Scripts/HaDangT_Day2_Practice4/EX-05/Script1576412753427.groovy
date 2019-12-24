@@ -19,16 +19,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html')
 
-number = WebUI.getNumberOfTotalOption(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'))
+number = WebUI.getNumberOfTotalOption(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'))
 
 WebUI.verifyEqual(number, 8)
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'))
 
-WebUI.selectOptionByValue(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'), 'Monday', 
+WebUI.selectOptionByValue(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/ddlDay'), 'Monday', 
     true)
 
-WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/lblDaySelected'))
+WebUI.verifyElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/lblDaySelected'))
 
 WebUI.closeBrowser()
 

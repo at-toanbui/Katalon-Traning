@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-placeholder = WebUI.getAttribute(findTestObject('KatalonPractice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'placeholder')
+placeholder = WebUI.getAttribute(findTestObject('HaDangT_Day2_Practice4/Page_Katalon Shop  Katalon Ecommerce/txtSearch'), 'placeholder')
 
 WebUI.verifyMatch(placeholder, 'Type to search', true)
 

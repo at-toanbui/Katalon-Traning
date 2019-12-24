@@ -19,11 +19,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Katalon Shop  Katalon Ecommerce/mnuSamplePage'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Katalon Shop  Katalon Ecommerce/mnuSamplePage'))
 
-WebUI.waitForElementVisible(findTestObject('KatalonPractice4/Page_Sample Page  Katalon Shop/lnkWordPress'), 0)
+WebUI.waitForElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Sample Page  Katalon Shop/lnkWordPress'), 0)
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Sample Page  Katalon Shop/lnkWordPress'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Sample Page  Katalon Shop/lnkWordPress'))
 
 currentURL = WebUI.getUrl()
 

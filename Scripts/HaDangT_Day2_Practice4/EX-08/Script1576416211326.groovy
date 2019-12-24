@@ -19,7 +19,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/javascript-alert-box-demo.html')
 
-WebUI.click(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/btnClickForPromptBox'))
+WebUI.click(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/btnClickForPromptBox'))
 
 alertText = WebUI.getAlertText(FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -29,7 +29,7 @@ WebUI.setAlertText('Katalon Automation Testing')
 
 WebUI.acceptAlert()
 
-lblYourPrompt = WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Selenium Easy Demo - Automate All Scenarios/lblYourPrompt'))
+lblYourPrompt = WebUI.verifyElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Selenium Easy Demo - Automate All Scenarios/lblYourPrompt'))
 
 WebUI.closeBrowser()
 

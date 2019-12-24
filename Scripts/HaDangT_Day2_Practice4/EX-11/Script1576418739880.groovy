@@ -21,9 +21,9 @@ WebUI.navigateToUrl('https://tus.io/demo.html')
 
 currentDirectory = System.getProperty('user.dir')
 
-WebUI.uploadFile(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnChooseFile'), currentDirectory + '/ImageTest/imageTest.png')
+WebUI.uploadFile(findTestObject('HaDangT_Day2_Practice4/Page_Resumable File Upload Demo  tus/btnChooseFile'), currentDirectory + '/ImageTest/imageTest.png')
 
-WebUI.verifyElementVisible(findTestObject('KatalonPractice4/Page_Resumable File Upload Demo  tus/btnDownloadImage'))
+WebUI.verifyElementVisible(findTestObject('HaDangT_Day2_Practice4/Page_Resumable File Upload Demo  tus/btnDownloadImage'))
 
 WebUI.closeBrowser()
 
