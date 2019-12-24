@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl(GlobalVariable.urlPractice1)
 
+WebUI.waitForPageLoad(GlobalVariable.timeout)
+
 WebUI.waitForElementVisible(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 0)
 
 WebUI.sendKeys(findTestObject('HaDangT_Day3_EX02-02/Page_My Store/txtSearch'), 'dress')
