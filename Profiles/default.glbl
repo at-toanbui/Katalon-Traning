@@ -24,4 +24,14 @@
       <initValue>'http://cms.demo.katalon.com/'</initValue>
       <name>DEMO_PAGE_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://automationpractice.com/index.php'</initValue>
+      <name>HOME_PAGE_PRACTICE_ULR</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>TIMEOUT_MIN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

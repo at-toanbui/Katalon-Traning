@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX02-02_AddToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52b49a05-ebbc-4d6b-985c-58ef6d42641e</testCaseGuid>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>8baa2c5b-2dd7-4b01-b373-a22431d362de</id>
+      <masked>false</masked>
+      <name>numberOfItemInput</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your order on My Store is complete.'</defaultValue>
+      <description></description>
+      <id>81034b20-1135-4e69-a9ad-ee3e740e07ba</id>
+      <masked>false</masked>
+      <name>messageSuccess</name>
+   </variable>
+</TestCaseEntity>

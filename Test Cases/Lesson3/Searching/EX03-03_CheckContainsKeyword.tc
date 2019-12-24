@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX03-03_CheckContainsKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c165ca8a-59b1-43e9-84d7-9fd00fe30f4b</testCaseGuid>
+   <variable>
+      <defaultValue>'abcdef'</defaultValue>
+      <description></description>
+      <id>cf32a1ee-0b54-4fce-bde9-236e96953fad</id>
+      <masked>false</masked>
+      <name>keywordNoResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'No results were found for your search'</defaultValue>
+      <description></description>
+      <id>5c6afaeb-dac1-4e2d-b698-9329797911e2</id>
+      <masked>false</masked>
+      <name>mgsNoResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'//ul[@class=\'product_list grid row\']/li'</defaultValue>
+      <description></description>
+      <id>c26cbef9-a099-47e3-87fa-2e68d0ebe4fd</id>
+      <masked>false</masked>
+      <name>element</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'product-container\']//a[@class=\'product-name\']'</defaultValue>
+      <description></description>
+      <id>41d2cd6d-e8df-4aad-8a5b-49d5b0b43e0d</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dress'</defaultValue>
+      <description></description>
+      <id>45e53433-5352-4fb3-aeb2-3cd4c6983518</id>
+      <masked>false</masked>
+      <name>keywordHaveResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'7 results have been found.'</defaultValue>
+      <description></description>
+      <id>3684ad0d-444b-452a-b63d-0917cf49a94d</id>
+      <masked>false</masked>
+      <name>totalRecordMessage</name>
+   </variable>
+</TestCaseEntity>

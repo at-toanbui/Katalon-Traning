@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblErrorCreateAccount</name>
+   <tag></tag>
+   <elementGuidId>756ce53a-e62a-49a9-9952-c8000c70ae2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='create_account_error']//li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[id=create_account_error]>ol>li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

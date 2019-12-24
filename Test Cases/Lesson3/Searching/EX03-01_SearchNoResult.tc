@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX03-01_SearchNoResult</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18fc71d1-bd10-4b02-9f5f-ebd8e4525757</testCaseGuid>
+   <variable>
+      <defaultValue>'abcdef'</defaultValue>
+      <description></description>
+      <id>cd2e557f-3e62-409f-a6ad-34d540721c5f</id>
+      <masked>false</masked>
+      <name>keywordNoResult</name>
+   </variable>
+   <variable>
+      <defaultValue>'No results were found for your search'</defaultValue>
+      <description></description>
+      <id>64b75a7a-a374-43a0-bf47-ad38043aded8</id>
+      <masked>false</masked>
+      <name>mgsNoResult</name>
+   </variable>
+</TestCaseEntity>

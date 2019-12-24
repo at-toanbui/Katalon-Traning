@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX02-01_CreateAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2bde132-f42a-4f34-b884-9abf4a102408</testCaseGuid>
+   <variable>
+      <defaultValue>'lenhung.dhkt@gmail.com'</defaultValue>
+      <description></description>
+      <id>53f3bb39-8a98-42c5-ae9c-8f370ee342c6</id>
+      <masked>false</masked>
+      <name>emailRegister</name>
+   </variable>
+</TestCaseEntity>
