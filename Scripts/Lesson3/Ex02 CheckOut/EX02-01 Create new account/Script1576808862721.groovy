@@ -16,13 +16,13 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My Store/btnSignIn'))
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen+6@asiantech.vn')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'phan.nguyen@asiantech.vn')
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
@@ -31,23 +31,24 @@ String msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/E
 String msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
 
 //random mail generator
-String mail = ('Phan' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
-
-if (msg1.equals('true')) {
-    WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'This is a invalid email')
-
-    WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+String mail = ('Phan.Nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
+if (msg1.equals('false')) {
+    
+	WebUI.comment('User Registration Successful')
+	
 } else {
-    WebUI.comment('User Registration Successful')
-}
+	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'This is a invalid email')
+	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+    }
 
-if (msg2.equals('true')) {
-    WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
-
-    WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+if (msg2.equals('false')) {
+    
+	WebUI.comment('User Registration Successful')
+	
 } else {
-    WebUI.comment('User Registration Successful')
-}
+	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+    }
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 
     'Phan')
@@ -81,7 +82,7 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 title = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(title, '.*My account - My Store.*', true)
+WebUI.verifyMatch(title, 'My account - My Store', false)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My account - My Store/btnSignOut'))
 
