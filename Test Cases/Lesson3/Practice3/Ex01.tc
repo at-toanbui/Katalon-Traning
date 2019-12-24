@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ex01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50abd6ca-35e5-458d-8a71-482d1434aef1</testCaseGuid>
+   <variable>
+      <defaultValue>'qwerty'</defaultValue>
+      <description></description>
+      <id>3108fc26-0339-40b5-8710-17ed8d8233d9</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>

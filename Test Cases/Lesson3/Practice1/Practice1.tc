@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Practice1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>524422ba-0bc6-44d5-a227-bf3c4ac3d26d</testCaseGuid>
+   <variable>
+      <defaultValue>'Ngan'</defaultValue>
+      <description></description>
+      <id>c5ee6826-a7a3-42c6-8e0c-4cd616c111ba</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tran'</defaultValue>
+      <description></description>
+      <id>86001268-55b1-48c0-9cc1-02f3b39b6ebd</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>
