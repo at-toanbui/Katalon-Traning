@@ -26,29 +26,22 @@ WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/P
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
-String msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
+msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
 
-String msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
+msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
 
 //random mail generator
-String mail = ('Phan.Nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
-if (msg1.equals('false')) {
-    
-	WebUI.comment('User Registration Successful')
-	
-} else {
-	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), 'This is a invalid email')
-	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
-    }
+String mail = ('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
 
-if (msg2.equals('false')) {
-    
-	WebUI.comment('User Registration Successful')
-	
-} else {
-	WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
-	WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
-    }
+while (msg1.equals(true) || msg2.equals(true)) {
+    WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+
+    WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
+
+    WebUI.waitForPageLoad(GlobalVariable.TIMEOUT, FailureHandling.CONTINUE_ON_FAILURE)
+
+    break
+}
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtCustomerFirstName'), 
     'Phan')
