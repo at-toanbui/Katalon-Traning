@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_My Store/txtSearch'), 'Dress')
 
