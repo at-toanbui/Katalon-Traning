@@ -19,13 +19,23 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('DuomLe_Practice3_EX2-01/btnSignin'))
 
-WebUI.waitForPageLoad(5)
-
-String mail = CustomKeywords.'email.Emailrandom.getEmail'('duom', 'gmail.com')
-
-WebUI.sendKeys(findTestObject('DuomLe_Practice3_EX2-01/txtEmail'), mail)
+WebUI.setText(findTestObject('DuomLe_Practice3_EX2-01/txtEmail'), 'duom55804@gmail.com')
 
 WebUI.click(findTestObject('DuomLe_Practice3_EX2-01/btnCreateAccount'))
+
+String mail2 = CustomKeywords.'email.Emailrandom.getEmail2'('duom2', 'gmail.com')
+
+msg = WebUI.verifyElementVisible(findTestObject('Page_Login - My Store/msgerror2'))
+
+while (msg == true) {
+    WebUI.clearText(findTestObject('DuomLe_Practice3_EX2-01/txtEmail'))
+
+    WebUI.sendKeys(findTestObject('DuomLe_Practice3_EX2-01/txtEmail'), mail2)
+
+    WebUI.click(findTestObject('DuomLe_Practice3_EX2-01/btnCreateAccount'))
+
+    break
+}
 
 WebUI.waitForPageLoad(5)
 

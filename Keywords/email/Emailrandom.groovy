@@ -29,4 +29,10 @@ public class Emailrandom {
 		return suffix + randomNo + "@" + prefix;
 
 	}
+	@Keyword
+	public String getEmail2(String suffix,String prefix){
+		int randomNo = (int)(Math.random() * 1000000);
+		return suffix + randomNo + "@" + prefix;
+
+	}
 }

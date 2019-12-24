@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblNumberresults2</name>
+   <name>lbl7Result</name>
    <tag></tag>
-   <elementGuidId>19fc486e-d40c-485e-9aea-506875c53bb9</elementGuidId>
+   <elementGuidId>e0b7e94c-dfc8-49f4-9941-c6e20db7cedc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class=&quot;product-name&quot; and @itemprop=&quot;url&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-            7 results have been found.        ' or . = '
-            7 results have been found.        ')]</value>
+         <value>//div[@id='center_column']/h1/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -52,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@class=&quot;product-name&quot; and @itemprop=&quot;url&quot;]</value>
+      <value>//div[@id='center_column']/h1/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
