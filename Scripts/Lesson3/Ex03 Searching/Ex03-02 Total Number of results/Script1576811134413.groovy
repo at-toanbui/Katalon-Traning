@@ -20,7 +20,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Lesson3/Ex03 Searching/Page_My Store/txtSearch'), 'Dress')
 
@@ -33,7 +33,11 @@ WebDriver driver = DriverFactory.getWebDriver()
 def eleCount = driver.findElements(By.xpath('//a[@class="product-name" and @itemprop="url"]')).size()
 
 //println(eleCount.size())
-result = WebUI.getText(findTestObject('Lesson3/Ex03 Searching/Page_Search - My Store/msgResult'))
+result = WebUI.getText(findTestObject('Lesson3/Ex03 Searching/Page_Search - My Store/msgResult')).substring(0,9).replaceAll('[^0-9]', '')
 
-WebUI.verifyMatch(result, eleCount + ' results have been found.', false)
+WebUI.comment(result)
+
+//WebUI.equals(result, eleCount, false)
+
+WebUI.verifyEqual(result, eleCount)
 
