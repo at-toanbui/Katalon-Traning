@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson3/Ex03 Searching/Ex03-02 Total Number of results</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>95a650a4-fd49-43e2-8a86-5e427b1fbe6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson3/Ex03 Searching/Ex03-03 Name Of Search Results</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
