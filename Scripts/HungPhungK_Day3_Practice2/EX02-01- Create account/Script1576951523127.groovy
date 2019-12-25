@@ -73,5 +73,7 @@ WebUI.click(findTestObject('HungPhungK_Day3_Practice3/Create account/btnRegister
 
 WebUI.waitForElementPresent(findTestObject('HungPhungK_Day3_Practice3/Create account/msgWelcome'), GlobalVariable.TIMEOUT)
 
-WebUI.closeBrowser()
+welcomemsg = WebUI.getText(findTestObject('HungPhungK_Day3_Practice3/Create account/msgWelcome'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(welcomemsg, 'Welcome to your account. Here you can manage all of your personal information and orders.', false)
 
