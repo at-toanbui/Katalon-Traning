@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ex01 Validation Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b15a01a-9830-4d64-9b72-66353c3fd6ec</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63edb606-853b-4530-987f-81f8958330fe</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41bf8326-e752-4b1a-b804-3002ee4d971e</id>
+      <masked>false</masked>
+      <name>passwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10f95ad8-df2c-41b8-955b-4074e32431c6</id>
+      <masked>false</masked>
+      <name>errorMsg</name>
+   </variable>
+</TestCaseEntity>
