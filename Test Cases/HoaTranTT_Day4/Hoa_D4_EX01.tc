@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hoa_D4_EX01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab04fe23-9200-4485-a3d2-e0d3f478ccd5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9270abc-453e-408e-b01d-bb6170cb81d8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83b8f20b-3ce3-4e1a-b9f9-09fa41ae7696</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0008a216-5443-4d35-9c42-1116c2689b08</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>
