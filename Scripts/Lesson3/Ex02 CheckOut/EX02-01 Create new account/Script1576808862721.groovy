@@ -26,12 +26,12 @@ WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/P
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
-msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
+def msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
 
-msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
+def msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
 
 //random mail generator
-String mail = ('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
+String mail = ('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5) + '@gmail.com')
 
 while ((msg1 == true) || (msg2 == true)) {
     WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)

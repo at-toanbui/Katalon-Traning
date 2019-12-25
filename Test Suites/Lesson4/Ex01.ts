@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Ex01</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d2dda7b5-f44b-4f57-a3be-c89c439ed604</testSuiteGuid>
+   <testCaseLink>
+      <guid>0f73deab-4edf-4956-9b53-da82e126615a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson4/EX01 Validation Failed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>056726d3-bfec-4065-96f6-d06d9f67e7a8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Lesson4/ValidationFailed</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>056726d3-bfec-4065-96f6-d06d9f67e7a8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>68116d16-a729-40d6-8895-732a34c7d0f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>056726d3-bfec-4065-96f6-d06d9f67e7a8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d2e14b93-7edd-4ee9-82b7-4fe91a7677bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>056726d3-bfec-4065-96f6-d06d9f67e7a8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMsg</value>
+         <variableId>72bec787-28da-40cc-8fb5-92463996c63a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

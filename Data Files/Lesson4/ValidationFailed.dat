@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ValidationFailed</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b2c648f4-524f-4b1e-a7c5-1617b791b9e1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abc%24%25%26%23%40%40gmail.com null Invalid+email+address.</data>
+   <data>abc%24%25%26%23%40%40gmail.com Abcd1234 Invalid+email+address.</data>
+   <data>abc%24%25%26%23%40%40gmail.com %E6%BC%A2%E5%AD%97 Invalid+email+address.</data>
+   <data>phan.nguyen%40asiantech.vn null Password+is+required.</data>
+   <data>phan.nguyen%40asiantech.vn %E6%BC%A2%E5%AD%97 Invalid+password.</data>
+   <data>null Abcd1234 An+email+address+required.</data>
+   <data>null %E6%BC%A2%E5%AD%97 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMsg</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -14,29 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.urlLogin)
 
-WebUI.setText(findTestObject('Lesson3/Ex03 Searching/Page_My Store/txtSearch'), 'Dress')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Login - My Store/txtEmailLogin'), email)
 
-WebUI.sendKeys(findTestObject('Lesson3/Ex03 Searching/Page_My Store/txtSearch'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Login - My Store/txtPasswordLogin'), password)
+
+WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Login - My Store/btnSignIn'))
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-def eleCount = driver.findElements(By.xpath('//a[@class="product-name" and @itemprop="url"]')).size()
-
-//println(eleCount.size())
-result = WebUI.getText(findTestObject('Lesson3/Ex03 Searching/Page_Search - My Store/msgResult')).substring(0,9).replaceAll('[^0-9]', '')
-
-WebUI.comment(result)
-
-//WebUI.equals(result, eleCount, false)
-WebUI.verifyEqual(result, eleCount)
+WebUI.verifyElementText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Login - My Store/lblErrorMsg'), errorMsg)
 
