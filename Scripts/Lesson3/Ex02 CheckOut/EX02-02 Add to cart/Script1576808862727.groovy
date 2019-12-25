@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_My Store/txtSearch'), 'Dress')
 
@@ -67,7 +67,7 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 checked = WebUI.verifyElementChecked(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'), 
     0)
 
-if (checked == 'false') {
+if (checked == false) {
     WebUI.check(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'))
 } else {
     WebUI.comment('Already checked')
