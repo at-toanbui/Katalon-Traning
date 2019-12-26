@@ -23,5 +23,7 @@ WebUI.setText(findTestObject('Lesson4/Page_Login - My Store/txtPassword'), passw
 
 WebUI.click(findTestObject('Lesson4/Page_Login - My Store/btnSignIn'))
 
+WebUI.waitForElementVisible(findTestObject('Lesson4/Page_Login - My Store/lblErrorMessage'), GlobalVariable.timeOut)
+
 WebUI.verifyElementText(findTestObject('Lesson4/Page_Login - My Store/lblErrorMessage'), errorMsg)
 
