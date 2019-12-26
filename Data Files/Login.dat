@@ -11,11 +11,11 @@
    <data>abc%23%24%25%40%40gmail.com null Invalid+email+address.</data>
    <data>abc%23%24%25%40%40gmail.com ThanhHoa123%21%40%23 Invalid+email+address.</data>
    <data>abc%23%24%25%40%40gmail.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC Invalid+email+address.</data>
-   <data>eemailc1%40domain.com null Invalid+email+address.</data>
-   <data>eemailc1%40domain.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC%29 Invalid+email+address.</data>
-   <data>null ThanhHoa123%21%40%23 Invalid+email+address.</data>
-   <data>null %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC%29 Invalid+email+address.</data>
-   <data>null null Invalid+email+address.</data>
+   <data>eemailc1%40domain.com null Password+is+required.</data>
+   <data>eemailc1%40domain.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC%29 Invalid+password.</data>
+   <data>null ThanhHoa123%21%40%23 An+email+address+required.</data>
+   <data>null %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC%29 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
    <data>null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>

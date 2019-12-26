@@ -2,8 +2,8 @@ email,password,errorMessage
 abc#$%@@gmail.com,,Invalid email address.
 abc#$%@@gmail.com,ThanhHoa123!@#,Invalid email address.
 abc#$%@@gmail.com,松平容敬,Invalid email address.
-eemailc1@domain.com,,Invalid email address.
-eemailc1@domain.com,松平容敬,Invalid email address.
-,ThanhHoa123!@#,Invalid email address.
-,松平容敬,Invalid email address.
-,,Invalid email address.
+eemailc1@domain.com,,Password is required.
+eemailc1@domain.com,松平容敬,Invalid password.
+,ThanhHoa123!@#,An email address required.
+,松平容敬,An email address required.
+,,An email address required.

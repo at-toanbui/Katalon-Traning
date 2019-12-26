@@ -19,7 +19,7 @@
          <combinationType>ONE</combinationType>
          <id>7bb48621-56cd-4ee9-9165-4895eeb932dc</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-3</value>
          </iterationEntity>
          <testDataId>Data Files/Login</testDataId>
