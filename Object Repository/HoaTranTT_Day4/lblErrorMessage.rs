@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[text()='Invalid email address.']</value>
+         <value>//div[@class=&quot;alert alert-danger&quot;]//ol//li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
