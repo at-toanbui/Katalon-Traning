@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX03-Login Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f04b4a01-fad5-4305-a9b4-bfbceb339e80</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>831f2fad-c044-4f58-89db-a63e2b9949df</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>971edd6b-6030-4eca-bc70-ff08683923d5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a9be8f2-8ac4-4af5-8888-0c968c4849b3</id>
+      <masked>false</masked>
+      <name>MessageLoginSuccess</name>
+   </variable>
+</TestCaseEntity>

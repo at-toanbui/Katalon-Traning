@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX01,2-Login Faild</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c50eb4b9-b003-42c0-835e-e9ecd58dbfa0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65094d94-493f-4b8e-b9e7-04c168064808</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b3a9864-be8c-4c95-b391-81935c9354c6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6984380e-9358-4b70-bbbf-daf2d0f84fad</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>

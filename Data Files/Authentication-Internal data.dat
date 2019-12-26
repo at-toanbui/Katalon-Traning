@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Authentication-Internal data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>955b8357-c9ef-4908-b74a-a5dccd6f94bd</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>phuc%40asiantech.com null Password+is+required.</data>
+   <data>phuc.phan1%2B1%40asiantech.vn zxzxzx1234 Authentication+failed.</data>
+   <data>phuc%40asiantech.vn zxzxzx1233 Authentication+failed.</data>
+   <data>phuc.phan1%2B1%40asiantech.vn null Password+is+required.</data>
+   <data>phuc.phan1%2B1%40asiantech.vn zxzxzx1234 Authentication+failed.</data>
+   <data>null zxzxzx123 An+email+address+required.</data>
+   <data>null zxzx111111111 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Error Message </name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
