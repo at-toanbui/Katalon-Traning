@@ -19,15 +19,15 @@
          <combinationType>ONE</combinationType>
          <id>7bb48621-56cd-4ee9-9165-4895eeb932dc</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-3</value>
          </iterationEntity>
-         <testDataId>Data Files/Login</testDataId>
+         <testDataId>Data Files/LoginExcel</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>7bb48621-56cd-4ee9-9165-4895eeb932dc</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>userName</value>
+         <value>email</value>
          <variableId>b9270abc-453e-408e-b01d-bb6170cb81d8</variableId>
       </variableLink>
       <variableLink>
