@@ -16,21 +16,20 @@
    <data>null ThanhHoa123%21%40%23 An+email+address+required.</data>
    <data>null %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC%29 An+email+address+required.</data>
    <data>null null An+email+address+required.</data>
-   <data>null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>userName</name>
-      <size>9</size>
+      <size>8</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>9</size>
+      <size>8</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>errorMessage</name>
-      <size>9</size>
+      <size>8</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
