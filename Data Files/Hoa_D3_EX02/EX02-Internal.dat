@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>EX02-Internal</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>15aa397c-8fe2-4519-b8b0-1899ffd0fd98</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>email1234567%40domain.com null Password+is+required.</data>
+   <data>email1234567%40domain.com ThanhHoa123%21%40%23 Authentication+failed.</data>
+   <data>email1234567%40domain.com HaHa123%21%40%23 Authentication+failed.</data>
+   <data>eemailc1%40domain.com null Password+is+required.</data>
+   <data>eemailc1%40domain.com HaHa123%21%40%23 Authentication+failed.</data>
+   <data>null ThanhHoa123%21%40%23 An+email+address+required.</data>
+   <data>null HaHa123%21%40%23 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>userName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMessage</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

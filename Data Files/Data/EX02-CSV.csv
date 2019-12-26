@@ -1,0 +1,9 @@
+email,password,errorMessage
+email1234567@domain.com,,Password is required.
+email1234567@domain.com,ThanhHoa123!@#,Authentication failed.
+email1234567@domain.com,HaHa123!@#,Authentication failed.
+eemailc1@domain.com,,Password is required.
+eemailc1@domain.com,HaHa123!@#,Authentication failed.
+,ThanhHoa123!@#,An email address required.
+,HaHa123!@#,An email address required.
+,,An email address required.
