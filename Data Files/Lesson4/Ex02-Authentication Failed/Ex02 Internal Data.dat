@@ -12,7 +12,7 @@
    <data>ThisIsIncorrectEmail%40gmail.com Abcd1234 Authentication+failed.</data>
    <data>ThisIsIncorrectEmail%40gmail.com qwerty Authentication+failed.</data>
    <data>ThisIsAValidEmail%40gmail.com null Password+is+required.</data>
-   <data>ThisIsAValidEmail%40gmail.com %E5%81%A5%E5%BA%B7%E7%BE%8E+ Authentication+failed.</data>
+   <data>ThisIsAValidEmail%40gmail.com incorrect Authentication+failed.</data>
    <data>null Abcd1234 An+email+address+required.</data>
    <data>null qwerty An+email+address+required.</data>
    <data>null null An+email+address+required.</data>
