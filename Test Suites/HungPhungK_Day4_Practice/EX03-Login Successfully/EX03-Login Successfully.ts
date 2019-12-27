@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EX03-Login Successfully</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6f18ec63-6ab6-4807-84e1-8ac77378bb52</testSuiteGuid>
+   <testCaseLink>
+      <guid>a77775bc-d1e7-4fb7-b696-8a9a623ab638</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HungPhungK_Day4_Practice1/EX03-Login Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>17b0f0e1-4c93-4d11-8ee5-f0f977c241b4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX03-Login Successfully/EX03-CSV</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>17b0f0e1-4c93-4d11-8ee5-f0f977c241b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4ad5df8b-f919-44ff-8669-f3cb1cc29e43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>17b0f0e1-4c93-4d11-8ee5-f0f977c241b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>88b7106b-c56c-4fe2-9b13-53375253ce58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>17b0f0e1-4c93-4d11-8ee5-f0f977c241b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loginsuccessmsg</value>
+         <variableId>5d503639-5d8e-43c7-954d-3d2105a2ae33</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c84bd8d3-346f-459b-88b0-58bdf21fd42b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HungPhungK_Day4_Practice1/EX03-Login Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3dbe2d69-88be-4b84-b00d-fceb615ea767</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX03-Login Successfully/EX03-Excel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3dbe2d69-88be-4b84-b00d-fceb615ea767</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4ad5df8b-f919-44ff-8669-f3cb1cc29e43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3dbe2d69-88be-4b84-b00d-fceb615ea767</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>88b7106b-c56c-4fe2-9b13-53375253ce58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3dbe2d69-88be-4b84-b00d-fceb615ea767</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loginsuccessmsg</value>
+         <variableId>5d503639-5d8e-43c7-954d-3d2105a2ae33</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90cdf2fe-2e63-4021-b79e-5bf43d1b87ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HungPhungK_Day4_Practice1/EX03-Login Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e0cdcf70-dc3d-4774-b2cc-ab9c0eaaaabc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX03-Login Successfully/EX03-Internal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e0cdcf70-dc3d-4774-b2cc-ab9c0eaaaabc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4ad5df8b-f919-44ff-8669-f3cb1cc29e43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e0cdcf70-dc3d-4774-b2cc-ab9c0eaaaabc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>88b7106b-c56c-4fe2-9b13-53375253ce58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e0cdcf70-dc3d-4774-b2cc-ab9c0eaaaabc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>login success message</value>
+         <variableId>5d503639-5d8e-43c7-954d-3d2105a2ae33</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,9 @@
+email,password,errorMessage
+abcd1234@yahoo.com,,Password is required.
+abcd1234@yahoo.com,abcd1234,Authentication failed.
+abcd1234@yahoo.com,Aa1@abcd,Authentication failed.
+pepoqatest01+11@gmail.com,,Password is required.
+pepoqatest01+11@gmail.com,Aa1@abcd,Authentication failed.
+,abcd1234,An email address required.
+,Aa1@abcd,An email address required.
+,,An email address required.

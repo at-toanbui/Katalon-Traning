@@ -14,4 +14,9 @@
       <initValue>20</initValue>
       <name>TIMEOUT</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=my-account'</initValue>
+      <name>urlSignin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
