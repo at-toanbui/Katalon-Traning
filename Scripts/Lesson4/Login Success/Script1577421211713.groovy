@@ -25,9 +25,9 @@ WebUI.click(findTestObject('Lesson4/Page_Login - My Store/btnSignIn'))
 
 WebUI.waitForPageLoad(GlobalVariable.timeOut)
 
-verifyLogin = WebUI.verifyElementNotPresent(findTestObject('Lesson4/Page_Login - My Store/lblErrorMessage'), GlobalVariable.MIN_TIMEOUT, FailureHandling.OPTIONAL)
+verifyLogin = WebUI.verifyElementPresent(findTestObject('Lesson4/Page_Login - My Store/lblErrorMessage'), GlobalVariable.MIN_TIMEOUT, FailureHandling.OPTIONAL)
 
-if (verifyLogin) {
+if (!verifyLogin) {
     WebUI.comment('Login Success')
     WebUI.deleteAllCookies()
 } else {
