@@ -16,22 +16,24 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My Store/btnSignIn'))
 
 //random mail generator
-String mail = ('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com'
+mail = (('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com')
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), '@@$')
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
-def msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'))
+msg1 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgAlreadyExist'), 
+    FailureHandling.OPTIONAL)
 
-def msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'))
+msg2 = WebUI.verifyElementVisible(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/msgInvalidEmail'), 
+    FailureHandling.OPTIONAL)
 
 while (msg1 || msg2) {
     WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
