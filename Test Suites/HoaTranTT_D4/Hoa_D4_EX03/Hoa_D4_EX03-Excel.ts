@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hoa_D4_EX01-InternalData</name>
+   <name>Hoa_D4_EX03-Excel</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>5ab0c649-ba4c-4695-bed4-5a3a19225a9d</testSuiteGuid>
+   <testSuiteGuid>056eff90-6c89-445f-a2ed-3daa59e32603</testSuiteGuid>
    <testCaseLink>
       <guid>5cc361c6-7a1d-4397-a293-1935fa59cd08</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -17,27 +17,27 @@
       <testCaseId>Test Cases/HoaTranTT_Day4/Hoa_D4_EX03</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ae38e90b-724f-4743-80ab-b32394943f20</id>
+         <id>d03270d1-d56a-43e1-8c94-438bdd274f3c</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Hoa_D4_EX03/EX03-Internal</testDataId>
+         <testDataId>Data Files/Hoa_D4_EX03/EX03-Excel</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ae38e90b-724f-4743-80ab-b32394943f20</testDataLinkId>
+         <testDataLinkId>d03270d1-d56a-43e1-8c94-438bdd274f3c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>userName</value>
+         <value>email</value>
          <variableId>18ff7ab3-52a2-42e9-bb64-a37a05fa5896</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ae38e90b-724f-4743-80ab-b32394943f20</testDataLinkId>
+         <testDataLinkId>d03270d1-d56a-43e1-8c94-438bdd274f3c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>a6c4a632-fd61-409d-8aae-ac910882e56c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ae38e90b-724f-4743-80ab-b32394943f20</testDataLinkId>
+         <testDataLinkId>d03270d1-d56a-43e1-8c94-438bdd274f3c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>e6a2ddde-a0c7-4541-b07e-f128f97a45d9</variableId>

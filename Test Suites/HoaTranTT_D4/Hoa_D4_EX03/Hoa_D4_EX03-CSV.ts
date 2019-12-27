@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hoa_D4_EX01-InternalData</name>
+   <name>Hoa_D4_EX03-CSV</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,38 +9,38 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>c6567fc6-7d15-452b-adb1-1ccc7227d212</testSuiteGuid>
+   <testSuiteGuid>91261a17-2948-47c9-a619-1b10b1bcc79d</testSuiteGuid>
    <testCaseLink>
       <guid>5cc361c6-7a1d-4397-a293-1935fa59cd08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HoaTranTT_Day4/Hoa_D4_EX01</testCaseId>
+      <testCaseId>Test Cases/HoaTranTT_Day4/Hoa_D4_EX03</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>affe6e21-a2a9-4b1e-93ad-5183651c1b44</id>
+         <id>44fd06a9-6e3a-44a5-80f0-0524b3d83020</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Hoa_D4_EX02/EX02-Internal</testDataId>
+         <testDataId>Data Files/Hoa_D4_EX03/EX03-CSV</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>affe6e21-a2a9-4b1e-93ad-5183651c1b44</testDataLinkId>
+         <testDataLinkId>44fd06a9-6e3a-44a5-80f0-0524b3d83020</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>userName</value>
-         <variableId>b9270abc-453e-408e-b01d-bb6170cb81d8</variableId>
+         <value>email</value>
+         <variableId>18ff7ab3-52a2-42e9-bb64-a37a05fa5896</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>affe6e21-a2a9-4b1e-93ad-5183651c1b44</testDataLinkId>
+         <testDataLinkId>44fd06a9-6e3a-44a5-80f0-0524b3d83020</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>83b8f20b-3ce3-4e1a-b9f9-09fa41ae7696</variableId>
+         <variableId>a6c4a632-fd61-409d-8aae-ac910882e56c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>affe6e21-a2a9-4b1e-93ad-5183651c1b44</testDataLinkId>
+         <testDataLinkId>44fd06a9-6e3a-44a5-80f0-0524b3d83020</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>errorMessage</value>
-         <variableId>0008a216-5443-4d35-9c42-1116c2689b08</variableId>
+         <value>name</value>
+         <variableId>e6a2ddde-a0c7-4541-b07e-f128f97a45d9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

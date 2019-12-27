@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value>1-3</value>
          </iterationEntity>
-         <testDataId>Data Files/LoginExcel</testDataId>
+         <testDataId>Data Files/Hoa_D4_EX01/LoginExcel</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>7bb48621-56cd-4ee9-9165-4895eeb932dc</testDataLinkId>
