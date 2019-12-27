@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Internal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>905699b3-834a-4302-a0b8-9ae001e3e49e</testSuiteGuid>
+   <testCaseLink>
+      <guid>fd0b2371-838c-406a-aed7-4d10076edeb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lession4/HanhNguyenT_Day4_LoginPass</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c087b245-aa63-45c2-b235-1590a29d8970</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ex03_internal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c087b245-aa63-45c2-b235-1590a29d8970</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>8dd9e8e4-676e-4229-baa5-9ae770cdf57e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c087b245-aa63-45c2-b235-1590a29d8970</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c6895c73-e544-4dd2-b201-a50e8a7b7ef7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HanhNguyenT_Day4_LoginPass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6353b079-443e-4904-85d9-db0e40725c56</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8dd9e8e4-676e-4229-baa5-9ae770cdf57e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6895c73-e544-4dd2-b201-a50e8a7b7ef7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

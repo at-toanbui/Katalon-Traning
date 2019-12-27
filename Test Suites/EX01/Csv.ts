@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Csv</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>880c697e-503a-4f81-8075-9525d76b2cf2</testSuiteGuid>
+   <testCaseLink>
+      <guid>986dd45d-f0a7-4273-83b0-109d1d2de62e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lession4/HanhNguyenT_Day4_LoginFail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>510b2c2c-d57f-4f2a-bb4d-94f30303975d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ex01_csv</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>510b2c2c-d57f-4f2a-bb4d-94f30303975d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>cbefa2ea-81a3-4576-a5e8-1170d9b390ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>510b2c2c-d57f-4f2a-bb4d-94f30303975d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f9631d18-18b2-412c-90d0-6194ad771f80</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>510b2c2c-d57f-4f2a-bb4d-94f30303975d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>6d578909-dd40-40f5-943b-4d60064d290d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

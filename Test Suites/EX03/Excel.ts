@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>398aa9df-5da5-44ba-81da-d1c65ab53b73</testSuiteGuid>
+   <testCaseLink>
+      <guid>ee06c21e-ce52-4d3d-8fc6-df5c378d523e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lession4/HanhNguyenT_Day4_LoginPass</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e69054bb-dfe3-4969-898b-45b31443b3d3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ex03_excel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e69054bb-dfe3-4969-898b-45b31443b3d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>8dd9e8e4-676e-4229-baa5-9ae770cdf57e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e69054bb-dfe3-4969-898b-45b31443b3d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c6895c73-e544-4dd2-b201-a50e8a7b7ef7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

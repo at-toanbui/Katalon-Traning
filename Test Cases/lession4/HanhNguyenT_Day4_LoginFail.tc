@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HanhNguyenT_Day4_LoginFail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab494135-fa1e-4050-a49e-04a35a71626d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbefa2ea-81a3-4576-a5e8-1170d9b390ca</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9631d18-18b2-412c-90d0-6194ad771f80</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d578909-dd40-40f5-943b-4d60064d290d</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>
