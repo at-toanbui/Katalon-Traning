@@ -1,0 +1,9 @@
+EmailAddress,Password,ErrorMessage
+abc$%&#@@gmail.com,,Invalid email address.
+abc$%&#@@gmail.com,Abcd1234,Invalid email address.
+abc$%&#@@gmail.com,漢字,Invalid email address.
+phan.nguyen@asiantech.vn,,Password is required.
+phan.nguyen@asiantech.vn,漢字,Invalid password.
+,Abcd1234,An email address required.
+,漢字,An email address required.
+,,An email address required.

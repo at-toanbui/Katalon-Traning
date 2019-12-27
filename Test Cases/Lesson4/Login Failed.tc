@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Ex01 Validation Failed</name>
+   <name>Login Failed</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2b15a01a-9830-4d64-9b72-66353c3fd6ec</testCaseGuid>

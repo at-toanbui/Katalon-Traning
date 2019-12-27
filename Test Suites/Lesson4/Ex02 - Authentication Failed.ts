@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Ex01 Validation Failed</name>
+   <name>Ex02 - Authentication Failed</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,103 +9,103 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1240ca48-ca6b-49c0-8035-35e153e63fc3</testSuiteGuid>
+   <testSuiteGuid>cc54afba-3ab6-44ca-9238-9674f366ad14</testSuiteGuid>
    <testCaseLink>
-      <guid>127afaf0-a3c2-45b3-84a3-c7733b01e4db</guid>
+      <guid>46265e96-71eb-40b5-9789-acb63bd9bdc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson4/Login Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a1c198cc-ccc8-4305-bad8-0591dacb7817</id>
+         <id>309c9c6f-7a9d-4e8e-952d-de41ab8987d1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Lesson4/Ex01-Valiation Failed/Ex01 Internal Data</testDataId>
+         <testDataId>Data Files/Lesson4/Ex02-Authentication Failed/Ex02 Internal Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>a1c198cc-ccc8-4305-bad8-0591dacb7817</testDataLinkId>
+         <testDataLinkId>309c9c6f-7a9d-4e8e-952d-de41ab8987d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EmailAddress</value>
          <variableId>63edb606-853b-4530-987f-81f8958330fe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1c198cc-ccc8-4305-bad8-0591dacb7817</testDataLinkId>
+         <testDataLinkId>309c9c6f-7a9d-4e8e-952d-de41ab8987d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>41bf8326-e752-4b1a-b804-3002ee4d971e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1c198cc-ccc8-4305-bad8-0591dacb7817</testDataLinkId>
+         <testDataLinkId>309c9c6f-7a9d-4e8e-952d-de41ab8987d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ErrorMessage</value>
          <variableId>10f95ad8-df2c-41b8-955b-4074e32431c6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a0617bd6-06ae-46c6-ac77-489d0e7d815c</guid>
+      <guid>e51ed683-f854-4f48-ba30-7665e7d4e983</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson4/Login Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ffd9c901-5496-4684-b1e7-fac08410e6fb</id>
+         <id>345f6d74-dc51-4e5b-8bc9-0b956ed3e566</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Lesson4/Ex01-Valiation Failed/Ex01 CSV</testDataId>
+         <testDataId>Data Files/Lesson4/Ex02-Authentication Failed/Ex02 CSV</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ffd9c901-5496-4684-b1e7-fac08410e6fb</testDataLinkId>
+         <testDataLinkId>345f6d74-dc51-4e5b-8bc9-0b956ed3e566</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EmailAddress</value>
          <variableId>63edb606-853b-4530-987f-81f8958330fe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ffd9c901-5496-4684-b1e7-fac08410e6fb</testDataLinkId>
+         <testDataLinkId>345f6d74-dc51-4e5b-8bc9-0b956ed3e566</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>41bf8326-e752-4b1a-b804-3002ee4d971e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ffd9c901-5496-4684-b1e7-fac08410e6fb</testDataLinkId>
+         <testDataLinkId>345f6d74-dc51-4e5b-8bc9-0b956ed3e566</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ErrorMessage</value>
+         <value>ErrorMesage</value>
          <variableId>10f95ad8-df2c-41b8-955b-4074e32431c6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>aeff3773-1587-4513-b070-43521639db58</guid>
+      <guid>72acdd07-4eb1-4e4d-9f78-88cfa3341538</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lesson4/Login Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5cd3c47b-bbd7-4bb9-8283-e4e5b7b5a597</id>
+         <id>31a486fc-4172-471f-a22c-7d7100baa410</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Lesson4/Ex01-Valiation Failed/Ex01 Excel</testDataId>
+         <testDataId>Data Files/Lesson4/Ex02-Authentication Failed/Ex02 Excel</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>5cd3c47b-bbd7-4bb9-8283-e4e5b7b5a597</testDataLinkId>
+         <testDataLinkId>31a486fc-4172-471f-a22c-7d7100baa410</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EmailAddress</value>
          <variableId>63edb606-853b-4530-987f-81f8958330fe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5cd3c47b-bbd7-4bb9-8283-e4e5b7b5a597</testDataLinkId>
+         <testDataLinkId>31a486fc-4172-471f-a22c-7d7100baa410</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>41bf8326-e752-4b1a-b804-3002ee4d971e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5cd3c47b-bbd7-4bb9-8283-e4e5b7b5a597</testDataLinkId>
+         <testDataLinkId>31a486fc-4172-471f-a22c-7d7100baa410</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ErrorMessage</value>
+         <value>ErrorMesage</value>
          <variableId>10f95ad8-df2c-41b8-955b-4074e32431c6</variableId>
       </variableLink>
    </testCaseLink>
