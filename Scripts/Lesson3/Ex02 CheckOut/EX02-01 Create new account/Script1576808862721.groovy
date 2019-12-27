@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Pag
 //random mail generator
 mail = (('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com')
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), GlobalVariable.registeredEmail)
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
