@@ -21,15 +21,15 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php?controller=authenti
 
 WebUI.waitForPageLoad(10)
 
-WebUI.setText(findTestObject('EX01/txtEmail'), '')
+WebUI.setText(findTestObject('EX01/txtEmail'), email)
 
-WebUI.setText(findTestObject('EX01/txtPassword'), '')
+WebUI.setText(findTestObject('EX01/txtPassword'), password)
 
 WebUI.click(findTestObject('EX01/btnLogin'))
 
 WebUI.waitForPageLoad(10)
 
-error = WebUI.getAttribute(findTestObject('EX01/lblEmalRequire'), '')
+error = WebUI.getAttribute(findTestObject('EX01/lblEmalRequire'), errorMsg)
 
-WebUI.verifyMatch(error, '', true)
+WebUI.verifyElementText(findTestObject('EX01/lblEmalRequire'), error, FailureHandling.STOP_ON_FAILURE)
 

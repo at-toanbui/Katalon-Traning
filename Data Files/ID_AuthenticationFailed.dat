@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ID_AuthenticationFailed</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>833097e8-d470-4a32-b760-dbb0e88fc19c</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abc%23%24%25%40%40gmail.com null Password+is+required.</data>
+   <data>abc%23%24%25%40%40gmail.com minhthai Authentication+failed.</data>
+   <data>abc%23%24%25%40%40gmail.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC Authentication+failed.</data>
+   <data>minhthai%40gmail.com null Password+is+required.</data>
+   <data>minhthai%40gmail.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC Authentication+failed.</data>
+   <data>null minhthai An+email+address+required.</data>
+   <data>null %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errrorMsg</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
