@@ -25,13 +25,12 @@ WebUI.click(findTestObject('Lesson4/Page_Login - My Store/btnSignIn'))
 
 WebUI.waitForPageLoad(GlobalVariable.timeOut)
 
-title = WebUI.getWindowTitle()
 
-if (title == 'My account - My Store') {
+
+if (WebUI.verifyElementNotPresent(findTestObject('Lesson4/Page_Login - My Store/lblErrorMessage'), GlobalVariable.MIN_TIMEOUT, FailureHandling.OPTIONAL)) {
     WebUI.comment('Login Success')
-	WebUI.deleteAllCookies()
+    WebUI.deleteAllCookies()
 } else {
     WebUI.comment('Login Failed')
 }
-
 
