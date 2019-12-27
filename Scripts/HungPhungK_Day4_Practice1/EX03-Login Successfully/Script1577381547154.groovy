@@ -31,3 +31,5 @@ WebUI.verifyElementText(findTestObject('HungPhungK_Day4_Practice1/Page_Login - M
 
 WebUI.click(findTestObject('HungPhungK_Day4_Practice1/Page_My account - My Store/btnSignout'))
 
+WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
+
