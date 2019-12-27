@@ -16,7 +16,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-WebUI.openBrowser(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Pag
 //random mail generator
 mail = (('Phan.nguyen.' + RandomStringUtils.randomAlphanumeric(5)) + '@gmail.com')
 
-WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), mail)
+WebUI.setText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/txtEmail'), GlobalVariable.registeredEmail)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_Login - My Store/btnCreateAnAccount'))
 
