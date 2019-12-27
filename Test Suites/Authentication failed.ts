@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Authentication faild</name>
+   <name>Authentication failed</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -17,27 +17,27 @@
       <testCaseId>Test Cases/Lesson4/EX01,2-Login Faild</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>43f664b7-e253-498e-94b9-f9e371bfc2c7</id>
+         <id>9580df4b-11a2-4838-bac3-6beda0650f7e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Authentication failed - CSV</testDataId>
+         <testDataId>Data Files/Authentication Failed - CSV</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>43f664b7-e253-498e-94b9-f9e371bfc2c7</testDataLinkId>
+         <testDataLinkId>9580df4b-11a2-4838-bac3-6beda0650f7e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>65094d94-493f-4b8e-b9e7-04c168064808</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>43f664b7-e253-498e-94b9-f9e371bfc2c7</testDataLinkId>
+         <testDataLinkId>9580df4b-11a2-4838-bac3-6beda0650f7e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>1b3a9864-be8c-4c95-b391-81935c9354c6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>43f664b7-e253-498e-94b9-f9e371bfc2c7</testDataLinkId>
+         <testDataLinkId>9580df4b-11a2-4838-bac3-6beda0650f7e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ErrorMessage</value>
          <variableId>6984380e-9358-4b70-bbbf-daf2d0f84fad</variableId>

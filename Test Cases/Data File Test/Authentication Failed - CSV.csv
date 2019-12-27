@@ -1,0 +1,9 @@
+Email,Password,ErrorMessage
+phuc@asiantech.com,,Password is required.
+phuc.phan1+1@asiantech.vn,zxzxzx1234,Authentication failed.
+phuc@asiantech.vn,zxzxzx1233,Authentication failed.
+phuc.phan1+1@asiantech.vn,,Password is required.
+phuc.phan1+1@asiantech.vn,zxzxzx1234,Authentication failed.
+,zxzxzx123,An email address required.
+,zxzx111111111,An email address required.
+,,An email address required.
