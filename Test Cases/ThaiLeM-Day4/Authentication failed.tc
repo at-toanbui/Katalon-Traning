@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Authentication failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb949607-0f42-4d09-9e6f-6720b856547b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d11cb53-6096-42df-9633-6ae8862a3077</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a61e4470-94cf-4348-ba6d-5a5d219ca689</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04b4507d-25a5-4d85-8886-39ca2e3b0273</id>
+      <masked>false</masked>
+      <name>errorMsg</name>
+   </variable>
+</TestCaseEntity>

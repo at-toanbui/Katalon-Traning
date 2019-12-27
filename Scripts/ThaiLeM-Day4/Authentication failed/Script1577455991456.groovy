@@ -15,7 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('KatalonHealthcare/btnMakeAppointment'))
+WebUI.navigateToUrl('http://automationpractice.com/index.php?controller=authentication&back=my-account')
+
+WebUI.waitForPageLoad(10)
+
+WebUI.setText(findTestObject('EX01/txtEmail'), '')
+
+WebUI.setText(findTestObject('EX01/txtPassword'), '')
+
+WebUI.click(findTestObject('EX01/btnLogin'))
+
+WebUI.waitForPageLoad(10)
+
+error = WebUI.getAttribute(findTestObject('EX01/lblEmalRequire'), '')
+
+WebUI.verifyMatch(error, '', true)
 

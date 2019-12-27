@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Excel_ValidationFailed</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8b71479e-4cd4-4e28-bc78-ddcb964c3ee5</testSuiteGuid>
+   <testCaseLink>
+      <guid>c2127aae-d5eb-4559-9f67-b88b6cc211a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThaiLeM-Day4/ValidationFailed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fcbe889b-fa7f-4c59-81da-01dc8fcf8cde</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Excel_ValidationFailed</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fcbe889b-fa7f-4c59-81da-01dc8fcf8cde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>4f8c9c24-0b50-4d6f-8471-ade98ba73dce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcbe889b-fa7f-4c59-81da-01dc8fcf8cde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>237a1daa-b4e9-41ec-9eaf-e878ffb40cb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fcbe889b-fa7f-4c59-81da-01dc8fcf8cde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>8e578efd-c1ca-450d-8f99-df4bbf8b4e6b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

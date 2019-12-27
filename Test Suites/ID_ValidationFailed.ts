@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ID_ValidationFailed</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c999c767-6a30-46e4-9db1-f7bd3319d912</testSuiteGuid>
+   <testCaseLink>
+      <guid>99031be8-5125-4873-aa9d-4da48845a67d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThaiLeM-Day4/ValidationFailed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>177df809-ac4b-4027-9422-c7e3a6be84c5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ID_ValidationFailed</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>177df809-ac4b-4027-9422-c7e3a6be84c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4f8c9c24-0b50-4d6f-8471-ade98ba73dce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>177df809-ac4b-4027-9422-c7e3a6be84c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>237a1daa-b4e9-41ec-9eaf-e878ffb40cb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>177df809-ac4b-4027-9422-c7e3a6be84c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMsg</value>
+         <variableId>8e578efd-c1ca-450d-8f99-df4bbf8b4e6b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

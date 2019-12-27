@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ValidationFailed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90a9d281-63b1-4c8d-81ec-08ab194c7cb1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f8c9c24-0b50-4d6f-8471-ade98ba73dce</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>237a1daa-b4e9-41ec-9eaf-e878ffb40cb1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e578efd-c1ca-450d-8f99-df4bbf8b4e6b</id>
+      <masked>false</masked>
+      <name>errorMsg</name>
+   </variable>
+</TestCaseEntity>

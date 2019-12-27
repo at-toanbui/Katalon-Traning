@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CSV_ValidationFailed</name>
+   <tag></tag>
+   <containsHeaders>false</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>7fd5855b-f2c2-4f90-b5d5-b3e7e26a5e8b</dataFileGUID>
+   <dataSourceUrl>/Users/mba0082/Desktop/CSV_AF.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
