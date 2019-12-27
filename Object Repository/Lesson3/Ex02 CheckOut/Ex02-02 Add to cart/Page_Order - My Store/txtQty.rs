@@ -6,12 +6,12 @@
    <elementGuidId>7eef2943-aa33-42b1-b737-3e47e91e6f36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @value = '2' and @name = 'quantity_5_20_0_0']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='quantity_5_20_0_0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;product_5_20_0_0&quot;)/td[@class=&quot;cart_quantity text-center&quot;]/input[@class=&quot;cart_quantity_input form-control grey&quot;][count(. | //*[@type = 'text' and @value = '2' and @name = 'quantity_5_20_0_0']) = count(//*[@type = 'text' and @value = '2' and @name = 'quantity_5_20_0_0'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -66,7 +66,7 @@
       <value>quantity_5_20_0_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

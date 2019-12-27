@@ -38,7 +38,16 @@ WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Print
 
 WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 
-total = WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/lblTotal'))
+double pro = Float.parseFloat(WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/lblProducts')).replace(
+        '$', ''))
+
+double ship = Float.parseFloat(WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/lblShipping')).replace(
+        '$', ''))
+
+double total = Float.parseFloat(WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/lblTotal')).replace(
+        '$', ''))
+
+WebUI.verifyEqual(total, pro + ship)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Printed Summer Dress - My Store/btnProceedToCheckout'))
 
@@ -48,9 +57,10 @@ quality = WebUI.getAttribute(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add t
 
 WebUI.verifyEqual(quality, 2)
 
-total2 = WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/lblTotal2'))
+double total2 = Float.parseFloat(WebUI.getText(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/lblTotal2')).replace(
+        '$', ''))
 
-WebUI.verifyMatch(total, total2, false)
+WebUI.verifyEqual(total, total2)
 
 WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/btnProceedToCheckout2'))
 
@@ -67,7 +77,7 @@ WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
 checked = WebUI.verifyElementChecked(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'), 
     0)
 
-if (!checked) {
+if (!(checked)) {
     WebUI.check(findTestObject('Lesson3/Ex02 CheckOut/Ex02-02 Add to cart/Page_Order - My Store/chkDeliveryAddress'))
 } else {
     WebUI.comment('Already checked')

@@ -77,5 +77,5 @@ title = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(title, 'My account - My Store', false)
 
-WebUI.click(findTestObject('Lesson3/Ex02 CheckOut/Ex02-01 Create new account/Page_My account - My Store/btnSignOut'))
+WebUI.deleteAllCookies()
 
