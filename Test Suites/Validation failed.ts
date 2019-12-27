@@ -55,7 +55,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ValidationFail-CSV</testDataId>
+         <testDataId>Data Files/Validation failed-CSV</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>2e08cebc-2e6b-44f3-ba01-e8cee256c912</testDataLinkId>
@@ -88,7 +88,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ValidationFaild-Excel</testDataId>
+         <testDataId>Data Files/Validation Failed-Excel</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>dd0fc0a1-e16a-41cb-bcb5-53e0eedb1700</testDataLinkId>

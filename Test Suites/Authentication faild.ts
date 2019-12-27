@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Authentication faild - CSV</testDataId>
+         <testDataId>Data Files/Authentication failed - CSV</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>43f664b7-e253-498e-94b9-f9e371bfc2c7</testDataLinkId>
@@ -55,7 +55,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Authentication faild- Excel</testDataId>
+         <testDataId>Data Files/Authentication failed- Excel</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>01d67852-fa6f-4114-bb11-2135f44ec053</testDataLinkId>
