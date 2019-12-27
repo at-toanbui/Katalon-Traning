@@ -1,0 +1,9 @@
+Email ,Password ,Error message 
+!@#$%^@gmail.com,,Invalid email address.
+abc#$%@@gmail.com,zxzxzx1234,Invalid email address.
+abc#$%@@gmail.com,松平容敬,Invalid email address.
+phuc.phan@asiantech.vn,,Password is required.
+phuc.phan1+1@asiantech.vn,松平容敬,Invalid password.
+,zxzxzx1234,An email address required.
+,zxzxzx123,An email address required.
+,,An email address required.

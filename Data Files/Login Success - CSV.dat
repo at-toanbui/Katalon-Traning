@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>aa3c4d54-6599-423d-acef-ca3712cedd66</dataFileGUID>
-   <dataSourceUrl>/Users/mba0027/Documents/Login Success - CSV.csv</dataSourceUrl>
+   <dataSourceUrl>Test Cases/Data File Test/Login Success - CSV.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>55cb13c0-2d3e-405d-8dba-35f44094bf90</dataFileGUID>
-   <dataSourceUrl>/Users/mba0027/Documents/ValidationFail-CSV.csv</dataSourceUrl>
+   <dataSourceUrl>Test Cases/Data File Test/ValidationFail-CSV.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
