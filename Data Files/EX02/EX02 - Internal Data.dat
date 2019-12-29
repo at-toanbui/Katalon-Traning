@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>EX02 - Internal Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>38ec7d5a-5e1c-4743-955c-50673106de27</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>vy.vo%40asiantech.vn null Password+is+required.</data>
+   <data>vy.vo%40asiantech.vn 12345678 Authentication+failed.</data>
+   <data>vy.vo%40asiantech.vn 87654321 Authentication+failed.</data>
+   <data>vy.vo2%40asiantech.vn null Password+is+required.</data>
+   <data>vy.vo2%40asiantech.vn 87654321 Authentication+failed.</data>
+   <data>null 12345678 An+email+address+required.</data>
+   <data>null 87654321 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMessage</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

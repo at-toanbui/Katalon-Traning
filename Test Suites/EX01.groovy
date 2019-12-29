@@ -49,7 +49,7 @@ def tearDown() {
  */
 @SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	// Put your code here.
+WebUI.openBrowser()
 }
 
 /**
@@ -57,7 +57,7 @@ def setupTestCase() {
  */
 @TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	// Put your code here.
+WebUI.closeBrowser()
 }
 
 /**

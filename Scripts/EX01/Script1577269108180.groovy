@@ -14,8 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.URLAUTO)
 
-WebUI.click(findTestObject('KatalonHealthcare/btnMakeAppointment'))
+WebUI.waitForPageLoad(GlobalVariable.TIMEOUT)
+
+WebUI.setText(findTestObject('Page Login/txtEmail'), email)
+
+WebUI.setText(findTestObject('Page Login/txtPassword'), password)
+
+WebUI.click(findTestObject('Page Login/btnSignIn'))
+
+WebUI.waitForElementVisible(findTestObject('Page Login/errorMessage'), 10)
+
+WebUI.verifyElementText(findTestObject('Page Login/errorMessage'), errorMessage)
 

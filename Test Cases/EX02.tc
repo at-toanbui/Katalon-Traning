@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40896601-e706-432a-884e-6f310f4d8e46</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76a52f1f-4acb-47a3-9e41-24b5d06c3342</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25d04df2-a4ab-42ed-a4f2-792595eefcbd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1bd94bf-3663-45ee-a416-e9880e099246</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>
