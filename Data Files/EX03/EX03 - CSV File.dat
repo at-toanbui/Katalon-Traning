@@ -5,8 +5,8 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>4973fb43-c6fb-4650-a331-b9c52b3deab6</dataFileGUID>
-   <dataSourceUrl>../../EX03 - CSV.csv</dataSourceUrl>
+   <dataFileGUID>b1a841d5-9292-4497-bf5b-e59ed3cf1ca2</dataFileGUID>
+   <dataSourceUrl>Data Files/EX03/EX03 - CSV.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

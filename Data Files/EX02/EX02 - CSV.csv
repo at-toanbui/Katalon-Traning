@@ -1,0 +1,9 @@
+email,password,errorMessage
+vy.vo@asiantech.vn,,Password is required.
+vy.vo@asiantech.vn,12345678,Authentication failed.
+vy.vo@asiantech.vn,87654321,Authentication failed.
+vy.vo2@asiantech.vn,,Password is required.
+vy.vo2@asiantech.vn,87654321,Authentication failed.
+,12345678,An email address required.
+,87654321,An email address required.
+,,An email address required.

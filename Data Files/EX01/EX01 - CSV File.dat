@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>EX03 - Excel File</name>
+   <name>EX01 - CSV File</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>7ef2e28f-ce9f-4702-becf-601fae9fdc2a</dataFileGUID>
-   <dataSourceUrl>Data Files/EX03/EX03 - Excel.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>c6d7a94c-e174-40f7-bf0e-3b6adedfe0f0</dataFileGUID>
+   <dataSourceUrl>Data Files/EX01/EX01 - CSV.csv</dataSourceUrl>
+   <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet 1 - EX03 - CSV</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

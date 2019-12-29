@@ -5,8 +5,8 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>8176b7da-53a3-4b3a-8b1f-09f0a42cfdbb</dataFileGUID>
-   <dataSourceUrl>../../EX02 - Excel.xlsx</dataSourceUrl>
+   <dataFileGUID>6622807c-ee60-4c04-b4f1-b5c40389df15</dataFileGUID>
+   <dataSourceUrl>Data Files/EX02/EX02 - Excel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

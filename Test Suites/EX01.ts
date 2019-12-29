@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/EX01</testDataId>
+         <testDataId>Data Files/EX01/EX01 - Internal Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>09d37b8e-1167-474d-b6fe-b55c8c3ed600</testDataLinkId>
@@ -38,6 +38,72 @@
       </variableLink>
       <variableLink>
          <testDataLinkId>09d37b8e-1167-474d-b6fe-b55c8c3ed600</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>26bd73f3-effa-4c49-962d-f719af236f08</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94dae60e-4ee9-4b6c-a078-4fa721c8ce0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EX01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>04e342bb-3689-47e8-8666-0ac34f117334</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX01/EX01 - CSV File</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>04e342bb-3689-47e8-8666-0ac34f117334</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>9d8ce368-6dcd-4ef5-8307-7a25b41969c8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04e342bb-3689-47e8-8666-0ac34f117334</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a292ecaf-d2a8-48f1-90d3-1cea8e1060dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04e342bb-3689-47e8-8666-0ac34f117334</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>26bd73f3-effa-4c49-962d-f719af236f08</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a25687d0-dc7d-43e7-81fc-ffa82cfb8f28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EX01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f4331be-e0e7-4fd5-b573-b7c7e47aa07d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX01/EX01 - Excel File</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3f4331be-e0e7-4fd5-b573-b7c7e47aa07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>9d8ce368-6dcd-4ef5-8307-7a25b41969c8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f4331be-e0e7-4fd5-b573-b7c7e47aa07d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a292ecaf-d2a8-48f1-90d3-1cea8e1060dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f4331be-e0e7-4fd5-b573-b7c7e47aa07d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>errorMessage</value>
          <variableId>26bd73f3-effa-4c49-962d-f719af236f08</variableId>
