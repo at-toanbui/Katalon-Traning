@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2cb631b2-f002-48fd-b0b6-f9f0501d37bf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33fd3030-7355-4533-be16-dee8c71ba597</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84602de3-c297-458d-8279-6ec416cfb54f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d357e94f-ce17-4f18-9630-0519527a23b6</id>
+      <masked>false</masked>
+      <name>errorMsg</name>
+   </variable>
+</TestCaseEntity>

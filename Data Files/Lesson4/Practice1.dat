@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Practice1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3fa22da2-124f-4187-bd3c-fc736188da2e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abc%23%24%25%40%40gmail.com null Invalid+email+address.</data>
+   <data>abc%23%24%25%40%40gmail.com abcd1234 Invalid+email+address.</data>
+   <data>abc%23%24%25%40%40gmail.com %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC Invalid+email+address.</data>
+   <data>ngan.tran%2B1%40asiantech.vn null Password+is+required.</data>
+   <data>ngan.tran%2B1%40asiantech.vn %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC Invalid+password.</data>
+   <data>null abcd1234 An+email+address+required.</data>
+   <data>null %E6%9D%BE%E5%B9%B3%E5%AE%B9%E6%95%AC An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>userName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMsg</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
