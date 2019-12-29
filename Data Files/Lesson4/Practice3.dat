@@ -5,16 +5,10 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>96d9ac9e-947b-41de-9859-4520d42d041f</dataFileGUID>
-   <dataSourceUrl>../../Desktop/Practice3.xlsx</dataSourceUrl>
+   <dataFileGUID>eb98da52-9de5-41f2-9a15-41f0628f8c62</dataFileGUID>
+   <dataSourceUrl>Data Files/Lesson4/Data/Practice3.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
-   <properties>
-      <entry>
-         <key>readAsString</key>
-         <value>true</value>
-      </entry>
-   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet 1</sheetName>

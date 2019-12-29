@@ -1,0 +1,9 @@
+userName,password,errorMsg
+abc@a.com,,Password is required.
+abc@a.com,abcd1234,Authentication failed.
+abc@a.com,123456a,Authentication failed.
+ngan.tran+1@asiantech.vn,,Password is required.
+ngan.tran+1@asiantech.vn,123456a,Authentication failed.
+,abcd1234,An email address required.
+,123456a,An email address required.
+,,An email address required.
