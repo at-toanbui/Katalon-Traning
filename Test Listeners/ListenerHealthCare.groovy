@@ -27,23 +27,23 @@ class ListenerHealthCare {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser('')
-	}
-
-	/**
-	 * Executes after every test case ends.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
-	}
+//	@BeforeTestCase
+//	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+//		println testCaseContext.getTestCaseId()
+//		println testCaseContext.getTestCaseVariables()
+//		WebUI.openBrowser('')
+//	}
+//
+//	/**
+//	 * Executes after every test case ends.
+//	 * @param testCaseContext related information of the executed test case.
+//	 */
+//	@AfterTestCase
+//	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+//		println testCaseContext.getTestCaseId()
+//		println testCaseContext.getTestCaseStatus()
+//		WebUI.closeBrowser()
+//	}
 
 	/**
 	 * Executes before every test suite starts.
@@ -52,6 +52,7 @@ class ListenerHealthCare {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		WebUI.openBrowser('')
 	}
 
 	/**
@@ -61,5 +62,6 @@ class ListenerHealthCare {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		WebUI.closeBrowser()
 	}
 }

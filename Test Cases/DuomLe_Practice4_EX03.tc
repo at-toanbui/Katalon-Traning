@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DuomLe_Practice4_EX03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43d74176-9491-4997-b86c-98e7a607a226</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff13004d-5505-4192-b101-ebeafb6bbaca</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d02b9efa-a9ec-4fd9-b6eb-6e5af5f18041</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

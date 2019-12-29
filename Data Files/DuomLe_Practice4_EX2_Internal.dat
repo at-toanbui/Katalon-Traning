@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DuomLe_Practice4_EX2_Internal</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>99c53816-a448-4851-bbb4-57a37622aaba</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>duomlttlan55804%40gmail.com null Password+is+required.</data>
+   <data>duomlttlan55804%40gmail.com %40A09874 Authentication+failed.</data>
+   <data>duomlttlan55804%40gmail.com %40A09874 Authentication+failed.</data>
+   <data>duom55804%40gmail.com null Password+is+required.</data>
+   <data>duom55804%40gmail.com %40A09874 Authentication+failed.</data>
+   <data>null lethi An+email+address+required.</data>
+   <data>null %40A09874 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>ErrorMsg</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
