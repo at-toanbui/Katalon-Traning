@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EX01-CSV</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f4204299-dc92-434f-bb30-762ed4a08cad</testSuiteGuid>
+   <testCaseLink>
+      <guid>d6fb8e56-e313-4596-bc31-ef98bdf90fe0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ex01-Validation failed/EX01_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7d7b5596-5b07-417f-9a9a-2a7a30a450bc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX01/EX01-CSV</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8c2b9ec-781e-48fa-880b-d877042f977f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>672229b2-6fc4-40bc-af52-9238aef25bc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>130f4784-0c6e-48e3-b833-69fab08b9234</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

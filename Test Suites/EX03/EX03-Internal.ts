@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EX03-Internal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1221c49f-a8e2-4286-9133-e2cc02edc685</testSuiteGuid>
+   <testCaseLink>
+      <guid>43e94ddf-2ac1-405c-931a-1fc66ea21853</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EX03-Successfully login/EX03_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3cdb2aba-504e-40c6-b5f8-a7c3fc1228b4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX03/EX03-Internal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a3fecc8-743c-4d43-8fc0-fb500805ebb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>615bd187-5d65-4670-97ce-d5870b0981e0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

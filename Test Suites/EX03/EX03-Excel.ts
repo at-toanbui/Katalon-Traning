@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EX03-Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ab9d5019-d49a-4c71-8d53-2b5faf798d1c</testSuiteGuid>
+   <testCaseLink>
+      <guid>6637077e-3de4-42bb-a6d1-590860079e7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EX03-Successfully login/EX03_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b52d361f-0aeb-4e68-8e2a-84ab871c99e2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX03/EX03-Excel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a3fecc8-743c-4d43-8fc0-fb500805ebb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>615bd187-5d65-4670-97ce-d5870b0981e0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX03_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>565e0242-176f-4341-a902-5f018d2ef249</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EX03/EX03-Internal').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7a3fecc8-743c-4d43-8fc0-fb500805ebb8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EX03/EX03-Internal').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>615bd187-5d65-4670-97ce-d5870b0981e0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

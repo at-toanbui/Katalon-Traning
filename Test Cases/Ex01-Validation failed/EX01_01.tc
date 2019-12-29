@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EX01_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90fee639-560b-4c30-8670-4a5ad2f21b55</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('EX01/EX01-Excel').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>c8c2b9ec-781e-48fa-880b-d877042f977f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EX01/EX01-Excel').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>672229b2-6fc4-40bc-af52-9238aef25bc0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('EX01/EX01-Excel').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>130f4784-0c6e-48e3-b833-69fab08b9234</id>
+      <masked>false</masked>
+      <name>errormessage</name>
+   </variable>
+</TestCaseEntity>

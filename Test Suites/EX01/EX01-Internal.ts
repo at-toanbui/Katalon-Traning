@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EX01-Internal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>455d5e47-1a71-418d-aa7e-da7174a0c367</testSuiteGuid>
+   <testCaseLink>
+      <guid>66ff4c98-6345-4ff9-83d5-7b84c0715f9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ex01-Validation failed/EX01_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6ca70ea0-49e3-4ed1-9138-256b12ece7f9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX01/EX01-Internal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8c2b9ec-781e-48fa-880b-d877042f977f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>672229b2-6fc4-40bc-af52-9238aef25bc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>130f4784-0c6e-48e3-b833-69fab08b9234</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
