@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ID_SuccessfullyLogin</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9f2952d2-3a86-4eb9-8b0b-4e6502f6bccd</testSuiteGuid>
+   <testCaseLink>
+      <guid>adbc8ea4-c64f-405c-a9a6-bc2ff5d78b35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThaiLeM-Day4/SuccessfullyLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ed49e0aa-7cad-45b8-96e0-1e579ed7fbd4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ID_SuccessfullyLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ed49e0aa-7cad-45b8-96e0-1e579ed7fbd4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>cd4424c8-dd16-4163-ac9b-29a15d54311e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed49e0aa-7cad-45b8-96e0-1e579ed7fbd4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6686ab4b-2c32-4186-bec2-904082937f8f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed49e0aa-7cad-45b8-96e0-1e579ed7fbd4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>successMsg</value>
+         <variableId>97551456-a4a1-414e-8e4c-3553c663f0c2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
