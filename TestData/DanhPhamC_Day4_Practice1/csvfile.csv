@@ -1,0 +1,9 @@
+username;password;errorMSG
+abc#$%@@gmail.com;;Invalid email address.
+abc#$%@@gmail.com;abcd12345;Invalid email address.
+abc#$%@@gmail.com;松平容敬;Invalid email address.
+danhpc11212@gmail.com;;Password is required.
+danhpc11212@gmail.com;ababab;Authentication failed.
+;Abcd1234;An email address required.
+;松平容敬;An email address required.
+;;An email address required.

@@ -1,0 +1,9 @@
+username;password;errorMSG
+abcd1231441@gmail.com;;Password is required.
+abcd1231441@gmail.com;Abcd1234;Authentication failed.
+abcd1231441@gmail.com;hahaa;Authentication failed.
+danhpc11212@gmail.com;;Password is required.
+danhpc11212@gmail.com;ababab;Authentication failed.
+;Abcd1234;An email address required.
+;松平容敬;An email address required.
+;;An email address required.

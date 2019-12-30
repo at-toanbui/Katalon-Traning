@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DanhPhamC_Day4_Practice3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fae23549-0235-4d9c-9184-05e397cea517</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51c1df7d-6d54-446c-a43b-ee0c82341baf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b8143e3-4a05-4f8a-b65a-20070f21883c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf880b10-e3d3-4e04-9ede-b2583255b594</id>
+      <masked>false</masked>
+      <name>success</name>
+   </variable>
+</TestCaseEntity>

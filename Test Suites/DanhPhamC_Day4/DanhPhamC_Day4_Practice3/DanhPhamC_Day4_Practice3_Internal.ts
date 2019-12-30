@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DanhPhamC_Day4_Practice3_Internal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>31d767dc-dda8-4378-9bea-4f3ddee9b15c</testSuiteGuid>
+   <testCaseLink>
+      <guid>e0bbc581-7a08-4407-b638-504b64af61d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson4/DanhPhamC_Day4_Practice3</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7a7f4bb3-c918-42b6-a7e0-7da8ae2e126e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DanhPhamC_Day4_Practice3/Internal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7a7f4bb3-c918-42b6-a7e0-7da8ae2e126e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>51c1df7d-6d54-446c-a43b-ee0c82341baf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7a7f4bb3-c918-42b6-a7e0-7da8ae2e126e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1b8143e3-4a05-4f8a-b65a-20070f21883c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7a7f4bb3-c918-42b6-a7e0-7da8ae2e126e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Success</value>
+         <variableId>bf880b10-e3d3-4e04-9ede-b2583255b594</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
