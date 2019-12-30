@@ -15,15 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://automationpractice.com/index.php?controller=authentication&back=my-account')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('txtEmail'), email)
 
 WebUI.setText(findTestObject('txtPassword'), password)
 
 WebUI.click(findTestObject('btnSignin'))
+
+WebUI.deleteAllCookies()
 
 WebUI.verifyElementVisible(findTestObject('btnSignout'))
 
