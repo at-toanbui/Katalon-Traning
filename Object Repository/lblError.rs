@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lblinvalidPasss</name>
+   <name>lblError</name>
    <tag></tag>
-   <elementGuidId>a9f71317-ca47-4bcb-a6e1-4e6b0db5a893</elementGuidId>
+   <elementGuidId>fddbc4f0-f43b-4556-a8a6-17602d7dddf0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='center_column']/div/ol/li</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class=&quot;alert alert-danger&quot;]/ol/li</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('EX01/txtPassword'), password)
 
 WebUI.click(findTestObject('EX01/btnLogin'))
 
-WebUI.waitForElementPresent(findTestObject('EX01/lblEmalRequire'), 10)
+WebUI.waitForElementPresent(findTestObject('EX01/lblErrorMsg'), 10)
 
-WebUI.verifyElementText(findTestObject('EX01/lblEmalRequire'), errorMsg, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('EX01/lblErrorMsg'), errorMsg)
 

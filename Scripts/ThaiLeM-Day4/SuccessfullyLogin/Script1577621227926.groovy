@@ -27,9 +27,7 @@ WebUI.setText(findTestObject('EX01/txtPassword'), password)
 
 WebUI.click(findTestObject('EX01/btnLogin'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForElementPresent(findTestObject('EX01/lblSuccessLogin'), 10)
 
-WebUI.getAttribute(findTestObject('EX01/lblSuccessLogin'), successMsg)
-
-WebUI.verifyElementPresent(findTestObject('EX01/lblSuccessLogin'), 10)
+WebUI.verifyElementPresent(findTestObject('EX01/lblSuccessLogin'), successMsg)
 
