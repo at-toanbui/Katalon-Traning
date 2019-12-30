@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_EX02_InternalData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>79df0b9c-78aa-4f04-b579-706e888f3a5b</testSuiteGuid>
+   <testCaseLink>
+      <guid>68011648-cc64-47fd-b80e-5b3fed798b05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lesson4/chungphamv_Day4_LoginData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7c3ee049-c3e2-4661-a50a-f5e7c435df81</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX02_AuthenticationFailed/DF_EX02_InternalData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7c3ee049-c3e2-4661-a50a-f5e7c435df81</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>34610ca1-dc4f-483f-abf9-8e813b040076</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c3ee049-c3e2-4661-a50a-f5e7c435df81</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d01350b9-9012-48f6-b11c-40f3c220e088</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c3ee049-c3e2-4661-a50a-f5e7c435df81</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>de6e761f-0aee-4fda-af19-a0ed9bc7c4d0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

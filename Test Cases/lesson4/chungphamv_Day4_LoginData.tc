@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>chungphamv_Day4_LoginData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1eb5c4bd-d059-4cbf-a60d-e32662c54cb7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34610ca1-dc4f-483f-abf9-8e813b040076</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d01350b9-9012-48f6-b11c-40f3c220e088</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de6e761f-0aee-4fda-af19-a0ed9bc7c4d0</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_EX01_ExcelData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>165b66ed-38f9-485d-a332-2d1ae248d1c3</testSuiteGuid>
+   <testCaseLink>
+      <guid>b42ac43f-74a7-4860-b5e6-0617750ab310</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lesson4/chungphamv_Day4_LoginData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>26da1b6d-af7a-4865-a8b9-728d88775994</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EX01_ValidationFailed/DF_EX01_Excel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>26da1b6d-af7a-4865-a8b9-728d88775994</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>34610ca1-dc4f-483f-abf9-8e813b040076</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26da1b6d-af7a-4865-a8b9-728d88775994</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d01350b9-9012-48f6-b11c-40f3c220e088</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26da1b6d-af7a-4865-a8b9-728d88775994</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ErrorMessage</value>
+         <variableId>de6e761f-0aee-4fda-af19-a0ed9bc7c4d0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
