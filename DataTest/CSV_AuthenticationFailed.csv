@@ -1,0 +1,9 @@
+email,password,errorMsg
+hadang3000@gmail.com,,Password is required.
+hadang3000@gmail.com,14041995,Authentication failed.
+hadang3000@gmail.com,14041999,Authentication failed.
+dangha653@gmail.com,,Password is required.
+dangha653@gmail.com,14041999,Authentication failed.
+,14041995,An email address required.
+,14041999,An email address required.
+,,An email address required.

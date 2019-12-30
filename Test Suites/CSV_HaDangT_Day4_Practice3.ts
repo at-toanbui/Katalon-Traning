@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CSV_HaDangT_Day4_Practice3</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9f66fe6e-29cc-4ea4-8fbc-911b5cdb9c29</testSuiteGuid>
+   <testCaseLink>
+      <guid>54d1fe57-0385-4a3d-8ef2-8af9926fa228</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HaDangT_Day4_Practice3</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>161dbd75-bc12-41e2-bbec-4447d2612211</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_HaDangT_Day4_Practice3</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>161dbd75-bc12-41e2-bbec-4447d2612211</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>ca0098d6-66d5-47bf-863a-bc54a015d899</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>161dbd75-bc12-41e2-bbec-4447d2612211</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>55a2b3c7-7617-4b6b-82fd-ba22d852ef33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>161dbd75-bc12-41e2-bbec-4447d2612211</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>successMsg</value>
+         <variableId>7c4eb306-4a7b-4827-8f63-4d332140ef93</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

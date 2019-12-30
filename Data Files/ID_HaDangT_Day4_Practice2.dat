@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ID_HaDangT_Day4_Practice2</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b7cbb2a9-444d-4094-8376-4dc9a8cdb986</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>hadang3000%40gmail.com null Password+is+required.</data>
+   <data>hadang3000%40gmail.com 14041995 Authentication+failed.</data>
+   <data>hadang3000%40gmail.com 14041999 Authentication+failed.</data>
+   <data>dangha653%40gmail.com null Password+is+required.</data>
+   <data>dangha653%40gmail.com 14041999 Authentication+failed.</data>
+   <data>null 14041995 An+email+address+required.</data>
+   <data>null 14041999 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMsg</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

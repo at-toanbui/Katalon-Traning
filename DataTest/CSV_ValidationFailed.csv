@@ -1,0 +1,9 @@
+email,password,errorMsg
+abc#$%@@gmail.com,,Invalid email address.
+abc#$%@@gmail.com,14041995,Invalid email address.
+abc#$%@@gmail.com,松平容敬,Invalid email address.
+dangha653@gmail.com,,Password is required.
+dangha653@gmail.com,松平容敬,Invalid password.
+,14041995,An email address required.
+,松平容敬,An email address required.
+,,An email address required.

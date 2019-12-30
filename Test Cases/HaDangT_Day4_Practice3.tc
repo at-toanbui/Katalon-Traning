@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HaDangT_Day4_Practice3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af9d731e-4ef6-4313-a516-66a7b88a1028</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca0098d6-66d5-47bf-863a-bc54a015d899</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>55a2b3c7-7617-4b6b-82fd-ba22d852ef33</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c4eb306-4a7b-4827-8f63-4d332140ef93</id>
+      <masked>false</masked>
+      <name>successMessage</name>
+   </variable>
+</TestCaseEntity>
