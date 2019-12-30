@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Validation_Login_CSV</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f55b4b81-53dd-48cf-b481-adc027429907</testSuiteGuid>
+   <testCaseLink>
+      <guid>d4ff4a0c-eccd-4f7e-aeee-58891e6ea677</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson4/Login/Ex0102_LoginFailed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb735b2d-2920-4c56-b410-44a4106c78e6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Validation/Validation_Login_CSV</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eb735b2d-2920-4c56-b410-44a4106c78e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>e9eb1732-65b7-4be8-a3f3-93f47cd1ed47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb735b2d-2920-4c56-b410-44a4106c78e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>769cfaa2-3d19-4088-87f4-e71e7dc3ebca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb735b2d-2920-4c56-b410-44a4106c78e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>7644d3e0-a0a4-4183-9bbe-23c0febea788</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

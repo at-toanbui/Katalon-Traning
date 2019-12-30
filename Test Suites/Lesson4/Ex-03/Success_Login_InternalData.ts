@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Success_Login_InternalData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b844133d-732e-42d2-b3b4-1a11075b1da3</testSuiteGuid>
+   <testCaseLink>
+      <guid>b4f21bff-86f7-4699-b52d-55eb9914e0fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson4/Login/Ex03_LoginSuccess</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9933ad6f-780e-4e99-97b1-f6593514e36e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Success/Success_Login_InternalData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9933ad6f-780e-4e99-97b1-f6593514e36e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f49fe786-a775-43e8-a024-25233215e5f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9933ad6f-780e-4e99-97b1-f6593514e36e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>8f71f64f-350d-4e3a-9dde-3d931167ceac</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

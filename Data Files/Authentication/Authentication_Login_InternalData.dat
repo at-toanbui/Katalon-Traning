@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Authentication_Login_InternalData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>73ac81fe-73c7-4e27-8f93-41ec44d18a26</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abcd123%40gmail.com null Password+is+required.</data>
+   <data>abcd123%40gmail.com abcd1234 Authentication+failed.</data>
+   <data>abcd123%40gmail.com abcd1234567890 Authentication+failed.</data>
+   <data>lenhung.dhkt%40gmail.com null Password+is+required.</data>
+   <data>lenhung.dhkt%40gmail.com abcd123456789 Authentication+failed.</data>
+   <data>null abcd1234 An+email+address+required.</data>
+   <data>null abcd1234567890 An+email+address+required.</data>
+   <data>null null An+email+address+required.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>errorMessage</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

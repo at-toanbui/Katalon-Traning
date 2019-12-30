@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Authentication_Login_Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>cd5b3a12-f401-4e6a-8d3c-89c8aabc230b</testSuiteGuid>
+   <testCaseLink>
+      <guid>60a40563-3d19-4535-80b5-98b017d1d9f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lesson4/Login/Ex0102_LoginFailed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1e8af31b-694b-4ecd-9f55-bc4ffd7a0c8a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Authentication/Authentication_Login_Excel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1e8af31b-694b-4ecd-9f55-bc4ffd7a0c8a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>errorMessage</value>
+         <variableId>e9eb1732-65b7-4be8-a3f3-93f47cd1ed47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e8af31b-694b-4ecd-9f55-bc4ffd7a0c8a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>769cfaa2-3d19-4088-87f4-e71e7dc3ebca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e8af31b-694b-4ecd-9f55-bc4ffd7a0c8a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>7644d3e0-a0a4-4183-9bbe-23c0febea788</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

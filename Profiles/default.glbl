@@ -34,4 +34,9 @@
       <initValue>3</initValue>
       <name>TIMEOUT_MIN</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=my-account'</initValue>
+      <name>urlLogin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
