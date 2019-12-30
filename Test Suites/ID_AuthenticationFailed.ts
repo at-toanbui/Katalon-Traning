@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>df5b02b6-dbff-4c01-90bf-b39569c5011b</testSuiteGuid>
    <testCaseLink>
-      <guid>159b936c-a9f1-4833-a9f2-3d2340fc5b03</guid>
+      <guid>8471ab82-a6b6-4f6e-88c3-798e3fcbc158</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ThaiLeM-Day4/Authentication failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0da1c674-04c5-44dd-91bc-277580e6f0b6</id>
+         <id>5cef6fb7-92f6-452b-b724-1b164c79426b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,19 +25,19 @@
          <testDataId>Data Files/ID_AuthenticationFailed</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0da1c674-04c5-44dd-91bc-277580e6f0b6</testDataLinkId>
+         <testDataLinkId>5cef6fb7-92f6-452b-b724-1b164c79426b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>8d11cb53-6096-42df-9633-6ae8862a3077</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0da1c674-04c5-44dd-91bc-277580e6f0b6</testDataLinkId>
+         <testDataLinkId>5cef6fb7-92f6-452b-b724-1b164c79426b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>a61e4470-94cf-4348-ba6d-5a5d219ca689</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0da1c674-04c5-44dd-91bc-277580e6f0b6</testDataLinkId>
+         <testDataLinkId>5cef6fb7-92f6-452b-b724-1b164c79426b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>errrorMsg</value>
          <variableId>04b4507d-25a5-4d85-8886-39ca2e3b0273</variableId>

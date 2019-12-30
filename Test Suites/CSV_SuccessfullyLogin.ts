@@ -10,4 +10,31 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f0a016bc-9410-44b4-b643-d164491cbd56</testSuiteGuid>
+   <testCaseLink>
+      <guid>8702e501-ec42-488c-91d7-ad328955f08f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThaiLeM-Day4/SuccessfullyLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b851adad-7a0a-4784-a3d9-23a1ac293f4a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_SuccessfullyLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b851adad-7a0a-4784-a3d9-23a1ac293f4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>cd4424c8-dd16-4163-ac9b-29a15d54311e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b851adad-7a0a-4784-a3d9-23a1ac293f4a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6686ab4b-2c32-4186-bec2-904082937f8f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

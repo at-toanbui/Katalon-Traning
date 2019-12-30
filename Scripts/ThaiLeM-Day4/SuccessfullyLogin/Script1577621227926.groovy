@@ -29,5 +29,5 @@ WebUI.click(findTestObject('EX01/btnLogin'))
 
 WebUI.waitForElementPresent(findTestObject('EX01/lblSuccessLogin'), 10)
 
-WebUI.verifyElementPresent(findTestObject('EX01/lblSuccessLogin'), successMsg)
+WebUI.verifyElementPresent(findTestObject('EX01/lblSuccessLogin'), 0)
 

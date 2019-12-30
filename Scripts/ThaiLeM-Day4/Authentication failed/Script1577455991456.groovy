@@ -29,5 +29,7 @@ WebUI.click(findTestObject('EX01/btnLogin'))
 
 WebUI.waitForElementPresent(findTestObject('EX01/lblErrorMsg'), 10)
 
+WebUI.getText(findTestObject('EX01/lblErrorMsg'))
+
 WebUI.verifyElementText(findTestObject('EX01/lblErrorMsg'), errorMsg)
 

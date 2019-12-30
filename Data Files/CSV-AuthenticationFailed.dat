@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>CSV_AuthenticationFailed</name>
+   <name>CSV-AuthenticationFailed</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>628a71cf-ea60-4f6a-af7d-2fcc2c08e81c</dataFileGUID>
-   <dataSourceUrl>/Users/mba0082/Desktop/EX_AF.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>35197f82-a068-4d34-ad61-c3c879137001</dataFileGUID>
+   <dataSourceUrl>/Users/mba0082/Desktop/CSV_AF.csv</dataSourceUrl>
+   <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet 1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
